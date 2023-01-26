@@ -6,9 +6,14 @@
  */
 
 import React, { memo } from "react";
+import { Link } from "react-scroll";
+import { Routes,Route } from "react-router-dom";
 import styled from "styled-components";
+import About from '../pages/About';
+import Project from '../pages/Project';
 import git from "../assets/img/git.png";
 import velog from "../assets/img/velog.jpg";
+
 
 const HeaderContainer = styled.div`
   position: fixed;
@@ -52,14 +57,18 @@ const HeaderContainer = styled.div`
 const Header = memo(() => {
   return (
     <HeaderContainer>
+      <Routes>
+        <Route path='/about' element={<About />} />
+        <Route path='/project' element={<Project />} />
+      </Routes>
       <div className="wrap">
         <div className="links">
-          <a href="/about" className="about">
+          <Link to="/about" className="about">
             About Me
-          </a>
-          <a href="/project" className="project">
+          </Link>
+          <Link to="/project" className="project">
             Project
-          </a>
+          </Link>
         </div>
         <div className="blanks">
           <a

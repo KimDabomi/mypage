@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-import bg from './assets/img/bg.png';
+import bg from './assets/img/bg.jpg';
 
 const GlobalStyles = createGlobalStyle`
     body {
@@ -7,10 +7,12 @@ const GlobalStyles = createGlobalStyle`
         padding: 0;
         background: url(${bg}) no-repeat center top /cover;
         font-family: 'Noto Sans KR', sans-serif;
+
     }
     a {
         list-style: none;
         text-decoration: none;
+        cursor: pointer;
     }
 `;
 

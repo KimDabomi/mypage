@@ -1,7 +1,7 @@
 /**
  * @ File Name: About.js
  * @ Author: 김다보미 (cdabomi@nate.com)
- * @ Last Update: 2023-01-26 
+ * @ Last Update: 2023-01-26 20:10
  * @ Description: About me 페이지
  */
 
@@ -28,7 +28,7 @@ import node from '../assets/img/노드.png';
 const AboutContainer = styled.div`
     background-color: rgba(0,0,0,.6);
     width: 100%;
-    height: 520px;
+    height: 504px;
     position: relative;
     .intro {
         position: absolute;
@@ -52,12 +52,18 @@ const AboutContainer = styled.div`
         width: 50%;
         img {
             height: 80px;
+            margin: 5px;
         }
     }
     .front {
         left: 5%;
         bottom: 40%;
-       
+        box-sizing: border-box;
+       img {
+        &:first-child {
+            width: 130px;
+        }
+       }
     }
     .back {
         left: 5%;
@@ -70,7 +76,7 @@ const AboutContainer = styled.div`
     }
     .tools {
         width: 35%;
-        height: 215px;
+        height: 220px;
         padding-left: 3%;
         box-sizing: border-box;
         right: 5%;
