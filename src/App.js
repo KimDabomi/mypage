@@ -174,7 +174,7 @@ const AboutContainer = styled.div`
         padding: 20px 0 0 20px;
         box-sizing: border-box;
         img {
-          height: 80px;
+          height: 70px;
           margin: 10px;
         }
       }
