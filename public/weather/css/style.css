@@ -1,0 +1,159 @@
+body {font-family: 'Jua', sans-serif;}
+#loading {
+    width: 100px;
+    height: 100px;
+    background: url(../img/loading.gif) no-repeat center/cover;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99999;
+    display: none;
+}
+
+#loading.active {
+    display: block;
+}
+
+/* .nav {
+    background-color: #eee;
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    background-color: #eee;
+}
+.nav a {
+    text-decoration: none;
+    color: black;
+    float: left;
+    text-align: center;
+    width: 33.33%;
+    line-height: 70px;
+}
+.nav a:hover {
+    background-color: rgba(100,100,100,.5);
+} */
+
+.map {
+    width: 100%;
+    position: relative;
+    background-color: rgb(199,234,254);
+}
+.map img {
+    width: 100%;
+    height: 100%;
+}
+.local {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+}
+.Seoul {top: 15%; left: 42%;}
+.Gangneung {top: 10%; left: 52%;}
+.Cheongju {top: 28%; left: 47%;}
+.Nonsan {top: 40%; left: 41%;}
+.Pohang {top: 38%; left: 58%;}
+.Changwon {top: 55%; left: 55%;}
+.Jeonju {top: 50%; left: 48%;}
+.Mokpo {top: 60%; left: 40%;}
+.Jeju {bottom: 8%; left: 35%;}
+.Ulchin {top: 13%; right: 17%;}
+
+
+
+.footer {
+    width: 100%;
+    height: 20px;
+    text-align: right;
+    font-style: italic;
+    background-color: rgb(199,234,254);
+}
+
+
+.detail {
+    width: 40%;
+    height: 90%;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+    border: 1px solid #aaa;
+    box-shadow: 1px 1px 5px gray;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+#sky,#now,#low,#high,#rain_persent,#hum,#wind {
+    background-color: #aaa;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.7em;
+    border-radius: 5px;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+#rain_persent,#hum,#wind {
+    padding-top: 7%;
+    box-sizing: border-box;
+}
+#low,#high,#rain_persent,#hum,#wind {
+    float: left;
+}
+#sky {
+    line-height: 1em;
+    width: 20%;
+    height: 23%;
+    margin: 10px auto 20px;
+    padding: 0;
+}
+#now {
+    width: 20%;
+    height: 6%;
+    margin: auto;
+    padding: 0;
+}
+#low {
+    width: 30%;
+    height: 10%;
+    margin: 20px 5% 20px 18%;
+    color: blue;
+}
+#high {
+    width: 30%;
+    height: 10%;
+    margin-top: 20px;
+    color: red;
+}
+#rain_persent {
+    clear: both;
+    width: 18%;
+    height: 30%;
+    margin-left: 18%;
+}
+#hum {
+    width: 18%;
+    height: 30%;
+    margin-right: 5.5%;
+    margin-left: 5.5%;
+}
+#wind {
+    width: 18%;
+    height: 30%;
+}
+#exit {
+    clear: both;
+    top: 0;
+    right: 0;
+    background-color: black;
+    margin-top: 5px;
+}
+#exit span {
+    color: white;
+}

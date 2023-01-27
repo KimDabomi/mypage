@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3:CSS Template</title>
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="./style04.css">
+</head>
+<body>
+    <header id="header">
+        <div class="text">
+            <h1>Jane & John</h1>
+            <h2>Are getting married</h2>
+            <h2><b>17.07.2017</b></h2>
+        </div>
+    </header>
+    <div id="nav">
+        <a href="#header">Home</a>
+        <a href="#jj">Jane & John</a>
+        <a href="#wed">Wedding</a>
+        <a href="#rsvp">RSVP</a>
+    </div>
+    <div id="jj">
+        <h1>Jane & John</h1>
+        <img src="./img/wedding_couple2.jpg" alt="Jane&John">
+        <p>You all know us. And we all know you. We are getting married lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <br />
+        <p><a href="#wed">Wedding Details</a></p>
+    </div>
+    <div id="invite">
+        <div class="inv_text">
+            <h1>You Are Invited</h1>
+            <h2>Of course..</h2>
+        </div>
+    </div>
+    <div id="wed">
+        <h1>THE WEDDING</h1>
+        <img src="./img/wedding_location.jpg" alt="wedding">
+        <div id="when" class="info">
+            <h2>When</h2>
+            <p>Wedding Ceremony - 2:00pm</p>
+            <p>Reception & Dinner - 5:00pm</p>
+        </div>
+        <div id="where" class="info">
+            <h2>Where</h2>
+            <p>Some place, an address</p>
+            <p>Some where, some address</p>
+        </div>
+        <div id="rsvp">
+            <div class="rsvp_ct">
+                <h1>HOPE YOU CAN MAKE IT!</h1>
+                <p>Kindly Respond By January, 2017</p>
+                <input type="button" id="rsvp_btn" value="RSVP" onclick="show()" />
+            </div>
+        </div>
+        <footer id="footer">
+            <p>Powered by <a href="#">w3.css</a></p>
+        </footer>
+    </div>
+    <div id="form">
+        <form id="rsvp_fm">
+            <h1>CAN YOU COME?</h1>
+            <p>We really hope you can make it.</p>
+            <input type="text" placeholder="Name(s)" />
+            <p>Sincerely, John & Jane</p>
+            <button type="button" id="yes" onclick="document.getElementById('form').style.display='none'">Going</button>
+            <button type="button" id="no" onclick="document.getElementById('form').style.display='none'">Can't come</button>
+        </form>
+    </div>
+    <script>
+        function show() {
+            document.getElementById('form').style.display = "block";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,193 @@
+button, input, #top, p {
+  font-family: "Noto Sans KR", sans-serif;
+  font-family: "Playfair Display", serif;
+}
+
+#footer, #menu_content h1, #about_content h1, h5 {
+  text-align: center;
+}
+
+#title a, #footer p {
+  color: black;
+}
+
+#title a, #top_menu, h5, #menu_content h1, h4, #contact h1 {
+  letter-spacing: 0.2em;
+}
+
+#top_menu, #about, #menu_img img {
+  float: right;
+}
+
+#about img, #menu_content {
+  float: left;
+}
+
+p {
+  line-height: 30px;
+}
+
+hr {
+  border: 0.1px solid #eee;
+  margin: auto;
+  width: 90%;
+}
+
+#top {
+  width: 100%;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  position: fixed;
+  z-index: 9999;
+  background-color: #fff;
+  box-shadow: 0.5px 0.5px 5px gray;
+}
+
+#title a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+#top_menu {
+  font-size: 14px;
+}
+
+#top_menu a {
+  margin-left: 30px;
+}
+
+#header img {
+  width: 100%;
+}
+
+figure {
+  display: flex;
+  position: relative;
+}
+
+figcaption {
+  position: absolute;
+  left: 25px;
+  bottom: 30px;
+}
+
+figcaption h1 {
+  font-size: 38px;
+  letter-spacing: 0.1em;
+  color: rgb(100, 100, 100);
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 22px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#about img {
+  width: 40%;
+  margin: 70px 50px 90px 90px;
+  border-radius: 5px;
+  opacity: 0.75;
+}
+
+#about_content {
+  margin-right: 90px;
+  margin-top: 100px;
+}
+
+#about_content span {
+  background-color: #eee;
+}
+
+#about_content h1 {
+  font-size: 30px;
+  letter-spacing: 0.3em;
+}
+
+#about_content p {
+  font-size: 14px;
+  letter-spacing: 0.1em;
+}
+
+#about_content p:last-child {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+#menu_content h1 {
+  font-size: 40px;
+}
+
+h4 {
+  font-size: 22px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#menu_content {
+  margin-left: 90px;
+  margin-top: 100px;
+}
+
+#menu_content p {
+  font-size: 14px;
+  color: gray;
+}
+
+#menu_img img {
+  border-radius: 5px;
+  width: 40%;
+  margin: 70px 70px 90px 50px;
+  opacity: 0.75;
+}
+
+#contact {
+  clear: both;
+  margin: 90px 70px 90px 70px;
+}
+
+#contact h1 {
+  margin-bottom: 20px;
+  font-size: 40px;
+  margin-top: 80px;
+}
+
+#contact p {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+#contact p b {
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(0, 99, 107);
+}
+
+input {
+  text-decoration: none;
+  list-style: none;
+  font-size: 14px;
+  border: 0;
+}
+
+input[type=datetime-local] {
+  width: 100%;
+}
+
+button {
+  border: 0;
+  width: 150px;
+  height: 40px;
+  font-size: 16px;
+}
+
+#footer {
+  background-color: #eee;
+  padding: 40px 0;
+  box-sizing: border-box;
+}
+
+#footer p {
+  font-size: 14px;
+}/*# sourceMappingURL=style.css.map */

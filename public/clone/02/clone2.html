@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3.CSS  Template</title>
+    <link rel="stylesheet" href="../reset.css">
+    <style>
+        #top,#header img,.team img,#contact input,#contact img {
+            width: 100%;
+        }
+        #title a,#nav a {
+            letter-spacing: 0.2em;
+        }
+        #pj_title h3,#about h3 {
+            letter-spacing: 0.1em;
+        }
+        #title a,#nav a {
+            text-decoration: none;
+        }
+        #content figure,#header figure {
+            display: flex;
+            position: relative;
+        }
+        #header figure figcaption, #content figure figcaption {
+            position: absolute;
+        }
+        #title a,#nav a,#contact button:hover{
+            color: black;
+        }
+        #header figcaption,#content figure figcaption,#contact button,#footer p,#footer p a {
+            color: white;
+        }
+        #title a,#content figure,.team {
+            float: left;
+        }
+        #about,.team img {
+            clear: both;
+        }
+        #contact,#about,#project {
+            margin: 0 30px;
+        }
+
+        #top {
+            position: fixed;
+            padding: 5px 10px;
+            box-sizing: border-box;
+            z-index: 9999;
+            background-color: #fff;
+            box-shadow: 0.5px 0.5px 5px gray;
+            font-size: 17px;
+        }
+        #title a span {
+            font-weight: bolder;
+        }
+        #title a {
+            padding: 10px 15px;
+            box-sizing: border-box;
+        }
+        #title a:hover {
+            background-color: #ccc;
+        }
+        #nav {
+            float: right;
+            margin-top: 10px;
+        }
+        #nav a {
+            padding: 10px 15px;
+            box-sizing: border-box;
+            
+        }
+        #nav a:hover {
+            background-color: #ccc;
+        }
+
+
+        #header img {
+            margin-bottom: 70px;
+        }
+        #header figcaption {
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            font-size: 34px;
+            letter-spacing: 0.15em;
+        }
+        #header figcaption span:first-child {
+            font-weight: bolder;
+            background-color: black;
+            padding: 10px 17px;
+            filter: opacity(0.8);
+        }
+
+
+      
+        #pj_title h3 {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+        #content {
+            margin-top: 40px;
+        }
+        #content figure {
+            margin-right: 25px;
+            margin-bottom: 20px;
+            width: 23%;
+        }
+        #content figure:nth-child(4),#content figure:nth-child(8) {
+            margin-right: 0;
+        }
+        #project img {
+            width: 100%;
+            height: 10%;
+        }
+        #content figure figcaption {
+            left: 0;
+            top: 0;
+            background-color: rgba(0,0,0,.8);
+            font-size: 16px;
+            padding: 15px;
+        }
+        hr {
+            border: 0.1px solid #eee; margin: auto; width: 100%;
+        }
+
+
+        
+        #about h3 {
+            padding-top: 40px; font-size: 20px; margin-bottom: 30px;
+        }
+        #about>p {
+            margin-top: 20px; font-size: 17px; line-height: 1.5em;
+        }
+        .team {
+            width: 23%; margin-top: 40px; margin-right: 25px;
+        }
+        #person4 {
+            margin-right: 0;
+        }
+        .team img {
+            filter: grayscale(70%);
+        }
+        #about .team h3 {
+            margin-top: 0; font-size: 21px; line-height: 0.1em;
+        }
+        #about .team span {
+            margin-top: 0; font-size: 18px; color: #aaa;
+        }
+        #about .team p {
+            margin-top: 15px; line-height: 1.3em;
+        }
+        #about button {
+            border: 0; width: 100%; height: 40px; font-size: 18px;
+            margin-top: 20px; margin-bottom: 100px;
+        }
+        #about button:hover {
+            background-color: rgba(0,0,0,.3);
+        }
+
+
+
+
+        #contact h3 {
+            font-size: 20px;
+            letter-spacing: 0.1em;
+            margin-bottom: 20px;
+        }
+        #contact p {
+            margin: 20px 0;
+        }
+        #contact input {
+            height: 40px;
+            margin-bottom: 15px;
+            border-radius: 0;
+            border: 0.2px solid #aaa;
+        }
+        #contact button {
+            border: 0;
+            background-color: black;
+            width: 130px;
+            height: 40px;
+            font-size: 13px;
+            margin: 10px 0;
+        }
+        #contact button:hover {
+            background-color: #aaa;
+        }
+        #contact img {
+            margin-top: 30px;
+        }
+
+
+
+        #footer {
+            background-color: black;
+            padding: 35px 0;
+            box-sizing: border-box;
+            margin-top: 10px;
+        }
+        #footer p {
+            font-size: 16px;
+            text-align: center;
+        }
+
+
+        @media screen and (max-width:600px) {
+            #nav {display: none;}
+            #header figcaption span:last-child {
+                display: none;
+            }
+            #project img {
+                width: 100%;
+                height: 270px;
+            }
+            #project #content figure {
+                margin: 0;
+                width: 100%;
+                margin-bottom: 15px;
+            }
+            .team {
+                width: 100%;
+                margin: 0;
+                margin-top: 30px;
+            }
+            #about button {
+                width: 100%;
+                margin: 0;
+                margin-top: 20px;
+            }
+            #about button:last-child {
+                margin-bottom: 100px;
+            }
+        }
+
+
+
+        @media screen and (min-width:601px) and (max-width:1023px) {
+
+            #content figure {
+                float: left;
+                width: 48.5%;
+                margin: 0;
+                margin-right: 15px;
+                margin-bottom: 15px;
+            }
+            #project #content figure img {
+                width: 100%;
+                height: 10%;
+            }
+            #content #brick1,#content #brick2,#content #barn1,#content #barn2 {
+                margin-right: 0;
+            }
+            #about>p {
+                margin-bottom: 50px;
+            }
+            
+            .team img {
+                width: 100%;
+            }
+            .team {
+                width: 48.5%;
+                margin: 0;
+                margin-right: 15px;
+            }
+            #person2,#person4 {
+                margin-right: 0;
+            }
+            #about button {
+                margin: 0;
+                width: 100%;
+                margin-top: 20px;
+                margin-bottom: 30px;
+            }
+            #person4 {
+                margin-bottom: 70px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="top">
+        <div id="title">
+            <a href="#"><span>BR</span> Architects</a>
+        </div>
+        <div id="nav">
+            <a href="#project">Projects</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+    <header id="header">
+        <figure>
+            <img src="./img/architect.jpg" alt="메인사진">
+            <figcaption><span>BR</span><span> Architects</span></figcaption>
+        </figure>
+    </header>
+    <div id="project">
+        <div id="pj_title">
+            <h3>Projects</h3>
+        </div>
+        <hr>
+        <div id="content">
+            <figure id="summer1">
+                <img src="./img/house5.jpg" alt="house">
+                <figcaption>Summer House</figcaption>
+            </figure>
+            <figure id="brick1">
+                <img src="./img/house2.jpg" alt="house">
+                <figcaption>Brick House</figcaption>
+            </figure>
+            <figure id="renovated1">
+                <img src="./img/house3.jpg" alt="house">
+                <figcaption>Renovated</figcaption>
+            </figure>
+            <figure id="barn1">
+                <img src="./img/house4.jpg" alt="house">
+                <figcaption>Barn House</figcaption>
+            </figure><figure id="summer2">
+                <img src="./img/house2.jpg" alt="house">
+                <figcaption>Summer House</figcaption>
+            </figure>
+            <figure id="brick2">
+                <img src="./img/house5.jpg" alt="house">
+                <figcaption>Brick House</figcaption>
+            </figure>
+            <figure id="renovated2">
+                <img src="./img/house4.jpg" alt="house">
+                <figcaption>Renovated</figcaption>
+            </figure>
+            <figure id="barn2">
+                <img src="./img/house3.jpg" alt="house">
+                <figcaption>Barn House</figcaption>
+            </figure>
+        </div>
+    </div>
+    <div id="about">
+        <h3>About</h3>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
+        <div class="team" id="person1">
+            <img src="./img/team2.jpg" alt="John">
+            <h3>John Doe</h3>
+            <span>CEO & Founder</span>
+            <p>Phasellus sky enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <button>Contact</button>
+        </div>
+        <div class="team" id="person2">
+            <img src="./img/team1.jpg" alt="Jane">
+            <h3>Jane Doe</h3>
+            <span>Architect</span>
+            <p>Phasellus sky enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <button>Contact</button>
+        </div>
+        <div class="team" id="person3">
+            <img src="./img/team3.jpg" alt="Mike">
+            <h3>Mike Ross</h3>
+            <span>Architect</span>
+            <p>Phasellus sky enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum</p>
+            <button>Contact</button>
+        </div>
+        <div class="team" id="person4">
+            <img src="./img/team4.jpg" alt="Dan">
+            <h3>Dan Star</h3>
+            <span>Architect</span>
+            <p>Phasellus sky enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum</p>
+            <button type="button">Contact</button>
+        </div>
+    </div>
+    <div id="contact">
+        <h3>Contact</h3>
+        <hr>
+        <p>Lets get in touch and talk about your next project.</p>
+        <form id="info" name="info">
+            <input type="text" id="name" placeholder="Name" required/>
+            <input type="email" id="email" placeholder="Email" required/>
+            <input type="text" id="subject" placeholder="Subject" required/>
+            <input type="text" id="comment" placeholder="Comment" required/>
+            <button id="submit" type="submit">SEND MESSAGE</button>
+        </form>
+        <img src="./img/map.jpg" alt="지도">
+    </div>
+    <footer id="footer">
+        <p>
+            Powered by <a href="#">w3.css</a>
+        </p>
+    </footer>
+</body>
+</html>

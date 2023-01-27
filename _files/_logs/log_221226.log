@@ -1,0 +1,664 @@
+22/12/26 13:25:09 035 [debug]: --------------------------------------------------
+22/12/26 13:25:09 039 [debug]: |              Start Express Server              |
+22/12/26 13:25:09 040 [debug]: --------------------------------------------------
+22/12/26 13:25:09 041 [debug]: server address => http://192.168.123.100:3001
+22/12/26 13:25:09 042 [debug]: --------------------------------------------------
+22/12/26 13:25:48 472 [debug]: --------------------------------------------------
+22/12/26 13:25:48 475 [debug]: |              Start Express Server              |
+22/12/26 13:25:48 476 [debug]: --------------------------------------------------
+22/12/26 13:25:48 477 [debug]: server address => http://192.168.123.100:3001
+22/12/26 13:25:48 477 [debug]: --------------------------------------------------
+22/12/26 13:25:58 683 [debug]: --------------------------------------------------
+22/12/26 13:25:58 687 [debug]: |              Start Express Server              |
+22/12/26 13:25:58 688 [debug]: --------------------------------------------------
+22/12/26 13:25:58 689 [debug]: server address => http://192.168.123.100:3001
+22/12/26 13:25:58 689 [debug]: --------------------------------------------------
+22/12/26 13:25:58 897 [debug]: 클라이언트가 접속했습니다.
+22/12/26 13:25:58 898 [debug]: [GET] http://localhost:3001/department?query=&page=1&rows=10
+22/12/26 13:25:58 899 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 13:25:58 929 [info]:  >> DATABASE 접속됨 [threaId=354]
+22/12/26 13:25:58 930 [info]:  >> Connection 임대됨 [threaId=354]
+22/12/26 13:25:58 933 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/26 13:25:58 952 [info]:  >> Connection 반납됨 [threaId=354]
+22/12/26 13:25:58 954 [info]:  >> Connection 임대됨 [threaId=354]
+22/12/26 13:25:58 956 [debug]: SELECT deptno, dname, loc FROM department        ORDER BY deptno DESC     LIMIT 0, 10
+22/12/26 13:25:58 958 [info]:  >> Connection 반납됨 [threaId=354]
+22/12/26 13:25:58 964 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 67ms
+22/12/26 13:25:58 965 [debug]: --------------------------------------------------
+22/12/26 13:26:04 283 [debug]: 클라이언트가 접속했습니다.
+22/12/26 13:26:04 284 [debug]: [GET] http://localhost:3001/department?query=&page=1&rows=10
+22/12/26 13:26:04 285 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 13:26:04 287 [info]:  >> Connection 임대됨 [threaId=354]
+22/12/26 13:26:04 288 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/26 13:26:04 290 [info]:  >> Connection 반납됨 [threaId=354]
+22/12/26 13:26:04 292 [info]:  >> Connection 임대됨 [threaId=354]
+22/12/26 13:26:04 293 [debug]: SELECT deptno, dname, loc FROM department        ORDER BY deptno DESC     LIMIT 0, 10
+22/12/26 13:26:04 294 [info]:  >> Connection 반납됨 [threaId=354]
+22/12/26 13:26:04 296 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 12ms
+22/12/26 13:26:04 297 [debug]: --------------------------------------------------
+22/12/26 13:26:17 473 [debug]: 클라이언트가 접속했습니다.
+22/12/26 13:26:17 474 [debug]: [POST] http://localhost:3001/department
+22/12/26 13:26:17 475 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 13:26:17 502 [info]:  >> Connection 임대됨 [threaId=354]
+22/12/26 13:26:17 503 [debug]: INSERT INTO department (dname, loc) VALUES ('추가학과', '501')
+22/12/26 13:26:17 513 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='314'
+22/12/26 13:26:17 515 [info]:  >> Connection 반납됨 [threaId=354]
+22/12/26 13:26:17 516 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 42ms
+22/12/26 13:26:17 516 [debug]: --------------------------------------------------
+22/12/26 13:26:50 053 [debug]: --------------------------------------------------
+22/12/26 13:26:50 055 [debug]: |              Start Express Server              |
+22/12/26 13:26:50 056 [debug]: --------------------------------------------------
+22/12/26 13:26:50 057 [debug]: server address => http://192.168.123.100:3001
+22/12/26 13:26:50 058 [debug]: --------------------------------------------------
+22/12/26 13:30:08 415 [debug]: --------------------------------------------------
+22/12/26 13:30:08 418 [debug]: |              Start Express Server              |
+22/12/26 13:30:08 419 [debug]: --------------------------------------------------
+22/12/26 13:30:08 419 [debug]: server address => http://192.168.123.100:3001
+22/12/26 13:30:08 420 [debug]: --------------------------------------------------
+22/12/26 13:30:16 837 [debug]: 클라이언트가 접속했습니다.
+22/12/26 13:30:16 839 [debug]: [POST] http://localhost:3001/department
+22/12/26 13:30:16 840 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 13:30:16 854 [error]: BadRequestException: 학과 이름이 없습니다.
+    at RegexHelper.value (C:\Users\cdabo\study-myschool-fullstack-app\server\helper\RegexHelper.js:22:19)
+    at C:\Users\cdabo\study-myschool-fullstack-app\server\controllers\DepartmentController.js:77:25
+    at Layer.handle [as handle_request] (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:175:3)
+22/12/26 13:30:16 861 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 22ms
+22/12/26 13:30:16 862 [debug]: --------------------------------------------------
+22/12/26 13:30:19 120 [debug]: 클라이언트가 접속했습니다.
+22/12/26 13:30:19 121 [debug]: [GET] http://localhost:3001/department?query=&page=1&rows=10
+22/12/26 13:30:19 122 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 13:30:19 159 [info]:  >> DATABASE 접속됨 [threaId=357]
+22/12/26 13:30:19 191 [info]:  >> Connection 임대됨 [threaId=357]
+22/12/26 13:30:19 197 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/26 13:30:19 206 [info]:  >> Connection 반납됨 [threaId=357]
+22/12/26 13:30:19 207 [info]:  >> Connection 임대됨 [threaId=357]
+22/12/26 13:30:19 210 [debug]: SELECT deptno, dname, loc FROM department        ORDER BY deptno DESC     LIMIT 0, 10
+22/12/26 13:30:19 212 [info]:  >> Connection 반납됨 [threaId=357]
+22/12/26 13:30:19 215 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 94ms
+22/12/26 13:30:19 215 [debug]: --------------------------------------------------
+22/12/26 13:30:21 714 [debug]: 클라이언트가 접속했습니다.
+22/12/26 13:30:21 715 [debug]: [GET] http://localhost:3001/department?query=&page=1&rows=10
+22/12/26 13:30:21 715 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 13:30:21 718 [info]:  >> Connection 임대됨 [threaId=357]
+22/12/26 13:30:21 719 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/26 13:30:21 721 [info]:  >> Connection 반납됨 [threaId=357]
+22/12/26 13:30:21 721 [info]:  >> Connection 임대됨 [threaId=357]
+22/12/26 13:30:21 723 [debug]: SELECT deptno, dname, loc FROM department        ORDER BY deptno DESC     LIMIT 0, 10
+22/12/26 13:30:21 726 [info]:  >> Connection 반납됨 [threaId=357]
+22/12/26 13:30:21 727 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 12ms
+22/12/26 13:30:21 728 [debug]: --------------------------------------------------
+22/12/26 13:30:29 530 [debug]: 클라이언트가 접속했습니다.
+22/12/26 13:30:29 531 [debug]: [GET] http://localhost:3001/department?query=&page=1&rows=10
+22/12/26 13:30:29 531 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 13:30:29 533 [info]:  >> Connection 임대됨 [threaId=357]
+22/12/26 13:30:29 535 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/26 13:30:29 538 [info]:  >> Connection 반납됨 [threaId=357]
+22/12/26 13:30:29 539 [info]:  >> Connection 임대됨 [threaId=357]
+22/12/26 13:30:29 540 [debug]: SELECT deptno, dname, loc FROM department        ORDER BY deptno DESC     LIMIT 0, 10
+22/12/26 13:30:29 541 [info]:  >> Connection 반납됨 [threaId=357]
+22/12/26 13:30:29 542 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 11ms
+22/12/26 13:30:29 543 [debug]: --------------------------------------------------
+22/12/26 13:30:41 250 [debug]: --------------------------------------------------
+22/12/26 13:30:41 253 [debug]: |              Start Express Server              |
+22/12/26 13:30:41 254 [debug]: --------------------------------------------------
+22/12/26 13:30:41 255 [debug]: server address => http://192.168.123.100:3001
+22/12/26 13:30:41 256 [debug]: --------------------------------------------------
+22/12/26 13:31:39 521 [debug]: --------------------------------------------------
+22/12/26 13:31:39 525 [debug]: |              Start Express Server              |
+22/12/26 13:31:39 525 [debug]: --------------------------------------------------
+22/12/26 13:31:39 526 [debug]: server address => http://192.168.123.100:3001
+22/12/26 13:31:39 527 [debug]: --------------------------------------------------
+22/12/26 13:31:43 474 [debug]: 클라이언트가 접속했습니다.
+22/12/26 13:31:43 476 [debug]: [GET] http://localhost:3001/department?query=&page=1&rows=10
+22/12/26 13:31:43 476 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 13:31:43 501 [info]:  >> DATABASE 접속됨 [threaId=360]
+22/12/26 13:31:43 503 [info]:  >> Connection 임대됨 [threaId=360]
+22/12/26 13:31:43 507 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/26 13:31:43 513 [info]:  >> Connection 반납됨 [threaId=360]
+22/12/26 13:31:43 514 [info]:  >> Connection 임대됨 [threaId=360]
+22/12/26 13:31:43 518 [debug]: SELECT deptno, dname, loc FROM department        ORDER BY deptno DESC     LIMIT 0, 10
+22/12/26 13:31:43 523 [info]:  >> Connection 반납됨 [threaId=360]
+22/12/26 13:31:43 528 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 53ms
+22/12/26 13:31:43 529 [debug]: --------------------------------------------------
+22/12/26 13:31:53 818 [debug]: 클라이언트가 접속했습니다.
+22/12/26 13:31:53 819 [debug]: [GET] http://localhost:3001/department?query=&page=1&rows=10
+22/12/26 13:31:53 820 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 13:31:53 822 [info]:  >> Connection 임대됨 [threaId=360]
+22/12/26 13:31:53 825 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/26 13:31:53 828 [info]:  >> Connection 반납됨 [threaId=360]
+22/12/26 13:31:53 829 [info]:  >> Connection 임대됨 [threaId=360]
+22/12/26 13:31:53 832 [debug]: SELECT deptno, dname, loc FROM department        ORDER BY deptno DESC     LIMIT 0, 10
+22/12/26 13:31:53 835 [info]:  >> Connection 반납됨 [threaId=360]
+22/12/26 13:31:53 837 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 18ms
+22/12/26 13:31:53 838 [debug]: --------------------------------------------------
+22/12/26 13:31:57 915 [debug]: 클라이언트가 접속했습니다.
+22/12/26 13:31:57 916 [debug]: [GET] http://localhost:3001/department?query=&page=1&rows=10
+22/12/26 13:31:57 916 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 13:31:57 918 [info]:  >> Connection 임대됨 [threaId=360]
+22/12/26 13:31:57 919 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/26 13:31:57 920 [info]:  >> Connection 반납됨 [threaId=360]
+22/12/26 13:31:57 921 [info]:  >> Connection 임대됨 [threaId=360]
+22/12/26 13:31:57 922 [debug]: SELECT deptno, dname, loc FROM department        ORDER BY deptno DESC     LIMIT 0, 10
+22/12/26 13:31:57 924 [info]:  >> Connection 반납됨 [threaId=360]
+22/12/26 13:31:57 925 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 9ms
+22/12/26 13:31:57 926 [debug]: --------------------------------------------------
+22/12/26 13:32:51 677 [debug]: 클라이언트가 접속했습니다.
+22/12/26 13:32:51 679 [debug]: [GET] http://localhost:3001/department?query=&page=1&rows=10
+22/12/26 13:32:51 679 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 13:32:51 680 [info]:  >> Connection 임대됨 [threaId=360]
+22/12/26 13:32:51 682 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/26 13:32:51 683 [info]:  >> Connection 반납됨 [threaId=360]
+22/12/26 13:32:51 684 [info]:  >> Connection 임대됨 [threaId=360]
+22/12/26 13:32:51 684 [debug]: SELECT deptno, dname, loc FROM department        ORDER BY deptno DESC     LIMIT 0, 10
+22/12/26 13:32:51 685 [info]:  >> Connection 반납됨 [threaId=360]
+22/12/26 13:32:51 686 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 8ms
+22/12/26 13:32:51 687 [debug]: --------------------------------------------------
+22/12/26 13:33:01 765 [debug]: 클라이언트가 접속했습니다.
+22/12/26 13:33:01 767 [debug]: [POST] http://localhost:3001/department
+22/12/26 13:33:01 767 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 13:33:01 782 [info]:  >> Connection 임대됨 [threaId=360]
+22/12/26 13:33:01 783 [debug]: INSERT INTO department (dname, loc) VALUES ('추가학과', '501')
+22/12/26 13:33:01 788 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='315'
+22/12/26 13:33:01 789 [info]:  >> Connection 반납됨 [threaId=360]
+22/12/26 13:33:01 790 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 23ms
+22/12/26 13:33:01 791 [debug]: --------------------------------------------------
+22/12/26 13:33:04 977 [debug]: 클라이언트가 접속했습니다.
+22/12/26 13:33:04 978 [debug]: [GET] http://localhost:3001/department?query=&page=1&rows=10
+22/12/26 13:33:04 979 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 13:33:04 981 [info]:  >> Connection 임대됨 [threaId=360]
+22/12/26 13:33:04 982 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/26 13:33:04 984 [info]:  >> Connection 반납됨 [threaId=360]
+22/12/26 13:33:04 986 [info]:  >> Connection 임대됨 [threaId=360]
+22/12/26 13:33:04 988 [debug]: SELECT deptno, dname, loc FROM department        ORDER BY deptno DESC     LIMIT 0, 10
+22/12/26 13:33:04 989 [info]:  >> Connection 반납됨 [threaId=360]
+22/12/26 13:33:04 990 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 12ms
+22/12/26 13:33:04 991 [debug]: --------------------------------------------------
+22/12/26 13:33:30 992 [debug]: --------------------------------------------------
+22/12/26 13:33:30 995 [debug]: |              Start Express Server              |
+22/12/26 13:33:30 997 [debug]: --------------------------------------------------
+22/12/26 13:33:30 998 [debug]: server address => http://192.168.123.100:3001
+22/12/26 13:33:30 999 [debug]: --------------------------------------------------
+22/12/26 13:33:34 547 [debug]: 클라이언트가 접속했습니다.
+22/12/26 13:33:34 549 [debug]: [GET] http://localhost:3001/department?query=&page=1&rows=10
+22/12/26 13:33:34 549 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 13:33:34 574 [info]:  >> DATABASE 접속됨 [threaId=362]
+22/12/26 13:33:34 576 [info]:  >> Connection 임대됨 [threaId=362]
+22/12/26 13:33:34 581 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/26 13:33:34 586 [info]:  >> Connection 반납됨 [threaId=362]
+22/12/26 13:33:34 587 [info]:  >> Connection 임대됨 [threaId=362]
+22/12/26 13:33:34 589 [debug]: SELECT deptno, dname, loc FROM department        ORDER BY deptno DESC     LIMIT 0, 10
+22/12/26 13:33:34 591 [info]:  >> Connection 반납됨 [threaId=362]
+22/12/26 13:33:34 598 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 50ms
+22/12/26 13:33:34 598 [debug]: --------------------------------------------------
+22/12/26 13:34:03 966 [debug]: --------------------------------------------------
+22/12/26 13:34:03 970 [debug]: |              Start Express Server              |
+22/12/26 13:34:03 971 [debug]: --------------------------------------------------
+22/12/26 13:34:03 971 [debug]: server address => http://192.168.123.100:3001
+22/12/26 13:34:03 972 [debug]: --------------------------------------------------
+22/12/26 13:34:05 547 [debug]: 클라이언트가 접속했습니다.
+22/12/26 13:34:05 548 [debug]: [GET] http://localhost:3001/department?query=&page=1&rows=10
+22/12/26 13:34:05 549 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 13:34:05 568 [info]:  >> DATABASE 접속됨 [threaId=364]
+22/12/26 13:34:05 569 [info]:  >> Connection 임대됨 [threaId=364]
+22/12/26 13:34:05 572 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/26 13:34:05 579 [info]:  >> Connection 반납됨 [threaId=364]
+22/12/26 13:34:05 581 [info]:  >> Connection 임대됨 [threaId=364]
+22/12/26 13:34:05 582 [debug]: SELECT deptno, dname, loc FROM department        ORDER BY deptno DESC     LIMIT 0, 10
+22/12/26 13:34:05 584 [info]:  >> Connection 반납됨 [threaId=364]
+22/12/26 13:34:05 588 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 40ms
+22/12/26 13:34:05 589 [debug]: --------------------------------------------------
+22/12/26 13:34:20 010 [debug]: --------------------------------------------------
+22/12/26 13:34:20 013 [debug]: |              Start Express Server              |
+22/12/26 13:34:20 014 [debug]: --------------------------------------------------
+22/12/26 13:34:20 014 [debug]: server address => http://192.168.123.100:3001
+22/12/26 13:34:20 015 [debug]: --------------------------------------------------
+22/12/26 13:34:31 997 [debug]: --------------------------------------------------
+22/12/26 13:34:32 000 [debug]: |              Start Express Server              |
+22/12/26 13:34:32 001 [debug]: --------------------------------------------------
+22/12/26 13:34:32 001 [debug]: server address => http://192.168.123.100:3001
+22/12/26 13:34:32 002 [debug]: --------------------------------------------------
+22/12/26 13:34:33 884 [debug]: 클라이언트가 접속했습니다.
+22/12/26 13:34:33 886 [debug]: [GET] http://localhost:3001/department?query=&page=1&rows=10
+22/12/26 13:34:33 887 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 13:34:33 908 [info]:  >> DATABASE 접속됨 [threaId=367]
+22/12/26 13:34:33 909 [info]:  >> Connection 임대됨 [threaId=367]
+22/12/26 13:34:33 914 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/26 13:34:33 919 [info]:  >> Connection 반납됨 [threaId=367]
+22/12/26 13:34:33 920 [info]:  >> Connection 임대됨 [threaId=367]
+22/12/26 13:34:33 922 [debug]: SELECT deptno, dname, loc FROM department        ORDER BY deptno DESC     LIMIT 0, 10
+22/12/26 13:34:33 924 [info]:  >> Connection 반납됨 [threaId=367]
+22/12/26 13:34:33 932 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 47ms
+22/12/26 13:34:33 933 [debug]: --------------------------------------------------
+22/12/26 13:34:39 583 [debug]: 클라이언트가 접속했습니다.
+22/12/26 13:34:39 584 [debug]: [GET] http://localhost:3001/department?query=&page=1&rows=10
+22/12/26 13:34:39 585 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 13:34:39 586 [info]:  >> Connection 임대됨 [threaId=367]
+22/12/26 13:34:39 588 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/26 13:34:39 593 [info]:  >> Connection 반납됨 [threaId=367]
+22/12/26 13:34:39 594 [info]:  >> Connection 임대됨 [threaId=367]
+22/12/26 13:34:39 596 [debug]: SELECT deptno, dname, loc FROM department        ORDER BY deptno DESC     LIMIT 0, 10
+22/12/26 13:34:39 597 [info]:  >> Connection 반납됨 [threaId=367]
+22/12/26 13:34:39 600 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 16ms
+22/12/26 13:34:39 601 [debug]: --------------------------------------------------
+22/12/26 13:34:59 511 [debug]: --------------------------------------------------
+22/12/26 13:34:59 515 [debug]: |              Start Express Server              |
+22/12/26 13:34:59 515 [debug]: --------------------------------------------------
+22/12/26 13:34:59 516 [debug]: server address => http://192.168.123.100:3001
+22/12/26 13:34:59 517 [debug]: --------------------------------------------------
+22/12/26 13:35:01 512 [debug]: 클라이언트가 접속했습니다.
+22/12/26 13:35:01 514 [debug]: [GET] http://localhost:3001/department?query=&page=1&rows=10
+22/12/26 13:35:01 514 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 13:35:01 536 [info]:  >> DATABASE 접속됨 [threaId=369]
+22/12/26 13:35:01 536 [info]:  >> Connection 임대됨 [threaId=369]
+22/12/26 13:35:01 542 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/26 13:35:01 546 [info]:  >> Connection 반납됨 [threaId=369]
+22/12/26 13:35:01 547 [info]:  >> Connection 임대됨 [threaId=369]
+22/12/26 13:35:01 549 [debug]: SELECT deptno, dname, loc FROM department        ORDER BY deptno DESC     LIMIT 0, 10
+22/12/26 13:35:01 551 [info]:  >> Connection 반납됨 [threaId=369]
+22/12/26 13:35:01 558 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 45ms
+22/12/26 13:35:01 559 [debug]: --------------------------------------------------
+22/12/26 13:35:02 505 [debug]: 클라이언트가 접속했습니다.
+22/12/26 13:35:02 506 [debug]: [GET] http://localhost:3001/department?query=&page=1&rows=10
+22/12/26 13:35:02 507 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 13:35:02 509 [info]:  >> Connection 임대됨 [threaId=369]
+22/12/26 13:35:02 510 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/26 13:35:02 512 [info]:  >> Connection 반납됨 [threaId=369]
+22/12/26 13:35:02 512 [info]:  >> Connection 임대됨 [threaId=369]
+22/12/26 13:35:02 513 [debug]: SELECT deptno, dname, loc FROM department        ORDER BY deptno DESC     LIMIT 0, 10
+22/12/26 13:35:02 514 [info]:  >> Connection 반납됨 [threaId=369]
+22/12/26 13:35:02 516 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 10ms
+22/12/26 13:35:02 517 [debug]: --------------------------------------------------
+22/12/26 13:35:04 654 [debug]: 클라이언트가 접속했습니다.
+22/12/26 13:35:04 655 [debug]: [GET] http://localhost:3001/department?query=&page=1&rows=10
+22/12/26 13:35:04 655 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 13:35:04 657 [info]:  >> Connection 임대됨 [threaId=369]
+22/12/26 13:35:04 658 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/26 13:35:04 660 [info]:  >> Connection 반납됨 [threaId=369]
+22/12/26 13:35:04 661 [info]:  >> Connection 임대됨 [threaId=369]
+22/12/26 13:35:04 662 [debug]: SELECT deptno, dname, loc FROM department        ORDER BY deptno DESC     LIMIT 0, 10
+22/12/26 13:35:04 664 [info]:  >> Connection 반납됨 [threaId=369]
+22/12/26 13:35:04 665 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 11ms
+22/12/26 13:35:04 665 [debug]: --------------------------------------------------
+22/12/26 13:35:07 562 [debug]: 클라이언트가 접속했습니다.
+22/12/26 13:35:07 563 [debug]: [GET] http://localhost:3001/department?query=&page=1&rows=10
+22/12/26 13:35:07 564 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 13:35:07 565 [info]:  >> Connection 임대됨 [threaId=369]
+22/12/26 13:35:07 567 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/26 13:35:07 569 [info]:  >> Connection 반납됨 [threaId=369]
+22/12/26 13:35:07 570 [info]:  >> Connection 임대됨 [threaId=369]
+22/12/26 13:35:07 571 [debug]: SELECT deptno, dname, loc FROM department        ORDER BY deptno DESC     LIMIT 0, 10
+22/12/26 13:35:07 573 [info]:  >> Connection 반납됨 [threaId=369]
+22/12/26 13:35:07 575 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 11ms
+22/12/26 13:35:07 575 [debug]: --------------------------------------------------
+22/12/26 13:35:32 991 [debug]: --------------------------------------------------
+22/12/26 13:35:32 993 [debug]: |              Start Express Server              |
+22/12/26 13:35:32 994 [debug]: --------------------------------------------------
+22/12/26 13:35:32 996 [debug]: server address => http://192.168.123.100:3001
+22/12/26 13:35:32 997 [debug]: --------------------------------------------------
+22/12/26 13:35:35 823 [debug]: 클라이언트가 접속했습니다.
+22/12/26 13:35:35 825 [debug]: [GET] http://localhost:3001/department?query=&page=1&rows=10
+22/12/26 13:35:35 827 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 13:35:35 852 [info]:  >> DATABASE 접속됨 [threaId=371]
+22/12/26 13:35:35 853 [info]:  >> Connection 임대됨 [threaId=371]
+22/12/26 13:35:35 856 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/26 13:35:35 863 [info]:  >> Connection 반납됨 [threaId=371]
+22/12/26 13:35:35 865 [info]:  >> Connection 임대됨 [threaId=371]
+22/12/26 13:35:35 867 [debug]: SELECT deptno, dname, loc FROM department  ORDER BY deptno DESC  LIMIT 0, 10
+22/12/26 13:35:35 869 [info]:  >> Connection 반납됨 [threaId=371]
+22/12/26 13:35:35 873 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 49ms
+22/12/26 13:35:35 873 [debug]: --------------------------------------------------
+22/12/26 13:35:39 100 [debug]: 클라이언트가 접속했습니다.
+22/12/26 13:35:39 101 [debug]: [GET] http://localhost:3001/department?query=&page=1&rows=10
+22/12/26 13:35:39 101 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 13:35:39 102 [info]:  >> Connection 임대됨 [threaId=371]
+22/12/26 13:35:39 103 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/26 13:35:39 106 [info]:  >> Connection 반납됨 [threaId=371]
+22/12/26 13:35:39 108 [info]:  >> Connection 임대됨 [threaId=371]
+22/12/26 13:35:39 110 [debug]: SELECT deptno, dname, loc FROM department  ORDER BY deptno DESC  LIMIT 0, 10
+22/12/26 13:35:39 111 [info]:  >> Connection 반납됨 [threaId=371]
+22/12/26 13:35:39 113 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 13ms
+22/12/26 13:35:39 113 [debug]: --------------------------------------------------
+22/12/26 13:35:42 170 [debug]: 클라이언트가 접속했습니다.
+22/12/26 13:35:42 171 [debug]: [GET] http://localhost:3001/department?query=ㅇ&page=1&rows=10
+22/12/26 13:35:42 172 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 13:35:42 174 [info]:  >> Connection 임대됨 [threaId=371]
+22/12/26 13:35:42 176 [debug]: SELECT COUNT(*) AS cnt FROM department  WHERE  dname LIKE concat('%', 'ㅇ', '%')  OR loc LIKE concat('%', 'ㅇ', '%')
+22/12/26 13:35:42 177 [info]:  >> Connection 반납됨 [threaId=371]
+22/12/26 13:35:42 178 [info]:  >> Connection 임대됨 [threaId=371]
+22/12/26 13:35:42 180 [debug]: SELECT deptno, dname, loc FROM department  WHERE  dname LIKE concat('%', 'ㅇ', '%')  OR loc LIKE concat('%', 'ㅇ', '%')  ORDER BY deptno DESC  LIMIT 0, 10
+22/12/26 13:35:42 181 [info]:  >> Connection 반납됨 [threaId=371]
+22/12/26 13:35:42 182 [error]: RuntimeException: 조회된 데이터가 없습니다.
+    at DepartmentService.getList (C:\Users\cdabo\study-myschool-fullstack-app\server\services\DepartmentService.js:29:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\cdabo\study-myschool-fullstack-app\server\controllers\DepartmentController.js:34:20
+22/12/26 13:35:42 184 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 13ms
+22/12/26 13:35:42 185 [debug]: --------------------------------------------------
+22/12/26 13:35:44 912 [debug]: 클라이언트가 접속했습니다.
+22/12/26 13:35:44 913 [debug]: [GET] http://localhost:3001/department?query=&page=1&rows=10
+22/12/26 13:35:44 914 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 13:35:44 916 [info]:  >> Connection 임대됨 [threaId=371]
+22/12/26 13:35:44 919 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/26 13:35:44 920 [info]:  >> Connection 반납됨 [threaId=371]
+22/12/26 13:35:44 921 [info]:  >> Connection 임대됨 [threaId=371]
+22/12/26 13:35:44 922 [debug]: SELECT deptno, dname, loc FROM department  ORDER BY deptno DESC  LIMIT 0, 10
+22/12/26 13:35:44 923 [info]:  >> Connection 반납됨 [threaId=371]
+22/12/26 13:35:44 924 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 11ms
+22/12/26 13:35:44 925 [debug]: --------------------------------------------------
+22/12/26 13:35:51 150 [debug]: 백엔드가 종료되었습니다.
+22/12/26 13:36:03 128 [debug]: --------------------------------------------------
+22/12/26 13:36:03 131 [debug]: |              Start Express Server              |
+22/12/26 13:36:03 132 [debug]: --------------------------------------------------
+22/12/26 13:36:03 133 [debug]: server address => http://192.168.123.100:3001
+22/12/26 13:36:03 134 [debug]: --------------------------------------------------
+22/12/26 13:36:06 411 [debug]: 클라이언트가 접속했습니다.
+22/12/26 13:36:06 413 [debug]: [GET] http://localhost:3001/department?query=&page=1&rows=10
+22/12/26 13:36:06 414 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 13:36:06 444 [info]:  >> DATABASE 접속됨 [threaId=373]
+22/12/26 13:36:06 445 [info]:  >> Connection 임대됨 [threaId=373]
+22/12/26 13:36:06 448 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/26 13:36:06 456 [info]:  >> Connection 반납됨 [threaId=373]
+22/12/26 13:36:06 457 [info]:  >> Connection 임대됨 [threaId=373]
+22/12/26 13:36:06 459 [debug]: SELECT deptno, dname, loc FROM department  ORDER BY deptno DESC  LIMIT 0, 10
+22/12/26 13:36:06 460 [info]:  >> Connection 반납됨 [threaId=373]
+22/12/26 13:36:06 464 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 52ms
+22/12/26 13:36:06 464 [debug]: --------------------------------------------------
+22/12/26 13:37:19 668 [debug]: --------------------------------------------------
+22/12/26 13:37:19 671 [debug]: |              Start Express Server              |
+22/12/26 13:37:19 672 [debug]: --------------------------------------------------
+22/12/26 13:37:19 672 [debug]: server address => http://192.168.123.100:3001
+22/12/26 13:37:19 673 [debug]: --------------------------------------------------
+22/12/26 13:37:22 394 [debug]: --------------------------------------------------
+22/12/26 13:37:22 396 [debug]: |              Start Express Server              |
+22/12/26 13:37:22 397 [debug]: --------------------------------------------------
+22/12/26 13:37:22 398 [debug]: server address => http://192.168.123.100:3001
+22/12/26 13:37:22 399 [debug]: --------------------------------------------------
+22/12/26 13:37:40 327 [debug]: --------------------------------------------------
+22/12/26 13:37:40 330 [debug]: |              Start Express Server              |
+22/12/26 13:37:40 331 [debug]: --------------------------------------------------
+22/12/26 13:37:40 331 [debug]: server address => http://192.168.123.100:3001
+22/12/26 13:37:40 332 [debug]: --------------------------------------------------
+22/12/26 13:37:41 929 [debug]: --------------------------------------------------
+22/12/26 13:37:41 931 [debug]: |              Start Express Server              |
+22/12/26 13:37:41 932 [debug]: --------------------------------------------------
+22/12/26 13:37:41 933 [debug]: server address => http://192.168.123.100:3001
+22/12/26 13:37:41 933 [debug]: --------------------------------------------------
+22/12/26 13:37:42 465 [debug]: 클라이언트가 접속했습니다.
+22/12/26 13:37:42 466 [debug]: [GET] http://localhost:3001/department?query=&page=1&rows=10
+22/12/26 13:37:42 467 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 13:37:42 490 [info]:  >> DATABASE 접속됨 [threaId=378]
+22/12/26 13:37:42 491 [info]:  >> Connection 임대됨 [threaId=378]
+22/12/26 13:37:42 494 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/26 13:37:42 498 [info]:  >> Connection 반납됨 [threaId=378]
+22/12/26 13:37:42 499 [info]:  >> Connection 임대됨 [threaId=378]
+22/12/26 13:37:42 501 [debug]: SELECT deptno, dname, loc FROM department  ORDER BY deptno DESC  LIMIT 0, 10
+22/12/26 13:37:42 503 [info]:  >> Connection 반납됨 [threaId=378]
+22/12/26 13:37:42 510 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 44ms
+22/12/26 13:37:42 511 [debug]: --------------------------------------------------
+22/12/26 13:37:44 526 [debug]: 클라이언트가 접속했습니다.
+22/12/26 13:37:44 527 [debug]: [GET] http://localhost:3001/department?query=&page=1&rows=10
+22/12/26 13:37:44 528 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 13:37:44 530 [info]:  >> Connection 임대됨 [threaId=378]
+22/12/26 13:37:44 531 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/26 13:37:44 532 [info]:  >> Connection 반납됨 [threaId=378]
+22/12/26 13:37:44 532 [info]:  >> Connection 임대됨 [threaId=378]
+22/12/26 13:37:44 533 [debug]: SELECT deptno, dname, loc FROM department  ORDER BY deptno DESC  LIMIT 0, 10
+22/12/26 13:37:44 534 [info]:  >> Connection 반납됨 [threaId=378]
+22/12/26 13:37:44 536 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 10ms
+22/12/26 13:37:44 536 [debug]: --------------------------------------------------
+22/12/26 13:37:45 876 [debug]: 클라이언트가 접속했습니다.
+22/12/26 13:37:45 877 [debug]: [GET] http://localhost:3001/department/313
+22/12/26 13:37:45 877 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 13:37:45 881 [info]:  >> Connection 임대됨 [threaId=378]
+22/12/26 13:37:45 882 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='313'
+22/12/26 13:37:45 883 [info]:  >> Connection 반납됨 [threaId=378]
+22/12/26 13:37:45 885 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 8ms
+22/12/26 13:37:45 885 [debug]: --------------------------------------------------
+22/12/26 13:37:47 542 [debug]: 클라이언트가 접속했습니다.
+22/12/26 13:37:47 543 [debug]: [GET] http://localhost:3001/department?query=&page=1&rows=10
+22/12/26 13:37:47 543 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 13:37:47 545 [info]:  >> Connection 임대됨 [threaId=378]
+22/12/26 13:37:47 546 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/26 13:37:47 548 [info]:  >> Connection 반납됨 [threaId=378]
+22/12/26 13:37:47 549 [info]:  >> Connection 임대됨 [threaId=378]
+22/12/26 13:37:47 549 [debug]: SELECT deptno, dname, loc FROM department  ORDER BY deptno DESC  LIMIT 0, 10
+22/12/26 13:37:47 550 [info]:  >> Connection 반납됨 [threaId=378]
+22/12/26 13:37:47 552 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 10ms
+22/12/26 13:37:47 553 [debug]: --------------------------------------------------
+22/12/26 13:38:01 367 [debug]: 클라이언트가 접속했습니다.
+22/12/26 13:38:01 369 [debug]: [GET] http://localhost:3001/department/315
+22/12/26 13:38:01 370 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 13:38:01 371 [info]:  >> Connection 임대됨 [threaId=378]
+22/12/26 13:38:01 372 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='315'
+22/12/26 13:38:01 373 [info]:  >> Connection 반납됨 [threaId=378]
+22/12/26 13:38:01 376 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 7ms
+22/12/26 13:38:01 377 [debug]: --------------------------------------------------
+22/12/26 13:38:03 409 [debug]: 클라이언트가 접속했습니다.
+22/12/26 13:38:03 410 [debug]: [PUT] http://localhost:3001/department/315
+22/12/26 13:38:03 410 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 13:38:03 427 [info]:  >> Connection 임대됨 [threaId=378]
+22/12/26 13:38:03 429 [debug]: UPDATE department SET dname='추가학과', loc='501'  WHERE deptno='315'
+22/12/26 13:38:03 432 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='315'
+22/12/26 13:38:03 433 [info]:  >> Connection 반납됨 [threaId=378]
+22/12/26 13:38:03 434 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 25ms
+22/12/26 13:38:03 435 [debug]: --------------------------------------------------
+22/12/26 13:38:03 667 [debug]: 클라이언트가 접속했습니다.
+22/12/26 13:38:03 668 [debug]: [GET] http://localhost:3001/department/315
+22/12/26 13:38:03 668 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 13:38:03 669 [info]:  >> Connection 임대됨 [threaId=378]
+22/12/26 13:38:03 671 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='315'
+22/12/26 13:38:03 671 [info]:  >> Connection 반납됨 [threaId=378]
+22/12/26 13:38:03 672 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+22/12/26 13:38:03 673 [debug]: --------------------------------------------------
+22/12/26 13:38:05 553 [debug]: 클라이언트가 접속했습니다.
+22/12/26 13:38:05 554 [debug]: [DELETE] http://localhost:3001/department/315
+22/12/26 13:38:05 555 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 13:38:05 556 [info]:  >> Connection 임대됨 [threaId=378]
+22/12/26 13:38:05 557 [debug]: DELETE FROM student WHERE deptno='315';
+22/12/26 13:38:05 568 [debug]: DELETE FROM professor WHERE deptno='315';
+22/12/26 13:38:05 573 [debug]: DELETE FROM department WHERE deptno='315'
+22/12/26 13:38:05 581 [info]:  >> Connection 반납됨 [threaId=378]
+22/12/26 13:38:05 582 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 28ms
+22/12/26 13:38:05 582 [debug]: --------------------------------------------------
+22/12/26 13:38:06 588 [debug]: 클라이언트가 접속했습니다.
+22/12/26 13:38:06 589 [debug]: [GET] http://localhost:3001/department?query=&page=1&rows=10
+22/12/26 13:38:06 590 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 13:38:06 592 [info]:  >> Connection 임대됨 [threaId=378]
+22/12/26 13:38:06 593 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/26 13:38:06 595 [info]:  >> Connection 반납됨 [threaId=378]
+22/12/26 13:38:06 596 [info]:  >> Connection 임대됨 [threaId=378]
+22/12/26 13:38:06 597 [debug]: SELECT deptno, dname, loc FROM department  ORDER BY deptno DESC  LIMIT 0, 10
+22/12/26 13:38:06 598 [info]:  >> Connection 반납됨 [threaId=378]
+22/12/26 13:38:06 599 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 10ms
+22/12/26 13:38:06 599 [debug]: --------------------------------------------------
+22/12/26 21:35:12 403 [debug]: --------------------------------------------------
+22/12/26 21:35:12 406 [debug]: |              Start Express Server              |
+22/12/26 21:35:12 407 [debug]: --------------------------------------------------
+22/12/26 21:35:12 407 [debug]: server address => http://192.168.123.103:3001
+22/12/26 21:35:12 408 [debug]: --------------------------------------------------
+22/12/26 21:35:17 266 [debug]: 클라이언트가 접속했습니다.
+22/12/26 21:35:17 267 [debug]: [GET] http://localhost:3001/department?query=&page=1&rows=10
+22/12/26 21:35:17 268 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 21:35:17 301 [info]:  >> DATABASE 접속됨 [threaId=380]
+22/12/26 21:35:17 302 [info]:  >> Connection 임대됨 [threaId=380]
+22/12/26 21:35:17 305 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/26 21:35:17 322 [info]:  >> Connection 반납됨 [threaId=380]
+22/12/26 21:35:17 323 [info]:  >> Connection 임대됨 [threaId=380]
+22/12/26 21:35:17 326 [debug]: SELECT deptno, dname, loc FROM department  ORDER BY deptno DESC  LIMIT 0, 10
+22/12/26 21:35:17 331 [info]:  >> Connection 반납됨 [threaId=380]
+22/12/26 21:35:17 335 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 68ms
+22/12/26 21:35:17 335 [debug]: --------------------------------------------------
+22/12/26 21:35:20 103 [debug]: 클라이언트가 접속했습니다.
+22/12/26 21:35:20 104 [debug]: [GET] http://localhost:3001/department/314
+22/12/26 21:35:20 105 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 21:35:20 107 [info]:  >> Connection 임대됨 [threaId=380]
+22/12/26 21:35:20 109 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='314'
+22/12/26 21:35:20 112 [info]:  >> Connection 반납됨 [threaId=380]
+22/12/26 21:35:20 113 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 9ms
+22/12/26 21:35:20 114 [debug]: --------------------------------------------------
+22/12/26 21:35:24 596 [debug]: 클라이언트가 접속했습니다.
+22/12/26 21:35:24 597 [debug]: [PUT] http://localhost:3001/department/314
+22/12/26 21:35:24 597 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 21:35:24 622 [info]:  >> Connection 임대됨 [threaId=380]
+22/12/26 21:35:24 625 [debug]: UPDATE department SET dname='수정학과', loc='501'  WHERE deptno='314'
+22/12/26 21:35:24 641 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='314'
+22/12/26 21:35:24 643 [info]:  >> Connection 반납됨 [threaId=380]
+22/12/26 21:35:24 645 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 48ms
+22/12/26 21:35:24 645 [debug]: --------------------------------------------------
+22/12/26 21:35:24 985 [debug]: 클라이언트가 접속했습니다.
+22/12/26 21:35:24 986 [debug]: [GET] http://localhost:3001/department/314
+22/12/26 21:35:24 987 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 21:35:24 990 [info]:  >> Connection 임대됨 [threaId=380]
+22/12/26 21:35:24 991 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='314'
+22/12/26 21:35:24 993 [info]:  >> Connection 반납됨 [threaId=380]
+22/12/26 21:35:24 995 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 9ms
+22/12/26 21:35:24 998 [debug]: --------------------------------------------------
+22/12/26 21:35:27 729 [debug]: 클라이언트가 접속했습니다.
+22/12/26 21:35:27 730 [debug]: [GET] http://localhost:3001/department?query=&page=1&rows=10
+22/12/26 21:35:27 731 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 21:35:27 732 [info]:  >> Connection 임대됨 [threaId=380]
+22/12/26 21:35:27 734 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/26 21:35:27 738 [info]:  >> Connection 반납됨 [threaId=380]
+22/12/26 21:35:27 739 [info]:  >> Connection 임대됨 [threaId=380]
+22/12/26 21:35:27 741 [debug]: SELECT deptno, dname, loc FROM department  ORDER BY deptno DESC  LIMIT 0, 10
+22/12/26 21:35:27 744 [info]:  >> Connection 반납됨 [threaId=380]
+22/12/26 21:35:27 745 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 15ms
+22/12/26 21:35:27 746 [debug]: --------------------------------------------------
+22/12/26 21:35:34 002 [debug]: 클라이언트가 접속했습니다.
+22/12/26 21:35:34 003 [debug]: [GET] http://localhost:3001/department/314
+22/12/26 21:35:34 004 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 21:35:34 006 [info]:  >> Connection 임대됨 [threaId=380]
+22/12/26 21:35:34 008 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='314'
+22/12/26 21:35:34 010 [info]:  >> Connection 반납됨 [threaId=380]
+22/12/26 21:35:34 012 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 9ms
+22/12/26 21:35:34 012 [debug]: --------------------------------------------------
+22/12/26 21:35:35 881 [debug]: 클라이언트가 접속했습니다.
+22/12/26 21:35:35 881 [debug]: [GET] http://localhost:3001/department/314
+22/12/26 21:35:35 882 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 21:35:35 883 [info]:  >> Connection 임대됨 [threaId=380]
+22/12/26 21:35:35 884 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='314'
+22/12/26 21:35:35 885 [info]:  >> Connection 반납됨 [threaId=380]
+22/12/26 21:35:35 887 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 6ms
+22/12/26 21:35:35 887 [debug]: --------------------------------------------------
+22/12/26 21:35:42 009 [debug]: 클라이언트가 접속했습니다.
+22/12/26 21:35:42 011 [debug]: [PUT] http://localhost:3001/department/314
+22/12/26 21:35:42 011 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 21:35:42 014 [info]:  >> Connection 임대됨 [threaId=380]
+22/12/26 21:35:42 016 [debug]: UPDATE department SET dname='수정학과', loc='527'  WHERE deptno='314'
+22/12/26 21:35:42 022 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='314'
+22/12/26 21:35:42 023 [info]:  >> Connection 반납됨 [threaId=380]
+22/12/26 21:35:42 024 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 14ms
+22/12/26 21:35:42 025 [debug]: --------------------------------------------------
+22/12/26 21:35:42 277 [debug]: 클라이언트가 접속했습니다.
+22/12/26 21:35:42 278 [debug]: [GET] http://localhost:3001/department/314
+22/12/26 21:35:42 279 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 21:35:42 280 [info]:  >> Connection 임대됨 [threaId=380]
+22/12/26 21:35:42 282 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='314'
+22/12/26 21:35:42 283 [info]:  >> Connection 반납됨 [threaId=380]
+22/12/26 21:35:42 286 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 8ms
+22/12/26 21:35:42 287 [debug]: --------------------------------------------------
+22/12/26 21:35:50 811 [debug]: 클라이언트가 접속했습니다.
+22/12/26 21:35:50 812 [debug]: [GET] http://localhost:3001/department?query=&page=1&rows=10
+22/12/26 21:35:50 813 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 21:35:50 815 [info]:  >> Connection 임대됨 [threaId=380]
+22/12/26 21:35:50 816 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/26 21:35:50 818 [info]:  >> Connection 반납됨 [threaId=380]
+22/12/26 21:35:50 819 [info]:  >> Connection 임대됨 [threaId=380]
+22/12/26 21:35:50 820 [debug]: SELECT deptno, dname, loc FROM department  ORDER BY deptno DESC  LIMIT 0, 10
+22/12/26 21:35:50 821 [info]:  >> Connection 반납됨 [threaId=380]
+22/12/26 21:35:50 823 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 11ms
+22/12/26 21:35:50 824 [debug]: --------------------------------------------------
+22/12/26 21:35:54 167 [debug]: 클라이언트가 접속했습니다.
+22/12/26 21:35:54 168 [debug]: [GET] http://localhost:3001/department/313
+22/12/26 21:35:54 169 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 21:35:54 172 [info]:  >> Connection 임대됨 [threaId=380]
+22/12/26 21:35:54 173 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='313'
+22/12/26 21:35:54 173 [info]:  >> Connection 반납됨 [threaId=380]
+22/12/26 21:35:54 175 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 7ms
+22/12/26 21:35:54 176 [debug]: --------------------------------------------------
+22/12/26 21:35:56 056 [debug]: 클라이언트가 접속했습니다.
+22/12/26 21:35:56 057 [debug]: [GET] http://localhost:3001/department?query=&page=1&rows=10
+22/12/26 21:35:56 058 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 21:35:56 061 [info]:  >> Connection 임대됨 [threaId=380]
+22/12/26 21:35:56 063 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/26 21:35:56 065 [info]:  >> Connection 반납됨 [threaId=380]
+22/12/26 21:35:56 066 [info]:  >> Connection 임대됨 [threaId=380]
+22/12/26 21:35:56 067 [debug]: SELECT deptno, dname, loc FROM department  ORDER BY deptno DESC  LIMIT 0, 10
+22/12/26 21:35:56 069 [info]:  >> Connection 반납됨 [threaId=380]
+22/12/26 21:35:56 072 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 15ms
+22/12/26 21:35:56 074 [debug]: --------------------------------------------------
+22/12/26 21:35:56 328 [debug]: 클라이언트가 접속했습니다.
+22/12/26 21:35:56 328 [debug]: [GET] http://localhost:3001/main.bc47bbc7cf74b0f319af.hot-update.json
+22/12/26 21:35:56 329 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 21:35:56 330 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\study-myschool-fullstack-app\server\app.js:149:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:328:13)
+22/12/26 21:35:56 332 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/12/26 21:35:56 332 [debug]: --------------------------------------------------
+22/12/26 21:35:57 021 [debug]: 클라이언트가 접속했습니다.
+22/12/26 21:35:57 021 [debug]: [GET] http://localhost:3001/department?query=&page=1&rows=10
+22/12/26 21:35:57 022 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 21:35:57 023 [info]:  >> Connection 임대됨 [threaId=380]
+22/12/26 21:35:57 024 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/26 21:35:57 025 [info]:  >> Connection 반납됨 [threaId=380]
+22/12/26 21:35:57 025 [info]:  >> Connection 임대됨 [threaId=380]
+22/12/26 21:35:57 026 [debug]: SELECT deptno, dname, loc FROM department  ORDER BY deptno DESC  LIMIT 0, 10
+22/12/26 21:35:57 038 [info]:  >> Connection 반납됨 [threaId=380]
+22/12/26 21:35:57 040 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 19ms
+22/12/26 21:35:57 040 [debug]: --------------------------------------------------
+22/12/26 21:35:59 576 [debug]: 클라이언트가 접속했습니다.
+22/12/26 21:35:59 577 [debug]: [DELETE] http://localhost:3001/department/314
+22/12/26 21:35:59 577 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 21:35:59 580 [info]:  >> Connection 임대됨 [threaId=380]
+22/12/26 21:35:59 580 [debug]: DELETE FROM student WHERE deptno='314';
+22/12/26 21:35:59 584 [debug]: DELETE FROM professor WHERE deptno='314';
+22/12/26 21:35:59 586 [debug]: DELETE FROM department WHERE deptno='314'
+22/12/26 21:35:59 593 [info]:  >> Connection 반납됨 [threaId=380]
+22/12/26 21:35:59 594 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 18ms
+22/12/26 21:35:59 595 [debug]: --------------------------------------------------
+22/12/26 21:36:00 333 [debug]: 클라이언트가 접속했습니다.
+22/12/26 21:36:00 333 [debug]: [GET] http://localhost:3001/department?query=&page=1&rows=10
+22/12/26 21:36:00 334 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 21:36:00 335 [info]:  >> Connection 임대됨 [threaId=380]
+22/12/26 21:36:00 335 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/26 21:36:00 336 [info]:  >> Connection 반납됨 [threaId=380]
+22/12/26 21:36:00 337 [info]:  >> Connection 임대됨 [threaId=380]
+22/12/26 21:36:00 338 [debug]: SELECT deptno, dname, loc FROM department  ORDER BY deptno DESC  LIMIT 0, 10
+22/12/26 21:36:00 341 [info]:  >> Connection 반납됨 [threaId=380]
+22/12/26 21:36:00 344 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 10ms
+22/12/26 21:36:00 345 [debug]: --------------------------------------------------
+22/12/26 21:36:04 478 [debug]: 클라이언트가 접속했습니다.
+22/12/26 21:36:04 479 [debug]: [DELETE] http://localhost:3001/department/309
+22/12/26 21:36:04 480 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 21:36:04 482 [info]:  >> Connection 임대됨 [threaId=380]
+22/12/26 21:36:04 483 [debug]: DELETE FROM student WHERE deptno='309';
+22/12/26 21:36:04 485 [debug]: DELETE FROM professor WHERE deptno='309';
+22/12/26 21:36:04 487 [debug]: DELETE FROM department WHERE deptno='309'
+22/12/26 21:36:04 492 [info]:  >> Connection 반납됨 [threaId=380]
+22/12/26 21:36:04 494 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 15ms
+22/12/26 21:36:04 494 [debug]: --------------------------------------------------
+22/12/26 21:36:05 066 [debug]: 클라이언트가 접속했습니다.
+22/12/26 21:36:05 067 [debug]: [GET] http://localhost:3001/department?query=&page=1&rows=10
+22/12/26 21:36:05 068 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/26 21:36:05 069 [info]:  >> Connection 임대됨 [threaId=380]
+22/12/26 21:36:05 070 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/26 21:36:05 071 [info]:  >> Connection 반납됨 [threaId=380]
+22/12/26 21:36:05 072 [info]:  >> Connection 임대됨 [threaId=380]
+22/12/26 21:36:05 074 [debug]: SELECT deptno, dname, loc FROM department  ORDER BY deptno DESC  LIMIT 0, 10
+22/12/26 21:36:05 075 [info]:  >> Connection 반납됨 [threaId=380]
+22/12/26 21:36:05 077 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 10ms
+22/12/26 21:36:05 078 [debug]: --------------------------------------------------

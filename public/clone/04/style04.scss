@@ -1,0 +1,234 @@
+a {text-decoration: none;}
+body,h1,h2 {font-family: "Raleway", sans-serif}
+body {background-color: rgb(241, 222, 226);}
+
+
+
+#header {
+    background: url("./img/header.jpg") no-repeat center/ cover;
+    filter: grayscale(0.5);
+    width: 100%;
+    height: 580px;
+    position: relative;
+    text-align: center;
+    .text {
+        position: absolute;
+        top: 180px;
+        left: 35%;
+        color: white;
+        letter-spacing: 0.2em;
+        h1 {font-size: 62px;}
+    }
+}
+
+
+
+#nav {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 15px 150px;
+    box-sizing: border-box;
+    z-index: 9990;
+    background-color: rgba(255,255,255,0.7);
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+
+
+#jj {
+    text-align: center;
+    margin-top: 80px;
+    h1 {
+        color: rgb(120,120,120);
+        margin-bottom: 50px;
+        font-weight: bold;
+    }
+    img {
+        filter: grayscale(0.7);
+        margin-bottom: 50px;
+        width: 76%;
+        border-radius: 5px;
+    }
+    p {
+        margin: 0 12%;
+        text-align: justify;
+        line-height: 1.8em;
+        font-style: italic;
+        &:last-child {
+            margin: 30px auto 70px;
+            text-align: center;
+            border-radius: 5px;
+            background-color: black;
+            color: white;
+            width: 180px;
+            height: 60px;
+            line-height: 60px;
+            font-size: 16px;
+            font-style: normal;
+            &:hover {
+                background-color: #aaa;
+                color: black;
+            }
+        }
+    }
+}
+
+
+
+
+#invite {
+    background: url("./img/flo.jpg") no-repeat center/ cover;
+    width: 100%;
+    height: 580px;
+    position: relative;
+    .inv_text {
+        position: absolute;
+        top: 200px;
+        left: 33%;
+        color: white;
+        letter-spacing: 0.1em;
+        text-align: center;
+        h1 {
+            font-size: 60px;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+
+
+#wed {
+    text-align: center;
+    h1 {
+        color: rgb(120,120,120);
+        margin: 80px auto;
+        text-align: center;
+        font-weight: bold;
+    }
+    img {
+        filter: grayscale(0.7);
+        margin: 0 80px 60px;
+        width: 76%;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .info {
+        display: inline-block;
+        margin: 0 140px;
+        margin-bottom: 60px;
+        p {margin-bottom: 20px;}
+    }
+}
+
+
+
+#rsvp {
+    background-color: rgb(242, 208, 216);
+    text-align: center;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    .rsvp_ct {
+        position: absolute;
+        top: 20px;
+        left: 30%;
+        height: 20%;
+        letter-spacing: 0.2em;
+        h1 {
+            color: black;
+            font-weight: normal;
+        }
+        p {
+            position: absolute;
+            top: 160px;
+            left: 13%;
+        }
+        input {
+            width: 180px;
+            height: 60px;
+            border: 0;
+            border-radius: 5px;
+            background-color: rgb(255, 128, 128);
+            color: white;
+            font-size: 22px;
+            &:hover {
+                background-color: #aaa;
+                color: black;
+            }
+        }
+    }
+}
+
+
+
+
+#footer {
+    background-color: black;
+    padding: 35px 0;
+    box-sizing: border-box;
+    color: white;
+    margin-bottom: 20px;
+    a {text-decoration: underline;}
+}
+
+
+
+#form {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,.3);
+    padding-top: 120px;
+    box-sizing: border-box;
+    display: none;
+}
+#rsvp_fm {
+    margin: auto;
+    z-index: 9999;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    padding: 30px 0 20px;
+    box-sizing: border-box;
+    width: 500px;
+    height: 320px;
+    position: relative;
+    h1 {
+        margin-bottom: 20px;
+        letter-spacing: 0.1em;
+    }
+    input {
+        margin: 20px 0;
+        width: 90%;
+    }
+    p:last-of-type {font-style: italic;}
+    #yes {
+        margin-left: 5%;
+        background-color: green;
+        &:hover {
+            background-color: #aaa;
+            color: black;
+        }
+    }
+    #no {
+        background-color: red;
+        &:hover {
+            background-color: #aaa;
+            color: black;
+        }
+    }
+    button {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 45%;
+        border: 0;
+        height: 40px;
+        float: left;
+        color: white;
+    }
+}

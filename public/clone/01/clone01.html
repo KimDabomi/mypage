@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3.CSS Template</title>
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700;900&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        button,input,#top,p {
+            font-family: 'Noto Sans KR', sans-serif;
+            font-family: 'Playfair Display', serif;
+        }
+        #footer,#menu_content h1,#about_content h1,h5 {
+            text-align: center;
+        }
+        #title a,#footer p{
+            color:black;
+        }
+        #title a,#top_menu,h5,#menu_content h1,h4,#contact h1 {
+            letter-spacing: 0.2em;
+        }
+        #top_menu,#about,#menu_img img {
+            float: right;
+        }
+        #about img,#menu_content {
+            float: left;
+        }
+        p {
+            line-height: 30px;
+        }
+        hr {
+            border: 0.1px solid #eee; margin: auto; width: 99%;
+        }
+
+        #top {
+            width: 100%;
+            padding: 20px 30px;
+            box-sizing: border-box;
+            position: fixed;
+            z-index: 9999;
+            background-color: #fff;
+            box-shadow: 0.5px 0.5px 5px gray;
+        }
+        #title a {
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 700;
+        }
+        #top_menu {
+            font-size: 14px;
+        }
+        #top_menu a {
+            margin-left: 30px;
+        }
+
+
+        #header img {
+            width: 100%;
+        }
+        figure {
+            display: flex;
+            position: relative;
+        }
+        figcaption {
+            position: absolute;
+            left: 25px;
+            bottom: 30px;
+        }
+        figcaption h1 {
+            font-size: 38px;
+            letter-spacing: 0.1em;
+            color: rgb(100,100,100);
+            font-weight: 400;
+        }
+        h5 {
+            font-size: 22px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+
+        
+        #about img{
+            width: 40%;
+            margin: 70px 50px 90px 90px;
+            border-radius: 5px;
+            opacity: 0.75;
+        }
+        #about_content {
+            margin-right: 90px;
+            margin-top: 100px;
+        }
+        #about_content span {
+            background-color: #eee;
+        }
+        #about_content h1 {
+            font-size: 30px;
+            letter-spacing: 0.3em;
+        }
+        #about_content p {
+            font-size: 14px;
+            letter-spacing: 0.1em;
+        }
+        #about_content p:last-child {
+            color: rgba(0,0,0,.6);
+        }
+
+
+        
+        #menu_content h1 {
+            font-size: 40px;
+        }
+        h4 {
+            font-size: 22px;
+            margin-top: 30px;
+            margin-bottom: 20px; 
+        }
+        #menu_content { 
+            margin-left: 90px;
+            margin-top: 100px;
+        }
+        #menu_content p {
+            font-size: 14px;
+            color: gray;
+        }
+        #menu_img img{
+            border-radius: 5px;
+            width: 40%;
+            margin: 70px 70px 90px 50px;
+            opacity: 0.75;
+        }
+
+
+        #contact {
+            clear: both;
+            margin: 90px 70px 90px 70px;
+        }
+        #contact h1 {
+            margin-bottom: 20px;
+            font-size: 40px;
+            margin-top: 80px;
+        }
+        #contact p {
+            font-size: 14px;
+            margin-top: 20px;
+        }
+        #contact p b {
+            font-weight: bold;
+            font-size: 18px;
+            color: rgb(0, 99, 107);
+        }
+        
+        input {
+            text-decoration: none;
+            list-style: none;
+            font-size: 14px;
+            border: 0;
+        }
+        input[type="datetime-local"] {
+            width: 100%;
+        }
+        button {
+            border: 0;
+            width: 150px;
+            height: 40px;
+            font-size: 16px;
+        }
+
+
+        #footer {
+            background-color: #eee;
+            padding: 40px 0;
+            box-sizing: border-box;
+        }
+        #footer p {
+            font-size: 14px;
+        }
+
+
+        @media screen and (max-width:600px)  {
+            #top_menu {display: none;}
+
+            #section1 {
+                margin-top: 100px;
+            }
+            #about img {display: none;}
+            #about_content h1,#about_content h5 {
+                text-align: center;
+            }
+            #about_content {
+                display: block;
+                width: 90%;
+                margin: auto;
+                margin-bottom: 100px;
+            }
+
+            #section2 {
+                margin-top: 100px;
+            }
+            #menu_content {
+                width: 90%;
+                margin: auto;
+                margin-left: 5%;
+            }
+            #menu_img img{
+                width: 90%;
+                margin: auto;
+                margin-right: 5%;
+                margin-top: 30px;
+            }
+
+            #contact {
+                margin: 0;
+                width: 90%;
+                margin: auto;
+            }
+
+            #footer {
+                margin-top: 100px;
+            }
+        }
+        
+
+        @media screen and (min-width:601px) and (max-width:992px) {
+            #section1 {
+                margin-top: 100px;
+            }
+            #about {
+                float: left;
+            }
+            #about_img img {
+                width: 40%;
+                margin: 0;
+                margin-left: 25px;
+                margin-bottom: 850px;
+                display: block;
+                margin-right: 35px;
+            }
+            #about_content {
+                margin: 0;
+                margin-top: 30px;
+                margin-right: 35px;
+            }
+            #about_content h1,#about_content h5 {
+                
+                line-height: 1.5em;
+                width: 100%;
+            }
+            #about_content p {
+                width: 100%;
+            }
+
+
+            #section2 {
+                margin-top: 100px;
+            }
+            #menu_content {
+                width: 90%;
+                margin: auto;
+                margin-left: 5%;
+            }
+            #menu_img img{
+                width: 90%;
+                margin: auto;
+                margin-right: 5%;
+                margin-top: 30px;
+            }
+
+            #contact {
+                margin: 0;
+                width: 90%;
+                margin: auto;
+            }
+
+            #footer {
+                margin-top: 100px;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="top">
+        <div id="title">
+            <a href="#">Gourmet au Catering</a>
+            <div id="top_menu">
+                <a href="#section1" id="go_about">About</a>
+                <a href="#section2" id="go_menu">Menu</a>
+                <a href="#section3" id="go_contact">Contact</a>
+            </div>
+        </div>
+    </div>
+    <header id="header">
+        <figure>
+        <img src="./img/hamburger.jpg" alt="햄버거" />
+        <figcaption><h1>Le Catering</h1></figcaption>
+        </figure>
+    </header>
+    <div id="section1">
+        <div id="about">
+            <div id="about_img">
+                <img src="./img/tablesetting2.jpg" alt="테이블사진" />
+            </div>
+            <div id="about_content" class="content">
+                <h1>About Catering</h1>
+                </br>
+                <h5>Tradition since 1889</h5>
+                <p>The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use <span>seasonal</span> ingredients.</p>
+                </br>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+    </div>
+    <hr />
+    <div id="section2">
+        <div id="menu">
+            <div id="menu_content" class="content">
+                <h1>Our Menu</h1>
+                </br>
+                <h4>Bread Basket</h4>
+                <p>Assortment of fresh baked fruit breads and muffins 5.50</p>
+                </br>
+                <h4>Honey Almond Granola with Fruits</h4>
+                <p>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+                </br>
+                <h4>Belgian Waffle</h4>
+                <p>Vanilla flavored batter with malted flour 7.50</p>
+                </br>
+                <h4>Scrambled eggs</h4>
+                <p>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+                </br>
+                <h4>Blueberry Pancakes</h4>
+                <p>With syrup, butter and lots of berries 8.50</p>
+            </div>
+            <div id="menu_img">
+                <img src="./img/tablesetting.jpg" alt="테이블사진2" />
+            </div>
+        </div>
+    </div>
+    <hr />
+    <div id="section3">
+        <div id="contact" class="content">
+            <h1>Contact</h1>
+            </br>
+            <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+            <p>
+                <b>Catering Service, 42nd Living St, 43043 New York, NY</b>
+            </p>
+            <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
+            <form id="contact_form">
+                <p><input type="text" name="name" placeholder="Name" /></p>
+                <hr />
+                <p><input type="number" name="number" placeholder="How many people" /></p>
+                <hr />
+                <p><input type="datetime-local" name="datetime" value="2020-12-30T19:10"/></p>
+                <hr />
+                <p><input type="text" name="message" placeholder="Message \ Special requirements" /></p>
+                <hr />
+                <p><button type="submit">SEND MESSAGE</button></p>
+            </form>
+        </div>
+    </div>
+    <footer id="footer">
+        <p>
+            Powered by <a href="#">w3.css</a>
+        </p>
+    </footer>
+</body>
+</html>

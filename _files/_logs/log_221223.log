@@ -1,0 +1,852 @@
+22/12/23 00:28:05 278 [debug]: --------------------------------------------------
+22/12/23 00:28:05 281 [debug]: |              Start Express Server              |
+22/12/23 00:28:05 282 [debug]: --------------------------------------------------
+22/12/23 00:28:05 282 [debug]: server address => http://192.168.123.105:3001
+22/12/23 00:28:05 283 [debug]: --------------------------------------------------
+22/12/23 00:29:56 635 [debug]: --------------------------------------------------
+22/12/23 00:29:56 638 [debug]: |              Start Express Server              |
+22/12/23 00:29:56 639 [debug]: --------------------------------------------------
+22/12/23 00:29:56 639 [debug]: server address => http://192.168.123.105:3001
+22/12/23 00:29:56 640 [debug]: --------------------------------------------------
+22/12/23 00:30:06 707 [debug]: --------------------------------------------------
+22/12/23 00:30:06 709 [debug]: |              Start Express Server              |
+22/12/23 00:30:06 710 [debug]: --------------------------------------------------
+22/12/23 00:30:06 710 [debug]: server address => http://192.168.123.105:3001
+22/12/23 00:30:06 711 [debug]: --------------------------------------------------
+22/12/23 00:35:25 005 [debug]: --------------------------------------------------
+22/12/23 00:35:25 011 [debug]: |              Start Express Server              |
+22/12/23 00:35:25 012 [debug]: --------------------------------------------------
+22/12/23 00:35:25 012 [debug]: server address => http://192.168.123.105:3001
+22/12/23 00:35:25 013 [debug]: --------------------------------------------------
+22/12/23 00:37:35 227 [debug]: --------------------------------------------------
+22/12/23 00:37:35 231 [debug]: |              Start Express Server              |
+22/12/23 00:37:35 232 [debug]: --------------------------------------------------
+22/12/23 00:37:35 233 [debug]: server address => http://192.168.123.105:3001
+22/12/23 00:37:35 233 [debug]: --------------------------------------------------
+22/12/23 00:37:38 149 [debug]: --------------------------------------------------
+22/12/23 00:37:38 152 [debug]: |              Start Express Server              |
+22/12/23 00:37:38 153 [debug]: --------------------------------------------------
+22/12/23 00:37:38 153 [debug]: server address => http://192.168.123.105:3001
+22/12/23 00:37:38 154 [debug]: --------------------------------------------------
+22/12/23 00:38:26 114 [debug]: --------------------------------------------------
+22/12/23 00:38:26 117 [debug]: |              Start Express Server              |
+22/12/23 00:38:26 117 [debug]: --------------------------------------------------
+22/12/23 00:38:26 118 [debug]: server address => http://192.168.123.105:3001
+22/12/23 00:38:26 119 [debug]: --------------------------------------------------
+22/12/23 00:38:43 787 [debug]: --------------------------------------------------
+22/12/23 00:38:43 790 [debug]: |              Start Express Server              |
+22/12/23 00:38:43 791 [debug]: --------------------------------------------------
+22/12/23 00:38:43 792 [debug]: server address => http://192.168.123.105:3001
+22/12/23 00:38:43 793 [debug]: --------------------------------------------------
+22/12/23 00:38:57 280 [debug]: --------------------------------------------------
+22/12/23 00:38:57 283 [debug]: |              Start Express Server              |
+22/12/23 00:38:57 284 [debug]: --------------------------------------------------
+22/12/23 00:38:57 285 [debug]: server address => http://192.168.123.105:3001
+22/12/23 00:38:57 285 [debug]: --------------------------------------------------
+22/12/23 00:38:59 341 [debug]: --------------------------------------------------
+22/12/23 00:38:59 343 [debug]: |              Start Express Server              |
+22/12/23 00:38:59 344 [debug]: --------------------------------------------------
+22/12/23 00:38:59 345 [debug]: server address => http://192.168.123.105:3001
+22/12/23 00:38:59 347 [debug]: --------------------------------------------------
+22/12/23 00:39:05 086 [debug]: --------------------------------------------------
+22/12/23 00:39:05 088 [debug]: |              Start Express Server              |
+22/12/23 00:39:05 089 [debug]: --------------------------------------------------
+22/12/23 00:39:05 091 [debug]: server address => http://192.168.123.105:3001
+22/12/23 00:39:05 091 [debug]: --------------------------------------------------
+22/12/23 00:39:37 338 [debug]: --------------------------------------------------
+22/12/23 00:39:37 341 [debug]: |              Start Express Server              |
+22/12/23 00:39:37 341 [debug]: --------------------------------------------------
+22/12/23 00:39:37 342 [debug]: server address => http://192.168.123.105:3001
+22/12/23 00:39:37 343 [debug]: --------------------------------------------------
+22/12/23 00:39:57 101 [debug]: --------------------------------------------------
+22/12/23 00:39:57 104 [debug]: |              Start Express Server              |
+22/12/23 00:39:57 105 [debug]: --------------------------------------------------
+22/12/23 00:39:57 106 [debug]: server address => http://192.168.123.105:3001
+22/12/23 00:39:57 106 [debug]: --------------------------------------------------
+22/12/23 00:42:17 483 [debug]: --------------------------------------------------
+22/12/23 00:42:17 486 [debug]: |              Start Express Server              |
+22/12/23 00:42:17 487 [debug]: --------------------------------------------------
+22/12/23 00:42:17 487 [debug]: server address => http://192.168.123.105:3001
+22/12/23 00:42:17 488 [debug]: --------------------------------------------------
+22/12/23 00:42:29 725 [debug]: --------------------------------------------------
+22/12/23 00:42:29 727 [debug]: |              Start Express Server              |
+22/12/23 00:42:29 728 [debug]: --------------------------------------------------
+22/12/23 00:42:29 728 [debug]: server address => http://192.168.123.105:3001
+22/12/23 00:42:29 729 [debug]: --------------------------------------------------
+22/12/23 00:44:50 190 [debug]: --------------------------------------------------
+22/12/23 00:44:50 192 [debug]: |              Start Express Server              |
+22/12/23 00:44:50 193 [debug]: --------------------------------------------------
+22/12/23 00:44:50 194 [debug]: server address => http://192.168.123.105:3001
+22/12/23 00:44:50 194 [debug]: --------------------------------------------------
+22/12/23 17:16:27 601 [debug]: --------------------------------------------------
+22/12/23 17:16:27 605 [debug]: |              Start Express Server              |
+22/12/23 17:16:27 606 [debug]: --------------------------------------------------
+22/12/23 17:16:27 607 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:16:27 608 [debug]: --------------------------------------------------
+22/12/23 17:16:47 513 [debug]: --------------------------------------------------
+22/12/23 17:16:47 516 [debug]: |              Start Express Server              |
+22/12/23 17:16:47 517 [debug]: --------------------------------------------------
+22/12/23 17:16:47 517 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:16:47 518 [debug]: --------------------------------------------------
+22/12/23 17:17:19 630 [debug]: --------------------------------------------------
+22/12/23 17:17:19 633 [debug]: |              Start Express Server              |
+22/12/23 17:17:19 634 [debug]: --------------------------------------------------
+22/12/23 17:17:19 634 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:17:19 635 [debug]: --------------------------------------------------
+22/12/23 17:17:25 535 [debug]: --------------------------------------------------
+22/12/23 17:17:25 538 [debug]: |              Start Express Server              |
+22/12/23 17:17:25 538 [debug]: --------------------------------------------------
+22/12/23 17:17:25 539 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:17:25 539 [debug]: --------------------------------------------------
+22/12/23 17:17:37 123 [debug]: --------------------------------------------------
+22/12/23 17:17:37 125 [debug]: |              Start Express Server              |
+22/12/23 17:17:37 126 [debug]: --------------------------------------------------
+22/12/23 17:17:37 126 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:17:37 127 [debug]: --------------------------------------------------
+22/12/23 17:17:38 304 [debug]: --------------------------------------------------
+22/12/23 17:17:38 306 [debug]: |              Start Express Server              |
+22/12/23 17:17:38 307 [debug]: --------------------------------------------------
+22/12/23 17:17:38 307 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:17:38 308 [debug]: --------------------------------------------------
+22/12/23 17:18:12 809 [debug]: --------------------------------------------------
+22/12/23 17:18:12 812 [debug]: |              Start Express Server              |
+22/12/23 17:18:12 813 [debug]: --------------------------------------------------
+22/12/23 17:18:12 813 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:18:12 814 [debug]: --------------------------------------------------
+22/12/23 17:18:22 043 [debug]: --------------------------------------------------
+22/12/23 17:18:22 046 [debug]: |              Start Express Server              |
+22/12/23 17:18:22 046 [debug]: --------------------------------------------------
+22/12/23 17:18:22 047 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:18:22 047 [debug]: --------------------------------------------------
+22/12/23 17:19:44 200 [debug]: --------------------------------------------------
+22/12/23 17:19:44 202 [debug]: |              Start Express Server              |
+22/12/23 17:19:44 203 [debug]: --------------------------------------------------
+22/12/23 17:19:44 203 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:19:44 204 [debug]: --------------------------------------------------
+22/12/23 17:19:56 996 [debug]: --------------------------------------------------
+22/12/23 17:19:56 998 [debug]: |              Start Express Server              |
+22/12/23 17:19:56 999 [debug]: --------------------------------------------------
+22/12/23 17:19:57 000 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:19:57 000 [debug]: --------------------------------------------------
+22/12/23 17:24:23 803 [debug]: --------------------------------------------------
+22/12/23 17:24:23 806 [debug]: |              Start Express Server              |
+22/12/23 17:24:23 806 [debug]: --------------------------------------------------
+22/12/23 17:24:23 807 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:24:23 808 [debug]: --------------------------------------------------
+22/12/23 17:24:29 543 [debug]: --------------------------------------------------
+22/12/23 17:24:29 546 [debug]: |              Start Express Server              |
+22/12/23 17:24:29 547 [debug]: --------------------------------------------------
+22/12/23 17:24:29 548 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:24:29 548 [debug]: --------------------------------------------------
+22/12/23 17:24:30 560 [debug]: --------------------------------------------------
+22/12/23 17:24:30 562 [debug]: |              Start Express Server              |
+22/12/23 17:24:30 563 [debug]: --------------------------------------------------
+22/12/23 17:24:30 563 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:24:30 564 [debug]: --------------------------------------------------
+22/12/23 17:24:48 324 [debug]: --------------------------------------------------
+22/12/23 17:24:48 327 [debug]: |              Start Express Server              |
+22/12/23 17:24:48 328 [debug]: --------------------------------------------------
+22/12/23 17:24:48 329 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:24:48 330 [debug]: --------------------------------------------------
+22/12/23 17:27:37 870 [debug]: --------------------------------------------------
+22/12/23 17:27:37 873 [debug]: |              Start Express Server              |
+22/12/23 17:27:37 874 [debug]: --------------------------------------------------
+22/12/23 17:27:37 874 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:27:37 875 [debug]: --------------------------------------------------
+22/12/23 17:28:59 864 [debug]: --------------------------------------------------
+22/12/23 17:28:59 867 [debug]: |              Start Express Server              |
+22/12/23 17:28:59 868 [debug]: --------------------------------------------------
+22/12/23 17:28:59 868 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:28:59 869 [debug]: --------------------------------------------------
+22/12/23 17:29:08 941 [debug]: --------------------------------------------------
+22/12/23 17:29:08 943 [debug]: |              Start Express Server              |
+22/12/23 17:29:08 944 [debug]: --------------------------------------------------
+22/12/23 17:29:08 945 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:29:08 945 [debug]: --------------------------------------------------
+22/12/23 17:29:28 024 [debug]: --------------------------------------------------
+22/12/23 17:29:28 027 [debug]: |              Start Express Server              |
+22/12/23 17:29:28 028 [debug]: --------------------------------------------------
+22/12/23 17:29:28 028 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:29:28 029 [debug]: --------------------------------------------------
+22/12/23 17:29:34 280 [debug]: --------------------------------------------------
+22/12/23 17:29:34 283 [debug]: |              Start Express Server              |
+22/12/23 17:29:34 284 [debug]: --------------------------------------------------
+22/12/23 17:29:34 284 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:29:34 285 [debug]: --------------------------------------------------
+22/12/23 17:29:46 736 [debug]: --------------------------------------------------
+22/12/23 17:29:46 739 [debug]: |              Start Express Server              |
+22/12/23 17:29:46 739 [debug]: --------------------------------------------------
+22/12/23 17:29:46 740 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:29:46 740 [debug]: --------------------------------------------------
+22/12/23 17:30:12 279 [debug]: --------------------------------------------------
+22/12/23 17:30:12 281 [debug]: |              Start Express Server              |
+22/12/23 17:30:12 282 [debug]: --------------------------------------------------
+22/12/23 17:30:12 283 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:30:12 283 [debug]: --------------------------------------------------
+22/12/23 17:31:20 449 [debug]: --------------------------------------------------
+22/12/23 17:31:20 452 [debug]: |              Start Express Server              |
+22/12/23 17:31:20 452 [debug]: --------------------------------------------------
+22/12/23 17:31:20 453 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:31:20 454 [debug]: --------------------------------------------------
+22/12/23 17:31:21 525 [debug]: --------------------------------------------------
+22/12/23 17:31:21 528 [debug]: |              Start Express Server              |
+22/12/23 17:31:21 528 [debug]: --------------------------------------------------
+22/12/23 17:31:21 529 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:31:21 530 [debug]: --------------------------------------------------
+22/12/23 17:31:23 485 [debug]: --------------------------------------------------
+22/12/23 17:31:23 490 [debug]: |              Start Express Server              |
+22/12/23 17:31:23 490 [debug]: --------------------------------------------------
+22/12/23 17:31:23 491 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:31:23 492 [debug]: --------------------------------------------------
+22/12/23 17:31:26 771 [debug]: --------------------------------------------------
+22/12/23 17:31:26 774 [debug]: |              Start Express Server              |
+22/12/23 17:31:26 775 [debug]: --------------------------------------------------
+22/12/23 17:31:26 775 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:31:26 776 [debug]: --------------------------------------------------
+22/12/23 17:33:30 252 [debug]: --------------------------------------------------
+22/12/23 17:33:30 255 [debug]: |              Start Express Server              |
+22/12/23 17:33:30 256 [debug]: --------------------------------------------------
+22/12/23 17:33:30 256 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:33:30 257 [debug]: --------------------------------------------------
+22/12/23 17:33:31 525 [debug]: 클라이언트가 접속했습니다.
+22/12/23 17:33:31 526 [debug]: [GET] http://localhost:3001/department
+22/12/23 17:33:31 527 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/23 17:33:31 554 [info]:  >> DATABASE 접속됨 [threaId=290]
+22/12/23 17:33:31 555 [info]:  >> Connection 임대됨 [threaId=290]
+22/12/23 17:33:31 558 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/23 17:33:31 575 [info]:  >> Connection 반납됨 [threaId=290]
+22/12/23 17:33:31 576 [info]:  >> Connection 임대됨 [threaId=290]
+22/12/23 17:33:31 577 [debug]: SELECT deptno, dname, loc FROM department        ORDER BY deptno DESC     LIMIT 0, 5
+22/12/23 17:33:31 580 [info]:  >> Connection 반납됨 [threaId=290]
+22/12/23 17:33:31 587 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 61ms
+22/12/23 17:33:31 587 [debug]: --------------------------------------------------
+22/12/23 17:33:31 605 [debug]: 클라이언트가 접속했습니다.
+22/12/23 17:33:31 606 [debug]: [GET] http://localhost:3001/department
+22/12/23 17:33:31 606 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/23 17:33:31 608 [info]:  >> Connection 임대됨 [threaId=290]
+22/12/23 17:33:31 610 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/23 17:33:31 616 [info]:  >> Connection 반납됨 [threaId=290]
+22/12/23 17:33:31 616 [info]:  >> Connection 임대됨 [threaId=290]
+22/12/23 17:33:31 618 [debug]: SELECT deptno, dname, loc FROM department        ORDER BY deptno DESC     LIMIT 0, 5
+22/12/23 17:33:31 618 [info]:  >> Connection 반납됨 [threaId=290]
+22/12/23 17:33:31 619 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 13ms
+22/12/23 17:33:31 620 [debug]: --------------------------------------------------
+22/12/23 17:36:24 744 [debug]: --------------------------------------------------
+22/12/23 17:36:24 746 [debug]: |              Start Express Server              |
+22/12/23 17:36:24 747 [debug]: --------------------------------------------------
+22/12/23 17:36:24 748 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:36:24 748 [debug]: --------------------------------------------------
+22/12/23 17:36:43 238 [debug]: --------------------------------------------------
+22/12/23 17:36:43 240 [debug]: |              Start Express Server              |
+22/12/23 17:36:43 241 [debug]: --------------------------------------------------
+22/12/23 17:36:43 243 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:36:43 243 [debug]: --------------------------------------------------
+22/12/23 17:38:17 799 [debug]: --------------------------------------------------
+22/12/23 17:38:17 801 [debug]: |              Start Express Server              |
+22/12/23 17:38:17 802 [debug]: --------------------------------------------------
+22/12/23 17:38:17 802 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:38:17 803 [debug]: --------------------------------------------------
+22/12/23 17:38:47 174 [debug]: --------------------------------------------------
+22/12/23 17:38:47 177 [debug]: |              Start Express Server              |
+22/12/23 17:38:47 177 [debug]: --------------------------------------------------
+22/12/23 17:38:47 178 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:38:47 178 [debug]: --------------------------------------------------
+22/12/23 17:39:12 041 [debug]: --------------------------------------------------
+22/12/23 17:39:12 044 [debug]: |              Start Express Server              |
+22/12/23 17:39:12 045 [debug]: --------------------------------------------------
+22/12/23 17:39:12 045 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:39:12 046 [debug]: --------------------------------------------------
+22/12/23 17:39:54 325 [debug]: --------------------------------------------------
+22/12/23 17:39:54 331 [debug]: |              Start Express Server              |
+22/12/23 17:39:54 332 [debug]: --------------------------------------------------
+22/12/23 17:39:54 333 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:39:54 334 [debug]: --------------------------------------------------
+22/12/23 17:39:54 348 [debug]: 클라이언트가 접속했습니다.
+22/12/23 17:39:54 350 [debug]: [GET] http://localhost:3001/department?query=공학&page=-1&rows=10
+22/12/23 17:39:54 351 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/23 17:39:54 380 [info]:  >> DATABASE 접속됨 [threaId=297]
+22/12/23 17:39:54 381 [info]:  >> Connection 임대됨 [threaId=297]
+22/12/23 17:39:54 386 [debug]: SELECT COUNT(*) AS cnt FROM department   WHERE     dname LIKE concat('%', '공학', '%')    OR loc LIKE concat('%', '공학', '%')
+22/12/23 17:39:54 395 [info]:  >> Connection 반납됨 [threaId=297]
+22/12/23 17:39:54 396 [info]:  >> Connection 임대됨 [threaId=297]
+22/12/23 17:39:54 397 [debug]: SELECT deptno, dname, loc FROM department   WHERE     dname LIKE concat('%', '공학', '%')    OR loc LIKE concat('%', '공학', '%')     ORDER BY deptno DESC     LIMIT -20, 10
+22/12/23 17:39:54 398 [info]:  >> Connection 반납됨 [threaId=297]
+22/12/23 17:39:54 400 [error]: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-20, 10' at line 13
+    at PromisePoolConnection.query (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\promise.js:93:22)
+    at DepartmentService.getList (C:\Users\cdabo\study-myschool-fullstack-app\server\services\DepartmentService.js:24:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\cdabo\study-myschool-fullstack-app\server\controllers\DepartmentController.js:33:20
+22/12/23 17:39:54 406 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 57ms
+22/12/23 17:39:54 407 [debug]: --------------------------------------------------
+22/12/23 17:42:32 837 [debug]: 클라이언트가 접속했습니다.
+22/12/23 17:42:32 838 [debug]: [GET] http://localhost:3001/department?query=공학&page=-1&rows=10
+22/12/23 17:42:32 839 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/23 17:42:32 840 [info]:  >> Connection 임대됨 [threaId=297]
+22/12/23 17:42:32 842 [debug]: SELECT COUNT(*) AS cnt FROM department   WHERE     dname LIKE concat('%', '공학', '%')    OR loc LIKE concat('%', '공학', '%')
+22/12/23 17:42:32 843 [info]:  >> Connection 반납됨 [threaId=297]
+22/12/23 17:42:32 843 [info]:  >> Connection 임대됨 [threaId=297]
+22/12/23 17:42:32 845 [debug]: SELECT deptno, dname, loc FROM department   WHERE     dname LIKE concat('%', '공학', '%')    OR loc LIKE concat('%', '공학', '%')     ORDER BY deptno DESC     LIMIT -20, 10
+22/12/23 17:42:32 845 [info]:  >> Connection 반납됨 [threaId=297]
+22/12/23 17:42:32 846 [error]: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-20, 10' at line 13
+    at PromisePoolConnection.query (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\promise.js:93:22)
+    at DepartmentService.getList (C:\Users\cdabo\study-myschool-fullstack-app\server\services\DepartmentService.js:24:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\cdabo\study-myschool-fullstack-app\server\controllers\DepartmentController.js:33:20
+22/12/23 17:42:32 847 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 9ms
+22/12/23 17:42:32 848 [debug]: --------------------------------------------------
+22/12/23 17:42:33 386 [debug]: 클라이언트가 접속했습니다.
+22/12/23 17:42:33 387 [debug]: [GET] http://localhost:3001/department?query=공학&page=-1&rows=10
+22/12/23 17:42:33 387 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/23 17:42:33 389 [info]:  >> Connection 임대됨 [threaId=297]
+22/12/23 17:42:33 390 [debug]: SELECT COUNT(*) AS cnt FROM department   WHERE     dname LIKE concat('%', '공학', '%')    OR loc LIKE concat('%', '공학', '%')
+22/12/23 17:42:33 392 [info]:  >> Connection 반납됨 [threaId=297]
+22/12/23 17:42:33 392 [info]:  >> Connection 임대됨 [threaId=297]
+22/12/23 17:42:33 393 [debug]: SELECT deptno, dname, loc FROM department   WHERE     dname LIKE concat('%', '공학', '%')    OR loc LIKE concat('%', '공학', '%')     ORDER BY deptno DESC     LIMIT -20, 10
+22/12/23 17:42:33 394 [info]:  >> Connection 반납됨 [threaId=297]
+22/12/23 17:42:33 394 [error]: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-20, 10' at line 13
+    at PromisePoolConnection.query (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\promise.js:93:22)
+    at DepartmentService.getList (C:\Users\cdabo\study-myschool-fullstack-app\server\services\DepartmentService.js:24:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\cdabo\study-myschool-fullstack-app\server\controllers\DepartmentController.js:33:20
+22/12/23 17:42:33 396 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 9ms
+22/12/23 17:42:33 397 [debug]: --------------------------------------------------
+22/12/23 17:42:34 172 [debug]: 클라이언트가 접속했습니다.
+22/12/23 17:42:34 173 [debug]: [GET] http://localhost:3001/department?query=공학&page=-1&rows=10
+22/12/23 17:42:34 173 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/23 17:42:34 175 [info]:  >> Connection 임대됨 [threaId=297]
+22/12/23 17:42:34 176 [debug]: SELECT COUNT(*) AS cnt FROM department   WHERE     dname LIKE concat('%', '공학', '%')    OR loc LIKE concat('%', '공학', '%')
+22/12/23 17:42:34 177 [info]:  >> Connection 반납됨 [threaId=297]
+22/12/23 17:42:34 177 [info]:  >> Connection 임대됨 [threaId=297]
+22/12/23 17:42:34 178 [debug]: SELECT deptno, dname, loc FROM department   WHERE     dname LIKE concat('%', '공학', '%')    OR loc LIKE concat('%', '공학', '%')     ORDER BY deptno DESC     LIMIT -20, 10
+22/12/23 17:42:34 179 [info]:  >> Connection 반납됨 [threaId=297]
+22/12/23 17:42:34 179 [error]: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-20, 10' at line 13
+    at PromisePoolConnection.query (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\promise.js:93:22)
+    at DepartmentService.getList (C:\Users\cdabo\study-myschool-fullstack-app\server\services\DepartmentService.js:24:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\cdabo\study-myschool-fullstack-app\server\controllers\DepartmentController.js:33:20
+22/12/23 17:42:34 182 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 9ms
+22/12/23 17:42:34 182 [debug]: --------------------------------------------------
+22/12/23 17:42:34 998 [debug]: 클라이언트가 접속했습니다.
+22/12/23 17:42:34 999 [debug]: [GET] http://localhost:3001/department?query=공학&page=-1&rows=10
+22/12/23 17:42:35 000 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/23 17:42:35 001 [info]:  >> Connection 임대됨 [threaId=297]
+22/12/23 17:42:35 002 [debug]: SELECT COUNT(*) AS cnt FROM department   WHERE     dname LIKE concat('%', '공학', '%')    OR loc LIKE concat('%', '공학', '%')
+22/12/23 17:42:35 003 [info]:  >> Connection 반납됨 [threaId=297]
+22/12/23 17:42:35 004 [info]:  >> Connection 임대됨 [threaId=297]
+22/12/23 17:42:35 005 [debug]: SELECT deptno, dname, loc FROM department   WHERE     dname LIKE concat('%', '공학', '%')    OR loc LIKE concat('%', '공학', '%')     ORDER BY deptno DESC     LIMIT -20, 10
+22/12/23 17:42:35 005 [info]:  >> Connection 반납됨 [threaId=297]
+22/12/23 17:42:35 006 [error]: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-20, 10' at line 13
+    at PromisePoolConnection.query (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\promise.js:93:22)
+    at DepartmentService.getList (C:\Users\cdabo\study-myschool-fullstack-app\server\services\DepartmentService.js:24:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\cdabo\study-myschool-fullstack-app\server\controllers\DepartmentController.js:33:20
+22/12/23 17:42:35 008 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 9ms
+22/12/23 17:42:35 008 [debug]: --------------------------------------------------
+22/12/23 17:42:36 104 [debug]: 클라이언트가 접속했습니다.
+22/12/23 17:42:36 104 [debug]: [GET] http://localhost:3001/department?query=공학&page=-1&rows=10
+22/12/23 17:42:36 105 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/23 17:42:36 107 [info]:  >> Connection 임대됨 [threaId=297]
+22/12/23 17:42:36 108 [debug]: SELECT COUNT(*) AS cnt FROM department   WHERE     dname LIKE concat('%', '공학', '%')    OR loc LIKE concat('%', '공학', '%')
+22/12/23 17:42:36 108 [info]:  >> Connection 반납됨 [threaId=297]
+22/12/23 17:42:36 109 [info]:  >> Connection 임대됨 [threaId=297]
+22/12/23 17:42:36 110 [debug]: SELECT deptno, dname, loc FROM department   WHERE     dname LIKE concat('%', '공학', '%')    OR loc LIKE concat('%', '공학', '%')     ORDER BY deptno DESC     LIMIT -20, 10
+22/12/23 17:42:36 111 [info]:  >> Connection 반납됨 [threaId=297]
+22/12/23 17:42:36 111 [error]: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-20, 10' at line 13
+    at PromisePoolConnection.query (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\promise.js:93:22)
+    at DepartmentService.getList (C:\Users\cdabo\study-myschool-fullstack-app\server\services\DepartmentService.js:24:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\cdabo\study-myschool-fullstack-app\server\controllers\DepartmentController.js:33:20
+22/12/23 17:42:36 113 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 9ms
+22/12/23 17:42:36 113 [debug]: --------------------------------------------------
+22/12/23 17:42:36 765 [debug]: 클라이언트가 접속했습니다.
+22/12/23 17:42:36 766 [debug]: [GET] http://localhost:3001/department?query=공학&page=-1&rows=10
+22/12/23 17:42:36 766 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/23 17:42:36 767 [info]:  >> Connection 임대됨 [threaId=297]
+22/12/23 17:42:36 768 [debug]: SELECT COUNT(*) AS cnt FROM department   WHERE     dname LIKE concat('%', '공학', '%')    OR loc LIKE concat('%', '공학', '%')
+22/12/23 17:42:36 770 [info]:  >> Connection 반납됨 [threaId=297]
+22/12/23 17:42:36 770 [info]:  >> Connection 임대됨 [threaId=297]
+22/12/23 17:42:36 771 [debug]: SELECT deptno, dname, loc FROM department   WHERE     dname LIKE concat('%', '공학', '%')    OR loc LIKE concat('%', '공학', '%')     ORDER BY deptno DESC     LIMIT -20, 10
+22/12/23 17:42:36 772 [info]:  >> Connection 반납됨 [threaId=297]
+22/12/23 17:42:36 773 [error]: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-20, 10' at line 13
+    at PromisePoolConnection.query (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\promise.js:93:22)
+    at DepartmentService.getList (C:\Users\cdabo\study-myschool-fullstack-app\server\services\DepartmentService.js:24:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\cdabo\study-myschool-fullstack-app\server\controllers\DepartmentController.js:33:20
+22/12/23 17:42:36 775 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 10ms
+22/12/23 17:42:36 775 [debug]: --------------------------------------------------
+22/12/23 17:47:08 092 [debug]: --------------------------------------------------
+22/12/23 17:47:08 096 [debug]: |              Start Express Server              |
+22/12/23 17:47:08 097 [debug]: --------------------------------------------------
+22/12/23 17:47:08 098 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:47:08 098 [debug]: --------------------------------------------------
+22/12/23 17:47:08 202 [debug]: 클라이언트가 접속했습니다.
+22/12/23 17:47:08 204 [debug]: [GET] http://localhost:3001/department?query=공학&page=-1&rows=10
+22/12/23 17:47:08 205 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/23 17:47:08 234 [info]:  >> DATABASE 접속됨 [threaId=299]
+22/12/23 17:47:08 235 [info]:  >> Connection 임대됨 [threaId=299]
+22/12/23 17:47:08 239 [debug]: SELECT COUNT(*) AS cnt FROM department   WHERE     dname LIKE concat('%', '공학', '%')    OR loc LIKE concat('%', '공학', '%')
+22/12/23 17:47:08 244 [info]:  >> Connection 반납됨 [threaId=299]
+22/12/23 17:47:08 246 [info]:  >> Connection 임대됨 [threaId=299]
+22/12/23 17:47:08 249 [debug]: SELECT deptno, dname, loc FROM department   WHERE     dname LIKE concat('%', '공학', '%')    OR loc LIKE concat('%', '공학', '%')     ORDER BY deptno DESC     LIMIT -20, 10
+22/12/23 17:47:08 250 [info]:  >> Connection 반납됨 [threaId=299]
+22/12/23 17:47:08 251 [error]: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-20, 10' at line 13
+    at PromisePoolConnection.query (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\promise.js:93:22)
+    at DepartmentService.getList (C:\Users\cdabo\study-myschool-fullstack-app\server\services\DepartmentService.js:24:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\cdabo\study-myschool-fullstack-app\server\controllers\DepartmentController.js:33:20
+22/12/23 17:47:08 257 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 54ms
+22/12/23 17:47:08 257 [debug]: --------------------------------------------------
+22/12/23 17:47:10 727 [debug]: 클라이언트가 접속했습니다.
+22/12/23 17:47:10 728 [debug]: [GET] http://localhost:3001/department?query=공학&page=-1&rows=10
+22/12/23 17:47:10 729 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/23 17:47:10 733 [info]:  >> Connection 임대됨 [threaId=299]
+22/12/23 17:47:10 734 [debug]: SELECT COUNT(*) AS cnt FROM department   WHERE     dname LIKE concat('%', '공학', '%')    OR loc LIKE concat('%', '공학', '%')
+22/12/23 17:47:10 736 [info]:  >> Connection 반납됨 [threaId=299]
+22/12/23 17:47:10 736 [info]:  >> Connection 임대됨 [threaId=299]
+22/12/23 17:47:10 738 [debug]: SELECT deptno, dname, loc FROM department   WHERE     dname LIKE concat('%', '공학', '%')    OR loc LIKE concat('%', '공학', '%')     ORDER BY deptno DESC     LIMIT -20, 10
+22/12/23 17:47:10 739 [info]:  >> Connection 반납됨 [threaId=299]
+22/12/23 17:47:10 741 [error]: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-20, 10' at line 13
+    at PromisePoolConnection.query (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\promise.js:93:22)
+    at DepartmentService.getList (C:\Users\cdabo\study-myschool-fullstack-app\server\services\DepartmentService.js:24:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\cdabo\study-myschool-fullstack-app\server\controllers\DepartmentController.js:33:20
+22/12/23 17:47:10 743 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 16ms
+22/12/23 17:47:10 744 [debug]: --------------------------------------------------
+22/12/23 17:47:11 642 [debug]: 클라이언트가 접속했습니다.
+22/12/23 17:47:11 643 [debug]: [GET] http://localhost:3001/department?query=공학&page=-1&rows=10
+22/12/23 17:47:11 644 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/23 17:47:11 645 [info]:  >> Connection 임대됨 [threaId=299]
+22/12/23 17:47:11 646 [debug]: SELECT COUNT(*) AS cnt FROM department   WHERE     dname LIKE concat('%', '공학', '%')    OR loc LIKE concat('%', '공학', '%')
+22/12/23 17:47:11 647 [info]:  >> Connection 반납됨 [threaId=299]
+22/12/23 17:47:11 648 [info]:  >> Connection 임대됨 [threaId=299]
+22/12/23 17:47:11 649 [debug]: SELECT deptno, dname, loc FROM department   WHERE     dname LIKE concat('%', '공학', '%')    OR loc LIKE concat('%', '공학', '%')     ORDER BY deptno DESC     LIMIT -20, 10
+22/12/23 17:47:11 649 [info]:  >> Connection 반납됨 [threaId=299]
+22/12/23 17:47:11 650 [error]: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-20, 10' at line 13
+    at PromisePoolConnection.query (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\promise.js:93:22)
+    at DepartmentService.getList (C:\Users\cdabo\study-myschool-fullstack-app\server\services\DepartmentService.js:24:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\cdabo\study-myschool-fullstack-app\server\controllers\DepartmentController.js:33:20
+22/12/23 17:47:11 651 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 8ms
+22/12/23 17:47:11 652 [debug]: --------------------------------------------------
+22/12/23 17:47:17 008 [debug]: 클라이언트가 접속했습니다.
+22/12/23 17:47:17 010 [debug]: [GET] http://localhost:3001/department?query=공학&page=-1&rows=10
+22/12/23 17:47:17 010 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/23 17:47:17 012 [info]:  >> Connection 임대됨 [threaId=299]
+22/12/23 17:47:17 014 [debug]: SELECT COUNT(*) AS cnt FROM department   WHERE     dname LIKE concat('%', '공학', '%')    OR loc LIKE concat('%', '공학', '%')
+22/12/23 17:47:17 015 [info]:  >> Connection 반납됨 [threaId=299]
+22/12/23 17:47:17 016 [info]:  >> Connection 임대됨 [threaId=299]
+22/12/23 17:47:17 018 [debug]: SELECT deptno, dname, loc FROM department   WHERE     dname LIKE concat('%', '공학', '%')    OR loc LIKE concat('%', '공학', '%')     ORDER BY deptno DESC     LIMIT -20, 10
+22/12/23 17:47:17 019 [info]:  >> Connection 반납됨 [threaId=299]
+22/12/23 17:47:17 019 [error]: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-20, 10' at line 13
+    at PromisePoolConnection.query (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\promise.js:93:22)
+    at DepartmentService.getList (C:\Users\cdabo\study-myschool-fullstack-app\server\services\DepartmentService.js:24:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\cdabo\study-myschool-fullstack-app\server\controllers\DepartmentController.js:33:20
+22/12/23 17:47:17 022 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 12ms
+22/12/23 17:47:17 022 [debug]: --------------------------------------------------
+22/12/23 17:47:19 376 [debug]: --------------------------------------------------
+22/12/23 17:47:19 379 [debug]: |              Start Express Server              |
+22/12/23 17:47:19 379 [debug]: --------------------------------------------------
+22/12/23 17:47:19 380 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:47:19 380 [debug]: --------------------------------------------------
+22/12/23 17:48:47 388 [debug]: 클라이언트가 접속했습니다.
+22/12/23 17:48:47 389 [debug]: [GET] http://localhost:3001/department?query=공학&page=-1&rows=10
+22/12/23 17:48:47 390 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/23 17:48:47 418 [info]:  >> DATABASE 접속됨 [threaId=301]
+22/12/23 17:48:47 419 [info]:  >> Connection 임대됨 [threaId=301]
+22/12/23 17:48:47 422 [debug]: SELECT COUNT(*) AS cnt FROM department   WHERE     dname LIKE concat('%', '공학', '%')    OR loc LIKE concat('%', '공학', '%')
+22/12/23 17:48:47 427 [info]:  >> Connection 반납됨 [threaId=301]
+22/12/23 17:48:47 429 [info]:  >> Connection 임대됨 [threaId=301]
+22/12/23 17:48:47 431 [debug]: SELECT deptno, dname, loc FROM department   WHERE     dname LIKE concat('%', '공학', '%')    OR loc LIKE concat('%', '공학', '%')     ORDER BY deptno DESC     LIMIT -20, 10
+22/12/23 17:48:47 432 [info]:  >> Connection 반납됨 [threaId=301]
+22/12/23 17:48:47 433 [error]: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-20, 10' at line 13
+    at PromisePoolConnection.query (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\promise.js:93:22)
+    at DepartmentService.getList (C:\Users\cdabo\study-myschool-fullstack-app\server\services\DepartmentService.js:24:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\cdabo\study-myschool-fullstack-app\server\controllers\DepartmentController.js:33:20
+22/12/23 17:48:47 438 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 49ms
+22/12/23 17:48:47 439 [debug]: --------------------------------------------------
+22/12/23 17:48:59 582 [debug]: --------------------------------------------------
+22/12/23 17:48:59 584 [debug]: |              Start Express Server              |
+22/12/23 17:48:59 585 [debug]: --------------------------------------------------
+22/12/23 17:48:59 585 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:48:59 586 [debug]: --------------------------------------------------
+22/12/23 17:49:05 843 [debug]: 백엔드가 종료되었습니다.
+22/12/23 17:49:15 698 [debug]: --------------------------------------------------
+22/12/23 17:49:15 700 [debug]: |              Start Express Server              |
+22/12/23 17:49:15 701 [debug]: --------------------------------------------------
+22/12/23 17:49:15 702 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:49:15 702 [debug]: --------------------------------------------------
+22/12/23 17:49:20 094 [debug]: 클라이언트가 접속했습니다.
+22/12/23 17:49:20 096 [debug]: [GET] http://localhost:3001/department?query=공학&page=-1&rows=10
+22/12/23 17:49:20 096 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/23 17:49:20 125 [info]:  >> DATABASE 접속됨 [threaId=304]
+22/12/23 17:49:20 125 [info]:  >> Connection 임대됨 [threaId=304]
+22/12/23 17:49:20 129 [debug]: SELECT COUNT(*) AS cnt FROM department   WHERE     dname LIKE concat('%', '공학', '%')    OR loc LIKE concat('%', '공학', '%')
+22/12/23 17:49:20 132 [info]:  >> Connection 반납됨 [threaId=304]
+22/12/23 17:49:20 134 [info]:  >> Connection 임대됨 [threaId=304]
+22/12/23 17:49:20 138 [debug]: SELECT deptno, dname, loc FROM department   WHERE     dname LIKE concat('%', '공학', '%')    OR loc LIKE concat('%', '공학', '%')     ORDER BY deptno DESC     LIMIT -20, 10
+22/12/23 17:49:20 139 [info]:  >> Connection 반납됨 [threaId=304]
+22/12/23 17:49:20 141 [error]: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-20, 10' at line 13
+    at PromisePoolConnection.query (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\promise.js:93:22)
+    at DepartmentService.getList (C:\Users\cdabo\study-myschool-fullstack-app\server\services\DepartmentService.js:24:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\cdabo\study-myschool-fullstack-app\server\controllers\DepartmentController.js:33:20
+22/12/23 17:49:20 146 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 51ms
+22/12/23 17:49:20 146 [debug]: --------------------------------------------------
+22/12/23 17:51:08 047 [debug]: --------------------------------------------------
+22/12/23 17:51:08 050 [debug]: |              Start Express Server              |
+22/12/23 17:51:08 051 [debug]: --------------------------------------------------
+22/12/23 17:51:08 051 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:51:08 052 [debug]: --------------------------------------------------
+22/12/23 17:51:08 210 [debug]: 클라이언트가 접속했습니다.
+22/12/23 17:51:08 211 [debug]: [GET] http://localhost:3001/department?query=공학&page=1&rows=10
+22/12/23 17:51:08 213 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/23 17:51:08 233 [info]:  >> DATABASE 접속됨 [threaId=306]
+22/12/23 17:51:08 233 [info]:  >> Connection 임대됨 [threaId=306]
+22/12/23 17:51:08 237 [debug]: SELECT COUNT(*) AS cnt FROM department   WHERE     dname LIKE concat('%', '공학', '%')    OR loc LIKE concat('%', '공학', '%')
+22/12/23 17:51:08 240 [info]:  >> Connection 반납됨 [threaId=306]
+22/12/23 17:51:08 241 [info]:  >> Connection 임대됨 [threaId=306]
+22/12/23 17:51:08 243 [debug]: SELECT deptno, dname, loc FROM department   WHERE     dname LIKE concat('%', '공학', '%')    OR loc LIKE concat('%', '공학', '%')     ORDER BY deptno DESC     LIMIT 0, 10
+22/12/23 17:51:08 244 [info]:  >> Connection 반납됨 [threaId=306]
+22/12/23 17:51:08 249 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 38ms
+22/12/23 17:51:08 250 [debug]: --------------------------------------------------
+22/12/23 17:52:28 962 [debug]: --------------------------------------------------
+22/12/23 17:52:28 964 [debug]: |              Start Express Server              |
+22/12/23 17:52:28 965 [debug]: --------------------------------------------------
+22/12/23 17:52:28 966 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:52:28 966 [debug]: --------------------------------------------------
+22/12/23 17:52:41 892 [debug]: --------------------------------------------------
+22/12/23 17:52:41 895 [debug]: |              Start Express Server              |
+22/12/23 17:52:41 895 [debug]: --------------------------------------------------
+22/12/23 17:52:41 896 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:52:41 896 [debug]: --------------------------------------------------
+22/12/23 17:52:42 279 [debug]: 클라이언트가 접속했습니다.
+22/12/23 17:52:42 280 [debug]: [GET] http://localhost:3001/department/101
+22/12/23 17:52:42 281 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/23 17:52:42 298 [info]:  >> DATABASE 접속됨 [threaId=309]
+22/12/23 17:52:42 299 [info]:  >> Connection 임대됨 [threaId=309]
+22/12/23 17:52:42 301 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='101'
+22/12/23 17:52:42 307 [info]:  >> Connection 반납됨 [threaId=309]
+22/12/23 17:52:42 308 [error]: RuntimeException: 조회된 데이터가 없습니다.
+    at DepartmentService.getItem (C:\Users\cdabo\study-myschool-fullstack-app\server\services\DepartmentService.js:52:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\cdabo\study-myschool-fullstack-app\server\controllers\DepartmentController.js:58:20
+22/12/23 17:52:42 312 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 32ms
+22/12/23 17:52:42 313 [debug]: --------------------------------------------------
+22/12/23 17:53:00 004 [debug]: --------------------------------------------------
+22/12/23 17:53:00 007 [debug]: |              Start Express Server              |
+22/12/23 17:53:00 008 [debug]: --------------------------------------------------
+22/12/23 17:53:00 008 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:53:00 009 [debug]: --------------------------------------------------
+22/12/23 17:53:00 705 [debug]: 클라이언트가 접속했습니다.
+22/12/23 17:53:00 707 [debug]: [GET] http://localhost:3001/department?query=공학&page=1&rows=10
+22/12/23 17:53:00 709 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/23 17:53:00 742 [info]:  >> DATABASE 접속됨 [threaId=311]
+22/12/23 17:53:00 743 [info]:  >> Connection 임대됨 [threaId=311]
+22/12/23 17:53:00 746 [debug]: SELECT COUNT(*) AS cnt FROM department   WHERE     dname LIKE concat('%', '공학', '%')    OR loc LIKE concat('%', '공학', '%')
+22/12/23 17:53:00 751 [info]:  >> Connection 반납됨 [threaId=311]
+22/12/23 17:53:00 753 [info]:  >> Connection 임대됨 [threaId=311]
+22/12/23 17:53:00 755 [debug]: SELECT deptno, dname, loc FROM department   WHERE     dname LIKE concat('%', '공학', '%')    OR loc LIKE concat('%', '공학', '%')     ORDER BY deptno DESC     LIMIT 0, 10
+22/12/23 17:53:00 756 [info]:  >> Connection 반납됨 [threaId=311]
+22/12/23 17:53:00 761 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 54ms
+22/12/23 17:53:00 761 [debug]: --------------------------------------------------
+22/12/23 17:53:12 791 [debug]: --------------------------------------------------
+22/12/23 17:53:12 796 [debug]: |              Start Express Server              |
+22/12/23 17:53:12 796 [debug]: --------------------------------------------------
+22/12/23 17:53:12 797 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:53:12 798 [debug]: --------------------------------------------------
+22/12/23 17:53:31 753 [debug]: --------------------------------------------------
+22/12/23 17:53:31 755 [debug]: |              Start Express Server              |
+22/12/23 17:53:31 756 [debug]: --------------------------------------------------
+22/12/23 17:53:31 757 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:53:31 757 [debug]: --------------------------------------------------
+22/12/23 17:53:32 615 [debug]: 클라이언트가 접속했습니다.
+22/12/23 17:53:32 616 [debug]: [GET] http://localhost:3001/department/202
+22/12/23 17:53:32 617 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/23 17:53:32 636 [info]:  >> DATABASE 접속됨 [threaId=314]
+22/12/23 17:53:32 638 [info]:  >> Connection 임대됨 [threaId=314]
+22/12/23 17:53:32 640 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='202'
+22/12/23 17:53:32 647 [info]:  >> Connection 반납됨 [threaId=314]
+22/12/23 17:53:32 650 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 34ms
+22/12/23 17:53:32 651 [debug]: --------------------------------------------------
+22/12/23 17:53:45 821 [debug]: --------------------------------------------------
+22/12/23 17:53:45 824 [debug]: |              Start Express Server              |
+22/12/23 17:53:45 825 [debug]: --------------------------------------------------
+22/12/23 17:53:45 826 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:53:45 826 [debug]: --------------------------------------------------
+22/12/23 17:53:48 524 [debug]: 클라이언트가 접속했습니다.
+22/12/23 17:53:48 525 [debug]: [POST] http://localhost:3001/department
+22/12/23 17:53:48 526 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/23 17:53:48 557 [info]:  >> DATABASE 접속됨 [threaId=316]
+22/12/23 17:53:48 558 [info]:  >> Connection 임대됨 [threaId=316]
+22/12/23 17:53:48 560 [debug]: INSERT INTO department (dname, loc) VALUES ('React.js', '1403호')
+22/12/23 17:53:48 575 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='312'
+22/12/23 17:53:48 577 [info]:  >> Connection 반납됨 [threaId=316]
+22/12/23 17:53:48 582 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 57ms
+22/12/23 17:53:48 582 [debug]: --------------------------------------------------
+22/12/23 17:54:00 579 [debug]: --------------------------------------------------
+22/12/23 17:54:00 582 [debug]: |              Start Express Server              |
+22/12/23 17:54:00 582 [debug]: --------------------------------------------------
+22/12/23 17:54:00 583 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:54:00 584 [debug]: --------------------------------------------------
+22/12/23 17:54:00 599 [debug]: 클라이언트가 접속했습니다.
+22/12/23 17:54:00 600 [debug]: [PUT] http://localhost:3001/department/1528
+22/12/23 17:54:00 601 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/23 17:54:00 628 [info]:  >> DATABASE 접속됨 [threaId=318]
+22/12/23 17:54:00 629 [info]:  >> Connection 임대됨 [threaId=318]
+22/12/23 17:54:00 631 [debug]: UPDATE department SET dname='React.js수정', loc='1403호'  WHERE deptno='1528'
+22/12/23 17:54:00 636 [info]:  >> Connection 반납됨 [threaId=318]
+22/12/23 17:54:00 637 [error]: RuntimeException: 저장된 데이터가 없습니다.
+    at DepartmentService.editItem (C:\Users\cdabo\study-myschool-fullstack-app\server\services\DepartmentService.js:110:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\cdabo\study-myschool-fullstack-app\server\controllers\DepartmentController.js:116:20
+22/12/23 17:54:00 644 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 44ms
+22/12/23 17:54:00 644 [debug]: --------------------------------------------------
+22/12/23 17:54:03 161 [debug]: 클라이언트가 접속했습니다.
+22/12/23 17:54:03 162 [debug]: [PUT] http://localhost:3001/department/1528
+22/12/23 17:54:03 163 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/23 17:54:03 164 [info]:  >> Connection 임대됨 [threaId=318]
+22/12/23 17:54:03 165 [debug]: UPDATE department SET dname='React.js수정', loc='1403호'  WHERE deptno='1528'
+22/12/23 17:54:03 166 [info]:  >> Connection 반납됨 [threaId=318]
+22/12/23 17:54:03 166 [error]: RuntimeException: 저장된 데이터가 없습니다.
+    at DepartmentService.editItem (C:\Users\cdabo\study-myschool-fullstack-app\server\services\DepartmentService.js:110:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\cdabo\study-myschool-fullstack-app\server\controllers\DepartmentController.js:116:20
+22/12/23 17:54:03 169 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 7ms
+22/12/23 17:54:03 169 [debug]: --------------------------------------------------
+22/12/23 17:54:22 538 [debug]: --------------------------------------------------
+22/12/23 17:54:22 541 [debug]: |              Start Express Server              |
+22/12/23 17:54:22 541 [debug]: --------------------------------------------------
+22/12/23 17:54:22 542 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:54:22 543 [debug]: --------------------------------------------------
+22/12/23 17:54:22 608 [debug]: 클라이언트가 접속했습니다.
+22/12/23 17:54:22 609 [debug]: [POST] http://localhost:3001/department
+22/12/23 17:54:22 610 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/23 17:54:22 637 [info]:  >> DATABASE 접속됨 [threaId=320]
+22/12/23 17:54:22 638 [info]:  >> Connection 임대됨 [threaId=320]
+22/12/23 17:54:22 640 [debug]: INSERT INTO department (dname, loc) VALUES ('React.js', '1403호')
+22/12/23 17:54:22 646 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='313'
+22/12/23 17:54:22 649 [info]:  >> Connection 반납됨 [threaId=320]
+22/12/23 17:54:22 654 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 45ms
+22/12/23 17:54:22 654 [debug]: --------------------------------------------------
+22/12/23 17:54:35 890 [debug]: --------------------------------------------------
+22/12/23 17:54:35 893 [debug]: |              Start Express Server              |
+22/12/23 17:54:35 894 [debug]: --------------------------------------------------
+22/12/23 17:54:35 895 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:54:35 895 [debug]: --------------------------------------------------
+22/12/23 17:54:38 509 [debug]: 클라이언트가 접속했습니다.
+22/12/23 17:54:38 510 [debug]: [PUT] http://localhost:3001/department/313
+22/12/23 17:54:38 511 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/23 17:54:38 537 [info]:  >> DATABASE 접속됨 [threaId=322]
+22/12/23 17:54:38 539 [info]:  >> Connection 임대됨 [threaId=322]
+22/12/23 17:54:38 542 [debug]: UPDATE department SET dname='React.js수정', loc='1403호'  WHERE deptno='313'
+22/12/23 17:54:38 547 [debug]: SELECT deptno, dname, loc FROM department WHERE deptno='313'
+22/12/23 17:54:38 550 [info]:  >> Connection 반납됨 [threaId=322]
+22/12/23 17:54:38 554 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 44ms
+22/12/23 17:54:38 556 [debug]: --------------------------------------------------
+22/12/23 17:54:49 477 [debug]: --------------------------------------------------
+22/12/23 17:54:49 480 [debug]: |              Start Express Server              |
+22/12/23 17:54:49 481 [debug]: --------------------------------------------------
+22/12/23 17:54:49 481 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:54:49 482 [debug]: --------------------------------------------------
+22/12/23 17:54:49 613 [debug]: 클라이언트가 접속했습니다.
+22/12/23 17:54:49 615 [debug]: [DELETE] http://localhost:3001/department/313
+22/12/23 17:54:49 615 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/23 17:54:49 635 [info]:  >> DATABASE 접속됨 [threaId=324]
+22/12/23 17:54:49 636 [info]:  >> Connection 임대됨 [threaId=324]
+22/12/23 17:54:49 638 [info]:  >> Connection 반납됨 [threaId=324]
+22/12/23 17:54:49 638 [error]: Error: Namespace [StudentMapper] not exists.
+    at MybatisMapper.getStatement (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mybatis-mapper\index.js:86:52)
+    at DepartmentService.deleteItem (C:\Users\cdabo\study-myschool-fullstack-app\server\services\DepartmentService.js:138:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\cdabo\study-myschool-fullstack-app\server\controllers\DepartmentController.js:142:13
+22/12/23 17:54:49 643 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 29ms
+22/12/23 17:54:49 644 [debug]: --------------------------------------------------
+22/12/23 17:54:51 611 [debug]: 클라이언트가 접속했습니다.
+22/12/23 17:54:51 612 [debug]: [DELETE] http://localhost:3001/department/313
+22/12/23 17:54:51 613 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/23 17:54:51 614 [info]:  >> Connection 임대됨 [threaId=324]
+22/12/23 17:54:51 614 [info]:  >> Connection 반납됨 [threaId=324]
+22/12/23 17:54:51 615 [error]: Error: Namespace [StudentMapper] not exists.
+    at MybatisMapper.getStatement (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mybatis-mapper\index.js:86:52)
+    at DepartmentService.deleteItem (C:\Users\cdabo\study-myschool-fullstack-app\server\services\DepartmentService.js:138:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\cdabo\study-myschool-fullstack-app\server\controllers\DepartmentController.js:142:13
+22/12/23 17:54:51 617 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+22/12/23 17:54:51 617 [debug]: --------------------------------------------------
+22/12/23 17:54:52 401 [debug]: 클라이언트가 접속했습니다.
+22/12/23 17:54:52 402 [debug]: [DELETE] http://localhost:3001/department/313
+22/12/23 17:54:52 402 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/23 17:54:52 404 [info]:  >> Connection 임대됨 [threaId=324]
+22/12/23 17:54:52 404 [info]:  >> Connection 반납됨 [threaId=324]
+22/12/23 17:54:52 405 [error]: Error: Namespace [StudentMapper] not exists.
+    at MybatisMapper.getStatement (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mybatis-mapper\index.js:86:52)
+    at DepartmentService.deleteItem (C:\Users\cdabo\study-myschool-fullstack-app\server\services\DepartmentService.js:138:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\cdabo\study-myschool-fullstack-app\server\controllers\DepartmentController.js:142:13
+22/12/23 17:54:52 407 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+22/12/23 17:54:52 407 [debug]: --------------------------------------------------
+22/12/23 17:54:53 256 [debug]: 클라이언트가 접속했습니다.
+22/12/23 17:54:53 257 [debug]: [DELETE] http://localhost:3001/department/313
+22/12/23 17:54:53 258 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/23 17:54:53 261 [info]:  >> Connection 임대됨 [threaId=324]
+22/12/23 17:54:53 262 [info]:  >> Connection 반납됨 [threaId=324]
+22/12/23 17:54:53 263 [error]: Error: Namespace [StudentMapper] not exists.
+    at MybatisMapper.getStatement (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mybatis-mapper\index.js:86:52)
+    at DepartmentService.deleteItem (C:\Users\cdabo\study-myschool-fullstack-app\server\services\DepartmentService.js:138:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\cdabo\study-myschool-fullstack-app\server\controllers\DepartmentController.js:142:13
+22/12/23 17:54:53 264 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 7ms
+22/12/23 17:54:53 265 [debug]: --------------------------------------------------
+22/12/23 17:55:08 476 [debug]: --------------------------------------------------
+22/12/23 17:55:08 479 [debug]: |              Start Express Server              |
+22/12/23 17:55:08 480 [debug]: --------------------------------------------------
+22/12/23 17:55:08 480 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:55:08 482 [debug]: --------------------------------------------------
+22/12/23 17:55:09 607 [debug]: 클라이언트가 접속했습니다.
+22/12/23 17:55:09 609 [debug]: [GET] http://localhost:3001/department?query=&page=1&rows=10
+22/12/23 17:55:09 609 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/23 17:55:09 632 [info]:  >> DATABASE 접속됨 [threaId=326]
+22/12/23 17:55:09 633 [info]:  >> Connection 임대됨 [threaId=326]
+22/12/23 17:55:09 637 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/23 17:55:09 643 [info]:  >> Connection 반납됨 [threaId=326]
+22/12/23 17:55:09 643 [info]:  >> Connection 임대됨 [threaId=326]
+22/12/23 17:55:09 645 [debug]: SELECT deptno, dname, loc FROM department        ORDER BY deptno DESC     LIMIT 0, 10
+22/12/23 17:55:09 648 [info]:  >> Connection 반납됨 [threaId=326]
+22/12/23 17:55:09 653 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 45ms
+22/12/23 17:55:09 653 [debug]: --------------------------------------------------
+22/12/23 17:57:50 427 [debug]: --------------------------------------------------
+22/12/23 17:57:50 430 [debug]: |              Start Express Server              |
+22/12/23 17:57:50 431 [debug]: --------------------------------------------------
+22/12/23 17:57:50 432 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:57:50 432 [debug]: --------------------------------------------------
+22/12/23 17:58:02 547 [debug]: --------------------------------------------------
+22/12/23 17:58:02 550 [debug]: |              Start Express Server              |
+22/12/23 17:58:02 550 [debug]: --------------------------------------------------
+22/12/23 17:58:02 551 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:58:02 552 [debug]: --------------------------------------------------
+22/12/23 17:58:04 311 [debug]: 클라이언트가 접속했습니다.
+22/12/23 17:58:04 313 [debug]: [GET] http://localhost:3001/department?query=공학&page=-1&rows=10
+22/12/23 17:58:04 313 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/23 17:58:04 333 [info]:  >> DATABASE 접속됨 [threaId=329]
+22/12/23 17:58:04 334 [info]:  >> Connection 임대됨 [threaId=329]
+22/12/23 17:58:04 339 [debug]: SELECT COUNT(*) AS cnt FROM department   WHERE     dname LIKE concat('%', '공학', '%')    OR loc LIKE concat('%', '공학', '%')
+22/12/23 17:58:04 342 [info]:  >> Connection 반납됨 [threaId=329]
+22/12/23 17:58:04 343 [info]:  >> Connection 임대됨 [threaId=329]
+22/12/23 17:58:04 344 [debug]: SELECT deptno, dname, loc FROM department   WHERE     dname LIKE concat('%', '공학', '%')    OR loc LIKE concat('%', '공학', '%')     ORDER BY deptno DESC     LIMIT 0, 10
+22/12/23 17:58:04 346 [info]:  >> Connection 반납됨 [threaId=329]
+22/12/23 17:58:04 349 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 37ms
+22/12/23 17:58:04 350 [debug]: --------------------------------------------------
+22/12/23 17:59:09 014 [debug]: --------------------------------------------------
+22/12/23 17:59:09 018 [debug]: |              Start Express Server              |
+22/12/23 17:59:09 019 [debug]: --------------------------------------------------
+22/12/23 17:59:09 019 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:59:09 020 [debug]: --------------------------------------------------
+22/12/23 17:59:09 206 [debug]: 클라이언트가 접속했습니다.
+22/12/23 17:59:09 208 [debug]: [GET] http://localhost:3001/department?query=공학&page=-1&rows=10
+22/12/23 17:59:09 208 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/23 17:59:09 227 [info]:  >> DATABASE 접속됨 [threaId=331]
+22/12/23 17:59:09 228 [info]:  >> Connection 임대됨 [threaId=331]
+22/12/23 17:59:09 231 [debug]: SELECT COUNT(*) AS cnt FROM department   WHERE     dname LIKE concat('%', '공학', '%')    OR loc LIKE concat('%', '공학', '%')
+22/12/23 17:59:09 235 [info]:  >> Connection 반납됨 [threaId=331]
+22/12/23 17:59:09 236 [info]:  >> Connection 임대됨 [threaId=331]
+22/12/23 17:59:09 238 [debug]: SELECT deptno, dname, loc FROM department   WHERE     dname LIKE concat('%', '공학', '%')    OR loc LIKE concat('%', '공학', '%')     ORDER BY deptno DESC     LIMIT 0, 10
+22/12/23 17:59:09 239 [info]:  >> Connection 반납됨 [threaId=331]
+22/12/23 17:59:09 243 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 36ms
+22/12/23 17:59:09 243 [debug]: --------------------------------------------------
+22/12/23 17:59:12 278 [debug]: --------------------------------------------------
+22/12/23 17:59:12 280 [debug]: |              Start Express Server              |
+22/12/23 17:59:12 281 [debug]: --------------------------------------------------
+22/12/23 17:59:12 282 [debug]: server address => http://10.14.10.109:3001
+22/12/23 17:59:12 282 [debug]: --------------------------------------------------
+22/12/23 18:01:47 713 [debug]: --------------------------------------------------
+22/12/23 18:01:47 716 [debug]: |              Start Express Server              |
+22/12/23 18:01:47 717 [debug]: --------------------------------------------------
+22/12/23 18:01:47 717 [debug]: server address => http://10.14.10.109:3001
+22/12/23 18:01:47 718 [debug]: --------------------------------------------------
+22/12/23 18:01:48 764 [debug]: --------------------------------------------------
+22/12/23 18:01:48 767 [debug]: |              Start Express Server              |
+22/12/23 18:01:48 767 [debug]: --------------------------------------------------
+22/12/23 18:01:48 768 [debug]: server address => http://10.14.10.109:3001
+22/12/23 18:01:48 769 [debug]: --------------------------------------------------
+22/12/23 18:02:05 674 [debug]: --------------------------------------------------
+22/12/23 18:02:05 676 [debug]: |              Start Express Server              |
+22/12/23 18:02:05 677 [debug]: --------------------------------------------------
+22/12/23 18:02:05 678 [debug]: server address => http://10.14.10.109:3001
+22/12/23 18:02:05 678 [debug]: --------------------------------------------------
+22/12/23 18:02:12 774 [debug]: --------------------------------------------------
+22/12/23 18:02:12 776 [debug]: |              Start Express Server              |
+22/12/23 18:02:12 777 [debug]: --------------------------------------------------
+22/12/23 18:02:12 778 [debug]: server address => http://10.14.10.109:3001
+22/12/23 18:02:12 778 [debug]: --------------------------------------------------
+22/12/23 18:02:24 384 [debug]: --------------------------------------------------
+22/12/23 18:02:24 386 [debug]: |              Start Express Server              |
+22/12/23 18:02:24 387 [debug]: --------------------------------------------------
+22/12/23 18:02:24 389 [debug]: server address => http://10.14.10.109:3001
+22/12/23 18:02:24 389 [debug]: --------------------------------------------------
+22/12/23 18:02:26 757 [debug]: --------------------------------------------------
+22/12/23 18:02:26 760 [debug]: |              Start Express Server              |
+22/12/23 18:02:26 760 [debug]: --------------------------------------------------
+22/12/23 18:02:26 761 [debug]: server address => http://10.14.10.109:3001
+22/12/23 18:02:26 762 [debug]: --------------------------------------------------
+22/12/23 18:03:15 456 [debug]: --------------------------------------------------
+22/12/23 18:03:15 459 [debug]: |              Start Express Server              |
+22/12/23 18:03:15 460 [debug]: --------------------------------------------------
+22/12/23 18:03:15 461 [debug]: server address => http://10.14.10.109:3001
+22/12/23 18:03:15 461 [debug]: --------------------------------------------------
+22/12/23 18:03:20 094 [debug]: --------------------------------------------------
+22/12/23 18:03:20 097 [debug]: |              Start Express Server              |
+22/12/23 18:03:20 098 [debug]: --------------------------------------------------
+22/12/23 18:03:20 099 [debug]: server address => http://10.14.10.109:3001
+22/12/23 18:03:20 100 [debug]: --------------------------------------------------
+22/12/23 18:05:09 105 [debug]: --------------------------------------------------
+22/12/23 18:05:09 108 [debug]: |              Start Express Server              |
+22/12/23 18:05:09 109 [debug]: --------------------------------------------------
+22/12/23 18:05:09 109 [debug]: server address => http://10.14.10.109:3001
+22/12/23 18:05:09 110 [debug]: --------------------------------------------------
+22/12/23 18:05:37 299 [debug]: --------------------------------------------------
+22/12/23 18:05:37 302 [debug]: |              Start Express Server              |
+22/12/23 18:05:37 302 [debug]: --------------------------------------------------
+22/12/23 18:05:37 303 [debug]: server address => http://10.14.10.109:3001
+22/12/23 18:05:37 303 [debug]: --------------------------------------------------
+22/12/23 18:06:04 034 [debug]: --------------------------------------------------
+22/12/23 18:06:04 039 [debug]: |              Start Express Server              |
+22/12/23 18:06:04 039 [debug]: --------------------------------------------------
+22/12/23 18:06:04 040 [debug]: server address => http://10.14.10.109:3001
+22/12/23 18:06:04 041 [debug]: --------------------------------------------------
+22/12/23 18:06:04 825 [debug]: --------------------------------------------------
+22/12/23 18:06:04 827 [debug]: |              Start Express Server              |
+22/12/23 18:06:04 828 [debug]: --------------------------------------------------
+22/12/23 18:06:04 828 [debug]: server address => http://10.14.10.109:3001
+22/12/23 18:06:04 829 [debug]: --------------------------------------------------
+22/12/23 18:07:50 988 [debug]: --------------------------------------------------
+22/12/23 18:07:50 991 [debug]: |              Start Express Server              |
+22/12/23 18:07:50 992 [debug]: --------------------------------------------------
+22/12/23 18:07:50 992 [debug]: server address => http://10.14.10.109:3001
+22/12/23 18:07:50 993 [debug]: --------------------------------------------------
+22/12/23 18:08:25 712 [debug]: --------------------------------------------------
+22/12/23 18:08:25 715 [debug]: |              Start Express Server              |
+22/12/23 18:08:25 716 [debug]: --------------------------------------------------
+22/12/23 18:08:25 716 [debug]: server address => http://10.14.10.109:3001
+22/12/23 18:08:25 717 [debug]: --------------------------------------------------
+22/12/23 18:08:27 027 [debug]: --------------------------------------------------
+22/12/23 18:08:27 030 [debug]: |              Start Express Server              |
+22/12/23 18:08:27 031 [debug]: --------------------------------------------------
+22/12/23 18:08:27 031 [debug]: server address => http://10.14.10.109:3001
+22/12/23 18:08:27 032 [debug]: --------------------------------------------------
+22/12/23 18:08:31 009 [debug]: --------------------------------------------------
+22/12/23 18:08:31 012 [debug]: |              Start Express Server              |
+22/12/23 18:08:31 013 [debug]: --------------------------------------------------
+22/12/23 18:08:31 014 [debug]: server address => http://10.14.10.109:3001
+22/12/23 18:08:31 014 [debug]: --------------------------------------------------
+22/12/23 18:09:33 441 [debug]: --------------------------------------------------
+22/12/23 18:09:33 443 [debug]: |              Start Express Server              |
+22/12/23 18:09:33 444 [debug]: --------------------------------------------------
+22/12/23 18:09:33 445 [debug]: server address => http://10.14.10.109:3001
+22/12/23 18:09:33 445 [debug]: --------------------------------------------------
+22/12/23 18:14:37 681 [debug]: --------------------------------------------------
+22/12/23 18:14:37 684 [debug]: |              Start Express Server              |
+22/12/23 18:14:37 684 [debug]: --------------------------------------------------
+22/12/23 18:14:37 685 [debug]: server address => http://10.14.10.109:3001
+22/12/23 18:14:37 686 [debug]: --------------------------------------------------

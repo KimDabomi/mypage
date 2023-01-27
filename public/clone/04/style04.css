@@ -1,0 +1,345 @@
+a {
+  text-decoration: none;
+}
+
+body, h1, h2 {
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  background-color: rgb(241, 222, 226);
+}
+
+#header {
+  background: url("./img/header.jpg") no-repeat center/cover;
+  filter: grayscale(0.5);
+  width: 100%;
+  height: 580px;
+  position: relative;
+  text-align: center;
+}
+#header .text {
+  position: absolute;
+  top: 180px;
+  left: 35%;
+  color: white;
+  letter-spacing: 0.2em;
+}
+#header .text h1 {
+  font-size: 62px;
+}
+
+#nav {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  padding: 15px 10%;
+  box-sizing: border-box;
+  z-index: 9990;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+#jj {
+  text-align: center;
+  margin-top: 80px;
+}
+#jj h1 {
+  color: rgb(120, 120, 120);
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+#jj img {
+  filter: grayscale(0.7);
+  margin-bottom: 50px;
+  width: 76%;
+  border-radius: 5px;
+}
+#jj p {
+  margin: 0 12%;
+  text-align: justify;
+  line-height: 1.8em;
+  font-style: italic;
+}
+#jj p:last-child {
+  margin: 30px auto 70px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  width: 180px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 16px;
+  font-style: normal;
+}
+#jj p:last-child:hover {
+  background-color: #aaa;
+  color: black;
+}
+
+#invite {
+  background: url("./img/flo.jpg") no-repeat center/cover;
+  width: 100%;
+  height: 580px;
+  position: relative;
+}
+#invite .inv_text {
+  position: absolute;
+  top: 200px;
+  left: 33%;
+  color: white;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+#invite .inv_text h1 {
+  font-size: 60px;
+  margin-bottom: 40px;
+}
+
+#wed {
+  text-align: center;
+}
+#wed h1 {
+  color: rgb(120, 120, 120);
+  margin: 80px auto;
+  text-align: center;
+  font-weight: bold;
+}
+#wed img {
+  filter: grayscale(0.7);
+  margin: 0 80px 60px;
+  width: 76%;
+  border-radius: 5px;
+  text-align: center;
+}
+#wed .info {
+  float: left;
+  margin-left: 23%;
+  margin-bottom: 60px;
+}
+#wed .info p {
+  margin-bottom: 20px;
+}
+
+#rsvp {
+  clear: both;
+  background-color: rgb(242, 208, 216);
+  text-align: center;
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+#rsvp .rsvp_ct {
+  position: absolute;
+  top: 20px;
+  left: 30%;
+  height: 20%;
+  letter-spacing: 0.2em;
+}
+#rsvp .rsvp_ct h1 {
+  color: black;
+  font-weight: normal;
+}
+#rsvp .rsvp_ct p {
+  position: absolute;
+  top: 160px;
+  left: 13%;
+}
+#rsvp .rsvp_ct input {
+  width: 180px;
+  height: 60px;
+  border: 0;
+  border-radius: 5px;
+  background-color: rgb(255, 128, 128);
+  color: white;
+  font-size: 22px;
+}
+#rsvp .rsvp_ct input:hover {
+  background-color: #aaa;
+  color: black;
+}
+
+#footer {
+  background-color: black;
+  padding: 35px 0;
+  box-sizing: border-box;
+  color: white;
+  margin-bottom: 20px;
+}
+#footer a {
+  text-decoration: underline;
+}
+
+#form {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding-top: 120px;
+  box-sizing: border-box;
+  display: none;
+}
+
+#rsvp_fm {
+  margin: auto;
+  z-index: 9999;
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+  padding: 30px 0 20px;
+  box-sizing: border-box;
+  width: 500px;
+  height: 320px;
+  position: relative;
+}
+#rsvp_fm h1 {
+  margin-bottom: 20px;
+  letter-spacing: 0.1em;
+}
+#rsvp_fm input {
+  margin: 20px 0;
+  width: 90%;
+}
+#rsvp_fm p:last-of-type {
+  font-style: italic;
+}
+#rsvp_fm #yes {
+  margin-left: 5%;
+  background-color: green;
+}
+#rsvp_fm #yes:hover {
+  background-color: #aaa;
+  color: black;
+}
+#rsvp_fm #no {
+  background-color: red;
+}
+#rsvp_fm #no:hover {
+  background-color: #aaa;
+  color: black;
+}
+#rsvp_fm button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 45%;
+  border: 0;
+  height: 40px;
+  float: left;
+  color: white;
+}/*# sourceMappingURL=style04.css.map */
+
+@media screen and (max-width:600px) {
+  #nav {display: none;}
+  #header .text {
+    width: 50%;
+    top: 0;
+    left: 0;
+    top: 15%;
+    left: 25%;
+  }
+  #jj {
+    width: 93%;
+    margin-left: 3%;
+  }
+  #jj img {
+    width: 100%;
+  }
+  #jj p {
+    margin: 0;
+  }
+  #invite .inv_text {
+    width: 50%;
+    top: 0;
+    left: 0;
+    top: 25%;
+    left: 25%;
+  }
+  #wed {
+    width: 100%;
+  }
+  #wed img {
+    width: 93%;
+    margin: 0;
+    margin-bottom: 50px;
+  }
+  #wed .info {
+    margin: 0 30%;
+  }
+  #rsvp {
+    margin-top: 60px;
+  }
+  #rsvp .rsvp_ct {
+    left: 0;
+    top: 0;
+  }
+  #rsvp .rsvp_ct p {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  #footer {
+    margin-bottom: 0;
+  }
+  #rsvp_fm {
+    width: 95%;
+    height: 360px;
+  }
+  #rsvp_fm button {
+    margin: 0;
+    width: 80%;
+    margin-left: 10%;
+  }
+  #rsvp_fm #yes {
+    margin-top: 20px;
+    margin-left: 10%;
+  }
+}
+
+@media screen and (min-width:601px) and (max-width:1023px) {
+  #header .text {
+    width: 50%;
+    top: 0;
+    left: 0;
+    top: 15%;
+    left: 25%;
+  }
+  #jj {
+    width: 100%;
+  }
+  #jj img {
+    width: 95%;
+  }
+  #jj p {
+    width: 95%;
+    margin-left: 0;
+    margin-left: 2.5%;
+  }
+  #invite .inv_text {
+    width: 50%;
+    top: 0;
+    left: 0;
+    top: 25%;
+    left: 25%;
+  }
+  #wed {
+    width: 100%;
+  }
+  #wed img {
+    width: 95%;
+    margin-left: 0;
+    margin-left: 2.5%;
+  }
+  #wed .info {
+    margin: 0;
+    width: 50%;
+    margin-bottom: 60px;
+  }
+  #rsvp .rsvp_ct {
+    left: 10%;
+    top: 0;
+  }
+}

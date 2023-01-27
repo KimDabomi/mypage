@@ -1,0 +1,454 @@
+22/12/21 22:19:45 302 [debug]: --------------------------------------------------
+22/12/21 22:19:45 306 [debug]: |              Start Express Server              |
+22/12/21 22:19:45 307 [debug]: --------------------------------------------------
+22/12/21 22:19:45 307 [debug]: server address => http://192.168.0.20:3001
+22/12/21 22:19:45 308 [debug]: --------------------------------------------------
+22/12/21 22:20:02 261 [debug]: 클라이언트가 접속했습니다.
+22/12/21 22:20:02 263 [debug]: [POST] http://localhost:3001/session
+22/12/21 22:20:02 263 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.7.0) / unknown
+22/12/21 22:20:02 268 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\study-myschool-fullstack-app\server\app.js:149:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:328:13)
+22/12/21 22:20:02 274 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 12ms
+22/12/21 22:20:02 276 [debug]: --------------------------------------------------
+22/12/21 22:20:09 086 [debug]: 클라이언트가 접속했습니다.
+22/12/21 22:20:09 087 [debug]: [GET] http://localhost:3001/session
+22/12/21 22:20:09 087 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.7.0) / unknown
+22/12/21 22:20:09 090 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\study-myschool-fullstack-app\server\app.js:149:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:328:13)
+22/12/21 22:20:09 092 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+22/12/21 22:20:09 093 [debug]: --------------------------------------------------
+22/12/21 22:20:09 932 [debug]: 클라이언트가 접속했습니다.
+22/12/21 22:20:09 933 [debug]: [GET] http://localhost:3001/session
+22/12/21 22:20:09 933 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.7.0) / unknown
+22/12/21 22:20:09 935 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\study-myschool-fullstack-app\server\app.js:149:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:328:13)
+22/12/21 22:20:09 937 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/12/21 22:20:09 937 [debug]: --------------------------------------------------
+22/12/21 22:20:14 520 [debug]: 클라이언트가 접속했습니다.
+22/12/21 22:20:14 520 [debug]: [GET] http://localhost:3001/session
+22/12/21 22:20:14 521 [debug]: [client] 127.0.0.1 / unknown / insomnia (2022.7.0) / unknown
+22/12/21 22:20:14 522 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\study-myschool-fullstack-app\server\app.js:149:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:328:13)
+22/12/21 22:20:14 525 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+22/12/21 22:20:14 525 [debug]: --------------------------------------------------
+22/12/21 22:20:15 957 [debug]: 클라이언트가 접속했습니다.
+22/12/21 22:20:15 957 [debug]: [GET] http://localhost:3001/session
+22/12/21 22:20:15 958 [debug]: [client] 127.0.0.1 / unknown / insomnia (2022.7.0) / unknown
+22/12/21 22:20:15 959 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\study-myschool-fullstack-app\server\app.js:149:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:328:13)
+22/12/21 22:20:15 960 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/12/21 22:20:15 961 [debug]: --------------------------------------------------
+22/12/21 22:20:17 817 [debug]: 클라이언트가 접속했습니다.
+22/12/21 22:20:17 817 [debug]: [POST] http://localhost:3001/session
+22/12/21 22:20:17 818 [debug]: [client] 127.0.0.1 / unknown / insomnia (2022.7.0) / unknown
+22/12/21 22:20:17 819 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\study-myschool-fullstack-app\server\app.js:149:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:328:13)
+22/12/21 22:20:17 822 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+22/12/21 22:20:17 823 [debug]: --------------------------------------------------
+22/12/21 22:22:08 570 [debug]: 백엔드가 종료되었습니다.
+22/12/21 22:22:41 301 [debug]: --------------------------------------------------
+22/12/21 22:22:41 303 [debug]: |              Start Express Server              |
+22/12/21 22:22:41 304 [debug]: --------------------------------------------------
+22/12/21 22:22:41 305 [debug]: server address => http://192.168.0.20:3001
+22/12/21 22:22:41 305 [debug]: --------------------------------------------------
+22/12/21 22:22:44 824 [debug]: 클라이언트가 접속했습니다.
+22/12/21 22:22:44 827 [debug]: [GET] http://192.168.0.20:3001/
+22/12/21 22:22:44 828 [debug]: [client] ::ffff:192.168.0.20 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/21 22:22:44 841 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 15ms
+22/12/21 22:22:44 842 [debug]: --------------------------------------------------
+22/12/21 22:22:44 908 [debug]: 클라이언트가 접속했습니다.
+22/12/21 22:22:54 918 [debug]: 클라이언트가 접속했습니다.
+22/12/21 22:22:54 919 [debug]: [GET] http://192.168.0.20:3001/department
+22/12/21 22:22:54 919 [debug]: [client] ::ffff:192.168.0.20 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/21 22:22:54 953 [error]: Access denied for user 'myschool'@'localhost' (using password: YES)
+22/12/21 22:22:54 954 [error]: Error: Access denied for user 'myschool'@'localhost' (using password: YES)
+    at Packet.asError (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at ClientHandshake.execute (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\connection.js:456:32)
+    at PacketParser.onPacket (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\connection.js:85:12)
+    at PacketParser.executeStart (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\connection.js:92:25)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+22/12/21 22:22:54 960 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 41ms
+22/12/21 22:22:54 961 [debug]: --------------------------------------------------
+22/12/21 22:22:54 987 [debug]: 클라이언트가 접속했습니다.
+22/12/21 22:22:54 988 [debug]: [GET] http://192.168.0.20:3001/favicon.ico
+22/12/21 22:22:54 989 [debug]: [client] ::ffff:192.168.0.20 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/21 22:22:54 992 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/12/21 22:22:54 994 [debug]: --------------------------------------------------
+22/12/21 22:23:11 390 [debug]: 클라이언트가 접속했습니다.
+22/12/21 22:23:11 391 [debug]: [GET] http://192.168.0.20:3001/session
+22/12/21 22:23:11 391 [debug]: [client] ::ffff:192.168.0.20 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/21 22:23:11 393 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\study-myschool-fullstack-app\server\app.js:149:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:328:13)
+22/12/21 22:23:11 396 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 6ms
+22/12/21 22:23:11 397 [debug]: --------------------------------------------------
+22/12/21 22:23:26 628 [debug]: 백엔드가 종료되었습니다.
+22/12/21 22:23:44 300 [debug]: --------------------------------------------------
+22/12/21 22:23:44 303 [debug]: |              Start Express Server              |
+22/12/21 22:23:44 304 [debug]: --------------------------------------------------
+22/12/21 22:23:44 305 [debug]: server address => http://192.168.0.20:3001
+22/12/21 22:23:44 305 [debug]: --------------------------------------------------
+22/12/21 22:23:46 737 [debug]: 클라이언트가 접속했습니다.
+22/12/21 22:23:46 740 [debug]: [GET] http://192.168.0.20:3001/
+22/12/21 22:23:46 740 [debug]: [client] ::ffff:192.168.0.20 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/21 22:23:46 747 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 8ms
+22/12/21 22:23:46 748 [debug]: --------------------------------------------------
+22/12/21 22:23:46 789 [debug]: 클라이언트가 접속했습니다.
+22/12/21 22:23:52 955 [debug]: 클라이언트가 접속했습니다.
+22/12/21 22:23:52 956 [debug]: [GET] http://192.168.0.20:3001/department
+22/12/21 22:23:52 957 [debug]: [client] ::ffff:192.168.0.20 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/21 22:23:52 987 [error]: Access denied for user 'myschool'@'localhost' (using password: YES)
+22/12/21 22:23:52 988 [error]: Error: Access denied for user 'myschool'@'localhost' (using password: YES)
+    at Packet.asError (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at ClientHandshake.execute (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\connection.js:456:32)
+    at PacketParser.onPacket (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\connection.js:85:12)
+    at PacketParser.executeStart (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\connection.js:92:25)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+22/12/21 22:23:52 998 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 42ms
+22/12/21 22:23:52 999 [debug]: --------------------------------------------------
+22/12/21 22:25:22 646 [debug]: 백엔드가 종료되었습니다.
+22/12/21 22:26:41 974 [debug]: --------------------------------------------------
+22/12/21 22:26:41 977 [debug]: |              Start Express Server              |
+22/12/21 22:26:41 978 [debug]: --------------------------------------------------
+22/12/21 22:26:41 978 [debug]: server address => http://192.168.0.20:3001
+22/12/21 22:26:41 979 [debug]: --------------------------------------------------
+22/12/21 22:26:42 045 [debug]: 클라이언트가 접속했습니다.
+22/12/21 22:26:42 047 [debug]: [GET] http://192.168.0.20:3001/department
+22/12/21 22:26:42 047 [debug]: [client] ::ffff:192.168.0.20 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/21 22:26:42 071 [error]: Access denied for user 'myschool'@'localhost' (using password: YES)
+22/12/21 22:26:42 072 [error]: Error: Access denied for user 'myschool'@'localhost' (using password: YES)
+    at Packet.asError (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at ClientHandshake.execute (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\connection.js:456:32)
+    at PacketParser.onPacket (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\connection.js:85:12)
+    at PacketParser.executeStart (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\connection.js:92:25)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+22/12/21 22:26:42 078 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 32ms
+22/12/21 22:26:42 079 [debug]: --------------------------------------------------
+22/12/21 22:26:42 121 [debug]: 클라이언트가 접속했습니다.
+22/12/21 22:26:42 123 [debug]: [GET] http://192.168.0.20:3001/favicon.ico
+22/12/21 22:26:42 124 [debug]: [client] ::ffff:192.168.0.20 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/21 22:26:42 126 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/12/21 22:26:42 127 [debug]: --------------------------------------------------
+22/12/21 22:26:46 225 [debug]: 클라이언트가 접속했습니다.
+22/12/21 22:26:46 226 [debug]: [GET] http://192.168.0.20:3001/favicon.ico
+22/12/21 22:26:46 227 [debug]: [client] ::ffff:192.168.0.20 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/21 22:26:46 229 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/12/21 22:26:46 229 [debug]: --------------------------------------------------
+22/12/21 22:27:02 583 [debug]: 클라이언트가 접속했습니다.
+22/12/21 22:27:02 584 [debug]: [GET] http://192.168.0.20:3001/department
+22/12/21 22:27:02 585 [debug]: [client] ::ffff:192.168.0.20 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/21 22:27:02 594 [error]: Access denied for user 'myschool'@'localhost' (using password: YES)
+22/12/21 22:27:02 595 [error]: Error: Access denied for user 'myschool'@'localhost' (using password: YES)
+    at Packet.asError (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at ClientHandshake.execute (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\connection.js:456:32)
+    at PacketParser.onPacket (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\connection.js:85:12)
+    at PacketParser.executeStart (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\connection.js:92:25)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+22/12/21 22:27:02 598 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 14ms
+22/12/21 22:27:02 598 [debug]: --------------------------------------------------
+22/12/21 22:27:37 051 [debug]: 클라이언트가 접속했습니다.
+22/12/21 22:27:37 052 [debug]: [GET] http://192.168.0.20:3001/department
+22/12/21 22:27:37 053 [debug]: [client] ::ffff:192.168.0.20 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/21 22:27:37 056 [error]: Access denied for user 'myschool'@'localhost' (using password: YES)
+22/12/21 22:27:37 057 [error]: Error: Access denied for user 'myschool'@'localhost' (using password: YES)
+    at Packet.asError (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at ClientHandshake.execute (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\connection.js:456:32)
+    at PacketParser.onPacket (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\connection.js:85:12)
+    at PacketParser.executeStart (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\connection.js:92:25)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+22/12/21 22:27:37 061 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 9ms
+22/12/21 22:27:37 062 [debug]: --------------------------------------------------
+22/12/21 22:27:37 095 [debug]: 클라이언트가 접속했습니다.
+22/12/21 22:27:37 096 [debug]: [GET] http://192.168.0.20:3001/favicon.ico
+22/12/21 22:27:37 096 [debug]: [client] ::ffff:192.168.0.20 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/21 22:27:37 098 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/12/21 22:27:37 099 [debug]: --------------------------------------------------
+22/12/21 22:27:37 866 [debug]: 클라이언트가 접속했습니다.
+22/12/21 22:27:37 867 [debug]: [GET] http://192.168.0.20:3001/department
+22/12/21 22:27:37 867 [debug]: [client] ::ffff:192.168.0.20 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/21 22:27:37 870 [error]: Access denied for user 'myschool'@'localhost' (using password: YES)
+22/12/21 22:27:37 870 [error]: Error: Access denied for user 'myschool'@'localhost' (using password: YES)
+    at Packet.asError (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at ClientHandshake.execute (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\connection.js:456:32)
+    at PacketParser.onPacket (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\connection.js:85:12)
+    at PacketParser.executeStart (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\connection.js:92:25)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+22/12/21 22:27:37 873 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 7ms
+22/12/21 22:27:37 873 [debug]: --------------------------------------------------
+22/12/21 22:27:37 890 [debug]: 클라이언트가 접속했습니다.
+22/12/21 22:27:37 892 [debug]: [GET] http://192.168.0.20:3001/favicon.ico
+22/12/21 22:27:37 893 [debug]: [client] ::ffff:192.168.0.20 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/21 22:27:37 895 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/12/21 22:27:37 895 [debug]: --------------------------------------------------
+22/12/21 22:27:38 379 [debug]: 클라이언트가 접속했습니다.
+22/12/21 22:27:38 380 [debug]: [GET] http://192.168.0.20:3001/department
+22/12/21 22:27:38 380 [debug]: [client] ::ffff:192.168.0.20 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/21 22:27:38 386 [error]: Access denied for user 'myschool'@'localhost' (using password: YES)
+22/12/21 22:27:38 387 [error]: Error: Access denied for user 'myschool'@'localhost' (using password: YES)
+    at Packet.asError (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at ClientHandshake.execute (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\connection.js:456:32)
+    at PacketParser.onPacket (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\connection.js:85:12)
+    at PacketParser.executeStart (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\connection.js:92:25)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+22/12/21 22:27:38 392 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 12ms
+22/12/21 22:27:38 394 [debug]: --------------------------------------------------
+22/12/21 22:27:38 404 [debug]: 클라이언트가 접속했습니다.
+22/12/21 22:27:38 405 [debug]: [GET] http://192.168.0.20:3001/favicon.ico
+22/12/21 22:27:38 405 [debug]: [client] ::ffff:192.168.0.20 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/21 22:27:38 408 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/12/21 22:27:38 409 [debug]: --------------------------------------------------
+22/12/21 22:27:50 093 [debug]: 백엔드가 종료되었습니다.
+22/12/21 22:27:56 247 [debug]: --------------------------------------------------
+22/12/21 22:27:56 250 [debug]: |              Start Express Server              |
+22/12/21 22:27:56 251 [debug]: --------------------------------------------------
+22/12/21 22:27:56 251 [debug]: server address => http://192.168.0.20:3001
+22/12/21 22:27:56 252 [debug]: --------------------------------------------------
+22/12/21 22:27:58 361 [debug]: 클라이언트가 접속했습니다.
+22/12/21 22:27:58 363 [debug]: [GET] http://192.168.0.20:3001/
+22/12/21 22:27:58 365 [debug]: [client] ::ffff:192.168.0.20 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/21 22:27:58 371 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 9ms
+22/12/21 22:27:58 373 [debug]: --------------------------------------------------
+22/12/21 22:27:58 420 [debug]: 클라이언트가 접속했습니다.
+22/12/21 22:28:02 125 [debug]: 클라이언트가 접속했습니다.
+22/12/21 22:28:02 126 [debug]: [GET] http://192.168.0.20:3001/department
+22/12/21 22:28:02 126 [debug]: [client] ::ffff:192.168.0.20 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/21 22:28:02 150 [error]: Access denied for user 'myschool'@'localhost' (using password: YES)
+22/12/21 22:28:02 151 [error]: Error: Access denied for user 'myschool'@'localhost' (using password: YES)
+    at Packet.asError (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at ClientHandshake.execute (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\connection.js:456:32)
+    at PacketParser.onPacket (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\connection.js:85:12)
+    at PacketParser.executeStart (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\mysql2\lib\connection.js:92:25)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+22/12/21 22:28:02 157 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 31ms
+22/12/21 22:28:02 159 [debug]: --------------------------------------------------
+22/12/21 22:28:51 123 [debug]: 클라이언트가 접속했습니다.
+22/12/21 22:28:51 125 [debug]: [GET] http://192.168.0.20:3001/department
+22/12/21 22:28:51 125 [debug]: [client] ::ffff:192.168.0.20 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/21 22:28:51 131 [info]:  >> DATABASE 접속됨 [threaId=239]
+22/12/21 22:28:51 132 [info]:  >> Connection 임대됨 [threaId=239]
+22/12/21 22:28:51 138 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/21 22:28:51 155 [info]:  >> Connection 반납됨 [threaId=239]
+22/12/21 22:28:51 156 [info]:  >> Connection 임대됨 [threaId=239]
+22/12/21 22:28:51 158 [debug]: SELECT deptno, dname, loc FROM department        ORDER BY deptno DESC     LIMIT 0, 5
+22/12/21 22:28:51 160 [info]:  >> Connection 반납됨 [threaId=239]
+22/12/21 22:28:51 161 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 37ms
+22/12/21 22:28:51 161 [debug]: --------------------------------------------------
+22/12/21 22:28:51 185 [debug]: 클라이언트가 접속했습니다.
+22/12/21 22:28:51 186 [debug]: [GET] http://192.168.0.20:3001/favicon.ico
+22/12/21 22:28:51 186 [debug]: [client] ::ffff:192.168.0.20 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/21 22:28:51 188 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/12/21 22:28:51 189 [debug]: --------------------------------------------------
+22/12/21 22:28:53 129 [debug]: 클라이언트가 접속했습니다.
+22/12/21 22:28:53 130 [debug]: [GET] http://192.168.0.20:3001/department
+22/12/21 22:28:53 131 [debug]: [client] ::ffff:192.168.0.20 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/21 22:28:53 133 [info]:  >> Connection 임대됨 [threaId=239]
+22/12/21 22:28:53 134 [debug]: SELECT COUNT(*) AS cnt FROM department
+22/12/21 22:28:53 138 [info]:  >> Connection 반납됨 [threaId=239]
+22/12/21 22:28:53 138 [info]:  >> Connection 임대됨 [threaId=239]
+22/12/21 22:28:53 142 [debug]: SELECT deptno, dname, loc FROM department        ORDER BY deptno DESC     LIMIT 0, 5
+22/12/21 22:28:53 143 [info]:  >> Connection 반납됨 [threaId=239]
+22/12/21 22:28:53 145 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 15ms
+22/12/21 22:28:53 146 [debug]: --------------------------------------------------
+22/12/21 22:28:53 164 [debug]: 클라이언트가 접속했습니다.
+22/12/21 22:28:53 165 [debug]: [GET] http://192.168.0.20:3001/favicon.ico
+22/12/21 22:28:53 166 [debug]: [client] ::ffff:192.168.0.20 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/21 22:28:53 167 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+22/12/21 22:28:53 168 [debug]: --------------------------------------------------
+22/12/21 22:28:59 586 [debug]: 클라이언트가 접속했습니다.
+22/12/21 22:28:59 587 [debug]: [GET] http://192.168.0.20:3001/session
+22/12/21 22:28:59 587 [debug]: [client] ::ffff:192.168.0.20 / Windows 10.0 / Chrome (108.0.0.0) / Microsoft Windows
+22/12/21 22:28:59 591 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\study-myschool-fullstack-app\server\app.js:149:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:328:13)
+22/12/21 22:28:59 594 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 7ms
+22/12/21 22:28:59 595 [debug]: --------------------------------------------------
+22/12/21 22:29:56 243 [debug]: 클라이언트가 접속했습니다.
+22/12/21 22:29:56 244 [debug]: [POST] http://192.168.0.20:3001/session
+22/12/21 22:29:56 244 [debug]: [client] ::ffff:192.168.0.20 / unknown / insomnia (2022.7.0) / unknown
+22/12/21 22:29:56 246 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\study-myschool-fullstack-app\server\app.js:149:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:328:13)
+22/12/21 22:29:56 249 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+22/12/21 22:29:56 250 [debug]: --------------------------------------------------
+22/12/21 22:30:06 421 [debug]: 클라이언트가 접속했습니다.
+22/12/21 22:30:06 422 [debug]: [POST] http://localhost:3001/session
+22/12/21 22:30:06 422 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.7.0) / unknown
+22/12/21 22:30:06 423 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\study-myschool-fullstack-app\server\app.js:149:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:328:13)
+22/12/21 22:30:06 425 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/12/21 22:30:06 426 [debug]: --------------------------------------------------
+22/12/21 22:30:07 278 [debug]: 클라이언트가 접속했습니다.
+22/12/21 22:30:07 279 [debug]: [POST] http://localhost:3001/session
+22/12/21 22:30:07 279 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.7.0) / unknown
+22/12/21 22:30:07 280 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\study-myschool-fullstack-app\server\app.js:149:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:328:13)
+22/12/21 22:30:07 282 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/12/21 22:30:07 283 [debug]: --------------------------------------------------
+22/12/21 22:30:10 309 [debug]: 클라이언트가 접속했습니다.
+22/12/21 22:30:10 320 [debug]: [PUT] http://localhost:3001/session
+22/12/21 22:30:10 320 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.7.0) / unknown
+22/12/21 22:30:10 321 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\study-myschool-fullstack-app\server\app.js:149:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:328:13)
+22/12/21 22:30:10 323 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/12/21 22:30:10 324 [debug]: --------------------------------------------------
+22/12/21 22:30:12 359 [debug]: 클라이언트가 접속했습니다.
+22/12/21 22:30:12 360 [debug]: [GET] http://localhost:3001/session
+22/12/21 22:30:12 360 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.7.0) / unknown
+22/12/21 22:30:12 361 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\study-myschool-fullstack-app\server\app.js:149:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\study-myschool-fullstack-app\node_modules\express\lib\router\index.js:328:13)
+22/12/21 22:30:12 363 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/12/21 22:30:12 364 [debug]: --------------------------------------------------
