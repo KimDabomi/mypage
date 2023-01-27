@@ -1,7 +1,7 @@
 /**
  * @ File Name: TopButton.js
  * @ Author: 김다보미 (cdabomi@nate.com)
- * @ Last Update: 2023-01-26 18:30
+ * @ Last Update: 2023-01-27 12:00
  * @ Description: 탑버튼
  */
 
@@ -25,8 +25,7 @@ const Div = styled.div`
     text-align: center;
     padding-top: 22px;
     font-size: 12px;
-    border: 1px solid #d2d2d2;
-    ${`background: #fff url(${buttonimg}) no-repeat center 11px;`}
+    ${`background: #fff7 url(${buttonimg}) no-repeat center 11px;`}
     background-size: 15px auto;
     color: #333;
     transition: all 0.3s ease;
