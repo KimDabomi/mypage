@@ -284,10 +284,10 @@ const ProjectContainer = styled.div`
       height: 400px;
       background-color: #fff4;
       margin-right: 2%;
-      padding-left: 2.5%;
+      padding: 0 2.5%;
       box-sizing: border-box;
       img {
-        width: 90%;
+        width: 100%;
         margin: 20px auto;
         box-shadow: 5px 5px 5px #0007;
       }
@@ -302,6 +302,7 @@ const ProjectContainer = styled.div`
         li {
           color: white;
           list-style: circle;
+          font-size: 14px;
         }
       }
     }
@@ -525,11 +526,24 @@ const App = memo(() => {
           <div className="projectwrap">
             <div className="sev">
               <img src={sev} alt="sev" />
-              <NavLink to="/build">Going to Project</NavLink>
+              <NavLink to="/build" target='_blank'>Going to Project</NavLink>
+              <ul>
+                <li>react-hook-form 유효성검사</li>
+                <li>전체동의, 필수 항목 미체크 시 팝업표시</li>
+                <li>비급여진료비조회 공공데이터포털 오픈API</li>
+                <li>회원가입, 로그인 기능 구현</li>
+                <li>MySQL, Node.js + Express를 통해 DB와 서버 구현</li>
+              </ul>
             </div>
             <div className="weather">
               <img src={weather} alt="weather" />
-              <NavLink to="/weather/index.html">Going to Project</NavLink>
+              <NavLink to="/weather/index.html" target='_blank'>Going to Project</NavLink>
+              <ul>
+                <li>공공데이터포털 기상청 오픈API</li>
+                <li>Open Weather 오픈API</li>
+                <li>전체 CSS 구현</li>
+                <li>axios로 상세정보 가져와 팝업 띄우기</li>
+              </ul>
             </div>
             <div className="clone">
               <div className="collapse">
@@ -537,7 +551,7 @@ const App = memo(() => {
                   W3CSS Clone Coding 01
                 </h1>
                 <div className="content">
-                  <NavLink to="/clone/01/clone01.html">Going to Project</NavLink>
+                  <NavLink to="/clone/01/clone01.html" target='_blank'>Going to Project</NavLink>
                   <ul>
                     <li>html5/css3</li>
                     <li>반응형 구현</li>
@@ -552,7 +566,7 @@ const App = memo(() => {
                   W3CSS Clone Coding 02
                 </h1>
                 <div className="content">
-                  <NavLink to="/clone/02/clone2.html">Going to Project</NavLink>
+                  <NavLink to="/clone/02/clone2.html" target='_blank'>Going to Project</NavLink>
                   <ul>
                     <li>html5/css3</li>
                     <li>반응형 구현</li>
@@ -566,7 +580,7 @@ const App = memo(() => {
                   W3CSS Clone Coding 03
                 </h1>
                 <div className="content">
-                  <NavLink to="/clone/03/clone03.html">Going to Project</NavLink>
+                  <NavLink to="/clone/03/clone03.html" target='_blank'>Going to Project</NavLink>
                   <ul>
                     <li>html5/css3</li>
                     <li>반응형 구현</li>
@@ -581,7 +595,7 @@ const App = memo(() => {
                   W3CSS Clone Coding 04
                 </h1>
                 <div className="content">
-                  <NavLink to="/clone/04/clone04.html">Going to Project</NavLink>
+                  <NavLink to="/clone/04/clone04.html" target='_blank'>Going to Project</NavLink>
                   <ul>
                     <li>html5/css3</li>
                     <li>반응형 구현</li>
@@ -595,7 +609,7 @@ const App = memo(() => {
                   W3CSS Clone Coding 05
                 </h1>
                 <div className="content">
-                  <NavLink to="/clone/05/clone05.html">Going to Project</NavLink>
+                  <NavLink to="/clone/05/clone05.html" target='_blank'>Going to Project</NavLink>
                   <ul>
                     <li>html5/css3</li>
                     <li>반응형 구현</li>
