@@ -156,7 +156,7 @@ app.use("/", router);
  -----------------------------------------------------------*/
 app.use("/", express.static(path.join(__dirname, "../public")));
 
-// app.set('views', __dirname + '/views');
+app.set('views', __dirname + '/views');
 
 const port = 8001
 
