@@ -156,9 +156,9 @@ app.use("/", router);
  -----------------------------------------------------------*/
 app.use("/", express.static(path.join(__dirname, "../public")));
 
-app.set('views', __dirname + '/views');
+// app.set('views', __dirname + '/views');
 
-
+const port = 8001
 
 app.use((err, req, res, next) => res.sendError(err));
 app.use("*", (req, res, next) => res.sendError(new PageNotFoundException()));
