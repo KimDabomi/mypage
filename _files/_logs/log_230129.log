@@ -1,0 +1,313 @@
+23/01/29 00:19:36 014 [debug]: --------------------------------------------------
+23/01/29 00:19:36 024 [debug]: |              Start Express Server              |
+23/01/29 00:19:36 032 [debug]: --------------------------------------------------
+23/01/29 00:19:36 034 [debug]: server address => http://192.168.187.1:8001
+23/01/29 00:19:36 036 [debug]: server address => http://192.168.48.1:8001
+23/01/29 00:19:36 040 [debug]: server address => http://172.30.1.1:8001
+23/01/29 00:19:36 041 [debug]: --------------------------------------------------
+23/01/29 00:20:15 548 [debug]: 백엔드가 종료되었습니다.
+23/01/29 00:20:55 934 [debug]: --------------------------------------------------
+23/01/29 00:20:55 955 [debug]: |              Start Express Server              |
+23/01/29 00:20:55 958 [debug]: --------------------------------------------------
+23/01/29 00:20:55 964 [debug]: server address => http://192.168.187.1:3001
+23/01/29 00:20:55 972 [debug]: server address => http://192.168.48.1:3001
+23/01/29 00:20:55 973 [debug]: server address => http://172.30.1.1:3001
+23/01/29 00:20:55 974 [debug]: --------------------------------------------------
+23/01/29 00:21:32 061 [debug]: 백엔드가 종료되었습니다.
+23/01/29 00:21:39 288 [debug]: --------------------------------------------------
+23/01/29 00:21:39 305 [debug]: |              Start Express Server              |
+23/01/29 00:21:39 315 [debug]: --------------------------------------------------
+23/01/29 00:21:39 330 [debug]: server address => http://192.168.187.1:3001
+23/01/29 00:21:39 339 [debug]: server address => http://192.168.48.1:3001
+23/01/29 00:21:39 341 [debug]: server address => http://172.30.1.1:3001
+23/01/29 00:21:39 343 [debug]: --------------------------------------------------
+23/01/29 00:21:44 248 [debug]: 백엔드가 종료되었습니다.
+23/01/29 00:21:45 276 [debug]: --------------------------------------------------
+23/01/29 00:21:45 280 [debug]: |              Start Express Server              |
+23/01/29 00:21:45 280 [debug]: --------------------------------------------------
+23/01/29 00:21:45 281 [debug]: server address => http://192.168.187.1:3001
+23/01/29 00:21:45 281 [debug]: server address => http://192.168.48.1:3001
+23/01/29 00:21:45 281 [debug]: server address => http://172.30.1.1:3001
+23/01/29 00:21:45 282 [debug]: --------------------------------------------------
+23/01/29 00:30:11 677 [debug]: --------------------------------------------------
+23/01/29 00:30:11 681 [debug]: |              Start Express Server              |
+23/01/29 00:30:11 682 [debug]: --------------------------------------------------
+23/01/29 00:30:11 683 [debug]: server address => http://192.168.187.1:3001
+23/01/29 00:30:11 684 [debug]: server address => http://192.168.48.1:3001
+23/01/29 00:30:11 685 [debug]: server address => http://172.30.1.1:3001
+23/01/29 00:30:11 685 [debug]: --------------------------------------------------
+23/01/29 00:30:29 289 [debug]: 클라이언트가 접속했습니다.
+23/01/29 00:30:29 292 [debug]: [GET] http://localhost:3001/build/static/media/세브란스병원_메인_온라인사본발급_210203.16dda58db7a2bd4e3768.png
+23/01/29 00:30:29 293 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (109.0.0.0) / Microsoft Windows
+23/01/29 00:30:29 302 [debug]: 클라이언트가 접속했습니다.
+23/01/29 00:30:29 303 [debug]: [GET] http://localhost:3001/build/static/media/뉴스위크-World’s-Best-Hospital2022-선정-배너.ff307d00486ca06618d4.png
+23/01/29 00:30:29 304 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (109.0.0.0) / Microsoft Windows
+23/01/29 00:30:29 311 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 20ms
+23/01/29 00:30:29 313 [debug]: --------------------------------------------------
+23/01/29 00:30:29 315 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 13ms
+23/01/29 00:30:29 316 [debug]: --------------------------------------------------
+23/01/29 00:30:41 080 [debug]: 클라이언트가 접속했습니다.
+23/01/29 00:30:41 081 [debug]: [POST] http://localhost:3001/api/login
+23/01/29 00:30:41 082 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (109.0.0.0) / Microsoft Windows
+23/01/29 00:30:41 110 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\web.js:164:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/01/29 00:30:41 115 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 34ms
+23/01/29 00:30:41 116 [debug]: --------------------------------------------------
+23/01/29 00:32:30 526 [debug]: 클라이언트가 접속했습니다.
+23/01/29 00:32:30 526 [debug]: [POST] http://localhost:3001/userinfo
+23/01/29 00:32:30 527 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (109.0.0.0) / Microsoft Windows
+23/01/29 00:32:30 530 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\web.js:164:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/01/29 00:32:30 533 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 7ms
+23/01/29 00:32:30 534 [debug]: --------------------------------------------------
+23/01/29 00:33:33 460 [debug]: 백엔드가 종료되었습니다.
+23/01/29 01:10:08 539 [debug]: --------------------------------------------------
+23/01/29 01:10:08 543 [debug]: |              Start Express Server              |
+23/01/29 01:10:08 544 [debug]: --------------------------------------------------
+23/01/29 01:10:08 545 [debug]: server address => http://192.168.187.1:3001
+23/01/29 01:10:08 545 [debug]: server address => http://192.168.48.1:3001
+23/01/29 01:10:08 546 [debug]: server address => http://172.30.1.1:3001
+23/01/29 01:10:08 546 [debug]: --------------------------------------------------
+23/01/29 01:10:33 691 [debug]: 클라이언트가 접속했습니다.
+23/01/29 01:10:33 701 [debug]: [GET] http://localhost:3001/build/static/media/뉴스위크-World’s-Best-Hospital2022-선정-배너.ff307d00486ca06618d4.png
+23/01/29 01:10:33 703 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (109.0.0.0) / Microsoft Windows
+23/01/29 01:10:33 714 [debug]: 클라이언트가 접속했습니다.
+23/01/29 01:10:33 716 [debug]: [GET] http://localhost:3001/build/static/media/세브란스병원_메인_온라인사본발급_210203.16dda58db7a2bd4e3768.png
+23/01/29 01:10:33 717 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (109.0.0.0) / Microsoft Windows
+23/01/29 01:10:33 738 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 23ms
+23/01/29 01:10:33 740 [debug]: --------------------------------------------------
+23/01/29 01:10:33 744 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 44ms
+23/01/29 01:10:33 745 [debug]: --------------------------------------------------
+23/01/29 01:10:51 765 [debug]: 클라이언트가 접속했습니다.
+23/01/29 01:10:51 766 [debug]: [POST] http://localhost:3001/api/login
+23/01/29 01:10:51 767 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (109.0.0.0) / Microsoft Windows
+23/01/29 01:10:52 086 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\web.js:164:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/01/29 01:10:52 201 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 434ms
+23/01/29 01:10:52 202 [debug]: --------------------------------------------------
+23/01/29 01:11:37 654 [debug]: 클라이언트가 접속했습니다.
+23/01/29 01:11:37 654 [debug]: [GET] http://localhost:3001/build/static/media/뉴스위크-World’s-Best-Hospital2022-선정-배너.ff307d00486ca06618d4.png
+23/01/29 01:11:37 655 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (109.0.0.0) / Microsoft Windows
+23/01/29 01:11:37 657 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+23/01/29 01:11:37 658 [debug]: --------------------------------------------------
+23/01/29 01:11:37 659 [debug]: 클라이언트가 접속했습니다.
+23/01/29 01:11:37 660 [debug]: [GET] http://localhost:3001/build/static/media/세브란스병원_메인_온라인사본발급_210203.16dda58db7a2bd4e3768.png
+23/01/29 01:11:37 660 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (109.0.0.0) / Microsoft Windows
+23/01/29 01:11:37 662 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+23/01/29 01:11:37 663 [debug]: --------------------------------------------------
+23/01/29 01:13:02 280 [debug]: 클라이언트가 접속했습니다.
+23/01/29 01:13:02 281 [debug]: [POST] http://localhost:3001/api/login
+23/01/29 01:13:02 282 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (109.0.0.0) / Microsoft Windows
+23/01/29 01:13:02 287 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\web.js:164:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/01/29 01:13:02 295 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 14ms
+23/01/29 01:13:02 296 [debug]: --------------------------------------------------
+23/01/29 01:27:34 143 [debug]: --------------------------------------------------
+23/01/29 01:27:34 145 [debug]: |              Start Express Server              |
+23/01/29 01:27:34 146 [debug]: --------------------------------------------------
+23/01/29 01:27:34 146 [debug]: server address => http://192.168.187.1:3001
+23/01/29 01:27:34 147 [debug]: server address => http://192.168.48.1:3001
+23/01/29 01:27:34 147 [debug]: server address => http://172.30.1.1:3001
+23/01/29 01:27:34 148 [debug]: --------------------------------------------------
+23/01/29 01:58:45 003 [debug]: 백엔드가 종료되었습니다.
+23/01/29 01:58:48 514 [debug]: --------------------------------------------------
+23/01/29 01:58:48 517 [debug]: |              Start Express Server              |
+23/01/29 01:58:48 518 [debug]: --------------------------------------------------
+23/01/29 01:58:48 518 [debug]: server address => http://192.168.187.1:3001
+23/01/29 01:58:48 519 [debug]: server address => http://192.168.48.1:3001
+23/01/29 01:58:48 519 [debug]: server address => http://172.30.1.1:3001
+23/01/29 01:58:48 519 [debug]: --------------------------------------------------
+23/01/29 01:58:57 869 [debug]: 클라이언트가 접속했습니다.
+23/01/29 01:58:57 871 [debug]: [GET] http://localhost:3001/build/static/media/뉴스위크-World’s-Best-Hospital2022-선정-배너.ff307d00486ca06618d4.png
+23/01/29 01:58:57 872 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (109.0.0.0) / Microsoft Windows
+23/01/29 01:58:57 880 [debug]: 클라이언트가 접속했습니다.
+23/01/29 01:58:57 881 [debug]: [GET] http://localhost:3001/build/static/media/세브란스병원_메인_온라인사본발급_210203.16dda58db7a2bd4e3768.png
+23/01/29 01:58:57 882 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (109.0.0.0) / Microsoft Windows
+23/01/29 01:58:57 886 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 16ms
+23/01/29 01:58:57 887 [debug]: --------------------------------------------------
+23/01/29 01:58:57 889 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 8ms
+23/01/29 01:58:57 889 [debug]: --------------------------------------------------
+23/01/29 01:59:05 076 [debug]: 클라이언트가 접속했습니다.
+23/01/29 01:59:05 076 [debug]: [POST] http://localhost:3001/api/login
+23/01/29 01:59:05 077 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (109.0.0.0) / Microsoft Windows
+23/01/29 01:59:05 108 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\web.js:164:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/01/29 01:59:05 116 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 40ms
+23/01/29 01:59:05 117 [debug]: --------------------------------------------------
+23/01/29 01:59:14 918 [debug]: 클라이언트가 접속했습니다.
+23/01/29 01:59:14 919 [debug]: [POST] http://localhost:3001/api/login
+23/01/29 01:59:14 919 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (109.0.0.0) / Microsoft Windows
+23/01/29 01:59:14 924 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\web.js:164:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/01/29 01:59:14 934 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 15ms
+23/01/29 01:59:14 935 [debug]: --------------------------------------------------
+23/01/29 01:59:16 782 [debug]: 클라이언트가 접속했습니다.
+23/01/29 01:59:16 783 [debug]: [POST] http://localhost:3001/api/login
+23/01/29 01:59:16 783 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (109.0.0.0) / Microsoft Windows
+23/01/29 01:59:16 788 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\web.js:164:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/01/29 01:59:16 797 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 15ms
+23/01/29 01:59:16 797 [debug]: --------------------------------------------------
+23/01/29 02:00:25 421 [debug]: 백엔드가 종료되었습니다.
+23/01/29 13:19:46 843 [debug]: --------------------------------------------------
+23/01/29 13:19:46 847 [debug]: |              Start Express Server              |
+23/01/29 13:19:46 848 [debug]: --------------------------------------------------
+23/01/29 13:19:46 848 [debug]: server address => http://192.168.187.1:3001
+23/01/29 13:19:46 849 [debug]: server address => http://192.168.48.1:3001
+23/01/29 13:19:46 849 [debug]: server address => http://172.30.1.11:3001
+23/01/29 13:19:46 850 [debug]: --------------------------------------------------
+23/01/29 13:20:26 293 [debug]: --------------------------------------------------
+23/01/29 13:20:26 295 [debug]: |              Start Express Server              |
+23/01/29 13:20:26 296 [debug]: --------------------------------------------------
+23/01/29 13:20:26 297 [debug]: server address => http://192.168.187.1:3001
+23/01/29 13:20:26 298 [debug]: server address => http://192.168.48.1:3001
+23/01/29 13:20:26 298 [debug]: server address => http://172.30.1.11:3001
+23/01/29 13:20:26 299 [debug]: --------------------------------------------------
+23/01/29 13:21:42 146 [debug]: --------------------------------------------------
+23/01/29 13:21:42 150 [debug]: |              Start Express Server              |
+23/01/29 13:21:42 151 [debug]: --------------------------------------------------
+23/01/29 13:21:42 151 [debug]: server address => http://192.168.187.1:3001
+23/01/29 13:21:42 152 [debug]: server address => http://192.168.48.1:3001
+23/01/29 13:21:42 152 [debug]: server address => http://172.30.1.11:3001
+23/01/29 13:21:42 153 [debug]: --------------------------------------------------
+23/01/29 13:21:52 199 [debug]: --------------------------------------------------
+23/01/29 13:21:52 202 [debug]: |              Start Express Server              |
+23/01/29 13:21:52 203 [debug]: --------------------------------------------------
+23/01/29 13:21:52 203 [debug]: server address => http://192.168.187.1:3001
+23/01/29 13:21:52 204 [debug]: server address => http://192.168.48.1:3001
+23/01/29 13:21:52 204 [debug]: server address => http://172.30.1.11:3001
+23/01/29 13:21:52 204 [debug]: --------------------------------------------------
+23/01/29 13:45:28 793 [debug]: --------------------------------------------------
+23/01/29 13:45:28 796 [debug]: |              Start Express Server              |
+23/01/29 13:45:28 797 [debug]: --------------------------------------------------
+23/01/29 13:45:28 797 [debug]: server address => http://192.168.187.1:3001
+23/01/29 13:45:28 797 [debug]: server address => http://192.168.48.1:3001
+23/01/29 13:45:28 798 [debug]: server address => http://172.30.1.11:3001
+23/01/29 13:45:28 798 [debug]: --------------------------------------------------
+23/01/29 21:04:15 606 [debug]: --------------------------------------------------
+23/01/29 21:04:15 609 [debug]: |              Start Express Server              |
+23/01/29 21:04:15 610 [debug]: --------------------------------------------------
+23/01/29 21:04:15 610 [debug]: server address => http://192.168.187.1:3001
+23/01/29 21:04:15 611 [debug]: server address => http://192.168.48.1:3001
+23/01/29 21:04:15 612 [debug]: server address => http://172.30.1.11:3001
+23/01/29 21:04:15 612 [debug]: --------------------------------------------------
+23/01/29 21:08:40 542 [debug]: --------------------------------------------------
+23/01/29 21:08:40 544 [debug]: |              Start Express Server              |
+23/01/29 21:08:40 545 [debug]: --------------------------------------------------
+23/01/29 21:08:40 546 [debug]: server address => http://192.168.187.1:8001
+23/01/29 21:08:40 547 [debug]: server address => http://192.168.48.1:8001
+23/01/29 21:08:40 547 [debug]: server address => http://172.30.1.11:8001
+23/01/29 21:08:40 547 [debug]: --------------------------------------------------
+23/01/29 21:10:50 692 [debug]: --------------------------------------------------
+23/01/29 21:10:50 694 [debug]: |              Start Express Server              |
+23/01/29 21:10:50 695 [debug]: --------------------------------------------------
+23/01/29 21:10:50 695 [debug]: server address => http://192.168.187.1:8001
+23/01/29 21:10:50 696 [debug]: server address => http://192.168.48.1:8001
+23/01/29 21:10:50 697 [debug]: server address => http://172.30.1.11:8001
+23/01/29 21:10:50 697 [debug]: --------------------------------------------------
+23/01/29 21:11:29 488 [debug]: --------------------------------------------------
+23/01/29 21:11:29 491 [debug]: |              Start Express Server              |
+23/01/29 21:11:29 491 [debug]: --------------------------------------------------
+23/01/29 21:11:29 492 [debug]: server address => http://192.168.187.1:8001
+23/01/29 21:11:29 493 [debug]: server address => http://192.168.48.1:8001
+23/01/29 21:11:29 493 [debug]: server address => http://172.30.1.11:8001
+23/01/29 21:11:29 493 [debug]: --------------------------------------------------
+23/01/29 21:13:16 784 [debug]: 백엔드가 종료되었습니다.
+23/01/29 21:13:21 444 [debug]: --------------------------------------------------
+23/01/29 21:13:21 448 [debug]: |              Start Express Server              |
+23/01/29 21:13:21 449 [debug]: --------------------------------------------------
+23/01/29 21:13:21 450 [debug]: server address => http://192.168.187.1:3001
+23/01/29 21:13:21 450 [debug]: server address => http://192.168.48.1:3001
+23/01/29 21:13:21 451 [debug]: server address => http://172.30.1.11:3001
+23/01/29 21:13:21 451 [debug]: --------------------------------------------------
+23/01/29 21:13:29 727 [debug]: 클라이언트가 접속했습니다.
+23/01/29 21:13:29 730 [debug]: [GET] http://localhost:3001/build/static/media/뉴스위크-World’s-Best-Hospital2022-선정-배너.ff307d00486ca06618d4.png
+23/01/29 21:13:29 731 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (109.0.0.0) / Microsoft Windows
+23/01/29 21:13:29 739 [debug]: 클라이언트가 접속했습니다.
+23/01/29 21:13:29 742 [debug]: [GET] http://localhost:3001/build/static/media/세브란스병원_메인_온라인사본발급_210203.16dda58db7a2bd4e3768.png
+23/01/29 21:13:29 744 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (109.0.0.0) / Microsoft Windows
+23/01/29 21:13:29 748 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 18ms
+23/01/29 21:13:29 748 [debug]: --------------------------------------------------
+23/01/29 21:13:29 751 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 10ms
+23/01/29 21:13:29 751 [debug]: --------------------------------------------------
+23/01/29 21:14:16 207 [debug]: 백엔드가 종료되었습니다.
+23/01/29 22:56:41 232 [debug]: --------------------------------------------------
+23/01/29 22:56:41 235 [debug]: |              Start Express Server              |
+23/01/29 22:56:41 236 [debug]: --------------------------------------------------
+23/01/29 22:56:41 236 [debug]: server address => http://192.168.187.1:3001
+23/01/29 22:56:41 237 [debug]: server address => http://192.168.48.1:3001
+23/01/29 22:56:41 237 [debug]: server address => http://172.30.1.11:3001
+23/01/29 22:56:41 238 [debug]: --------------------------------------------------
+23/01/29 22:56:52 247 [debug]: 클라이언트가 접속했습니다.
+23/01/29 22:56:52 250 [debug]: [GET] http://localhost:3001/build/static/media/뉴스위크-World’s-Best-Hospital2022-선정-배너.ff307d00486ca06618d4.png
+23/01/29 22:56:52 251 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (109.0.0.0) / Microsoft Windows
+23/01/29 22:56:52 258 [debug]: 클라이언트가 접속했습니다.
+23/01/29 22:56:52 259 [debug]: [GET] http://localhost:3001/build/static/media/세브란스병원_메인_온라인사본발급_210203.16dda58db7a2bd4e3768.png
+23/01/29 22:56:52 260 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (109.0.0.0) / Microsoft Windows
+23/01/29 22:56:52 268 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 19ms
+23/01/29 22:56:52 269 [debug]: --------------------------------------------------
+23/01/29 22:56:52 272 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 13ms
+23/01/29 22:56:52 273 [debug]: --------------------------------------------------

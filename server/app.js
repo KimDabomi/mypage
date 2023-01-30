@@ -155,10 +155,12 @@ app.use("/", router);
  | 5) 각 URL별 백엔드 기능 정의
  -----------------------------------------------------------*/
 app.use("/", express.static(path.join(__dirname, "../public")));
+app.use(require('./controllers/LoginController'));
+app.use(require('./controllers/UserInfoController'));
 
-app.set('views', __dirname + '/views');
+// app.set('views', __dirname + '/views');
 
-const port = 8001
+// const port = 3001
 
 app.use((err, req, res, next) => res.sendError(err));
 app.use("*", (req, res, next) => res.sendError(new PageNotFoundException()));

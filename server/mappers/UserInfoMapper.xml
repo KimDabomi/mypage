@@ -1,0 +1,71 @@
+<!-- 
+ * @ File name: UserInfoMapper.js
+ * @ Author: 김다보미(cdabomi60@gmail.com)
+ * @ Last Update: 2023-01-10 20:15
+ * @ Description: 회원정보 sql mapper
+-->
+
+
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace='UserInfoMapper'>
+    <!-- 단일행 조회를 위한 기능 정의 -->
+    <select id='selectItem'>
+        SELECT id,userId,userPassword,userName,userSex,userTel,userPreTel,userEmail,prtctorName,prtctorSex,date_format(prtctorBirth, '%Y-%m-%d'),date_format(regDate, '%Y-%m-%d'),userCategory,withdrawalStatus,date_format(withdrawalDate,'%Y-%m-%d'),withdrawalReason,date_format(editDate,'%Y-%m-%d'),date_format(pwEditDate,'%Y-%m-%d'),authCode,termsAgree,privateAgree,marketingAgree FROM UserInfo WHERE id=#{id};
+    </select>
+
+    <!-- 다중행 조회를 위한 기능 정의 -->
+    <select id='selectList'>
+        SELECT id,userId,userPassword,userName,userSex,userTel,userPreTel,userEmail,prtctorName,prtctorSex,date_format(prtctorBirth, '%Y-%m-%d'),date_format(regDate, '%Y-%m-%d'),userCategory,withdrawalStatus,date_format(withdrawalDate,'%Y-%m-%d'),withdrawalReason,date_format(editDate,'%Y-%m-%d'),date_format(pwEditDate,'%Y-%m-%d'),authCode,termsAgree,privateAgree,marketingAgree FROM UserInfo
+
+        <where>
+            <if test="userId != null and userId != ''">
+                userId LIKE concat('%',#{userId},'%')
+            </if>
+
+            <if test="userName != null and userName != ''">
+                OR userName LIKE concat('%',#{userName},'%')
+            </if>
+        </where>
+        
+        ORDER BY id DESC
+
+        <!-- 페이지 구현을 위한 LIMIT절 추가 -->
+        <if test="listCount > 0">
+            LIMIT ${offset},${listCount}
+        </if>
+    </select>
+
+    <!-- 데이터 저장을 위한 기능 정의 -->
+    <insert id='insertItem'>
+        INSERT INTO UserInfo (userId,userPassword,userName,userSex,userTel,userPreTel,userEmail,prtctorName,prtctorSex,prtctorBirth,regDate,userCategory,withdrawalStatus,withdrawalDate,withdrawalReason,editDate,pwEditDate,authCode,termsAgree,privateAgree,marketingAgree) 
+        VALUES (#{userId},#{userPassword},#{userName},#{userSex},#{userTel},#{userPreTel},#{userEmail},#{prtctorName},#{prtctorSex},#{prtctorBirth},#{regDate},#{userCategory},#{withdrawalStatus},#{withdrawalDate},#{withdrawalReason},#{editDate},#{pwEditDate},#{authCode},#{termsAgree},#{privateAgree},#{marketingAgree});
+    </insert>
+
+    <!-- 데이터 삭제를 위한 기능 정의 -->
+    <delete id='deleteItem'>
+        DELETE FROM UserInfo WHERE id=#{id};
+    </delete>
+
+    <!-- 데이터 갱신을 위한 기능 정의 -->
+    <update id='updateItem'>
+        UPDATE UserInfo SET userPassword=#{userPassword},userTel=#{userTel},userPreTel=#{userPreTel},userEmail=#{userEmail} WHERE id=#{id};
+    </update>
+
+    <!-- 데이터 수 조회하기 -->
+    <select id='selectCountAll'>
+        SELECT COUNT(*) AS cnt FROM UserInfo
+
+        <where>
+            <if test="userId != null and userId != ''">
+                userId LIKE concat('%',#{userId},'%')
+            </if>
+
+            <if test="userName != null and userName != ''">
+                OR userName LIKE concat('%',#{userName},'%')
+            </if>
+        </where>
+    </select>
+</mapper>

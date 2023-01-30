@@ -23,7 +23,6 @@ import workbench from "./assets/img/MySQLWorkbench.png";
 import react from "./assets/img/react.png";
 import redux from "./assets/img/redux.png";
 import sass from "./assets/img/sass.png";
-import ubuntu from "./assets/img/ubuntu-logo.png";
 import vmware from "./assets/img/vmware.png";
 import vscode from "./assets/img/vscode.png";
 import node from "./assets/img/노드.png";
@@ -434,20 +433,20 @@ const App = memo(() => {
               </Link>
             </div>
             <div className="blanks">
-              <a
-                href="https://github.com/KimDabomi"
+              <NavLink
+                to="//github.com/KimDabomi"
                 target="_blank"
                 className="git"
               >
                 <img src={git} alt="git" />
-              </a>
-              <a
-                href="https://velog.io/@cdabomi60"
+              </NavLink>
+              <NavLink
+                to="//velog.io/@cdabomi60"
                 target="_blank"
                 className="velog"
               >
                 <img src={velog} alt="velog" />
-              </a>
+              </NavLink>
             </div>
           </div>
         </HeaderContainer>
@@ -501,7 +500,6 @@ const App = memo(() => {
                 <img src={express} alt="express" />
                 <img src={mysql} alt="mysql" />
                 <img src={mybatis} alt="mybatis" />
-                <img src={ubuntu} alt="ubuntu" />
               </div>
             </div>
             <div className="right">

@@ -1,0 +1,148 @@
+23/01/30 15:25:54 938 [debug]: --------------------------------------------------
+23/01/30 15:25:54 941 [debug]: |              Start Express Server              |
+23/01/30 15:25:54 942 [debug]: --------------------------------------------------
+23/01/30 15:25:54 943 [debug]: server address => http://192.168.187.1:8001
+23/01/30 15:25:54 943 [debug]: server address => http://192.168.48.1:8001
+23/01/30 15:25:54 944 [debug]: server address => http://172.30.1.11:8001
+23/01/30 15:25:54 944 [debug]: --------------------------------------------------
+23/01/30 15:26:05 427 [debug]: 클라이언트가 접속했습니다.
+23/01/30 15:26:05 429 [debug]: [GET] http://localhost:8001/build/static/media/뉴스위크-World’s-Best-Hospital2022-선정-배너.ff307d00486ca06618d4.png
+23/01/30 15:26:05 430 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (109.0.0.0) / Microsoft Windows
+23/01/30 15:26:05 437 [debug]: 클라이언트가 접속했습니다.
+23/01/30 15:26:05 438 [debug]: [GET] http://localhost:8001/build/static/media/세브란스병원_메인_온라인사본발급_210203.16dda58db7a2bd4e3768.png
+23/01/30 15:26:05 438 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (109.0.0.0) / Microsoft Windows
+23/01/30 15:26:05 451 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 14ms
+23/01/30 15:26:05 452 [debug]: --------------------------------------------------
+23/01/30 15:26:05 455 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 27ms
+23/01/30 15:26:05 461 [debug]: --------------------------------------------------
+23/01/30 15:26:13 413 [debug]: 클라이언트가 접속했습니다.
+23/01/30 15:26:13 414 [debug]: [POST] http://localhost:8001/api/login
+23/01/30 15:26:13 414 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (109.0.0.0) / Microsoft Windows
+23/01/30 15:26:13 444 [debug]: id=dabomi830
+23/01/30 15:26:13 445 [debug]: pw=dabomi830!@
+23/01/30 15:26:13 507 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 94ms
+23/01/30 15:26:13 507 [debug]: --------------------------------------------------
+23/01/30 15:26:22 716 [debug]: 클라이언트가 접속했습니다.
+23/01/30 15:26:22 716 [debug]: [GET] http://localhost:8001/img/ico-chevron-left-sm-lightgray@2x.png
+23/01/30 15:26:22 717 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (109.0.0.0) / Microsoft Windows
+23/01/30 15:26:22 718 [debug]: 클라이언트가 접속했습니다.
+23/01/30 15:26:22 719 [debug]: [GET] http://localhost:8001/img/bg-sympathy-story.jpg
+23/01/30 15:26:22 719 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (109.0.0.0) / Microsoft Windows
+23/01/30 15:26:22 720 [debug]: 클라이언트가 접속했습니다.
+23/01/30 15:26:22 721 [debug]: [GET] http://localhost:8001/img/ico-chevron-right-sm-lightgray@2x.png
+23/01/30 15:26:22 722 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (109.0.0.0) / Microsoft Windows
+23/01/30 15:26:22 723 [debug]: 클라이언트가 접속했습니다.
+23/01/30 15:26:22 724 [debug]: [GET] http://localhost:8001/img/bg-health-info.jpg
+23/01/30 15:26:22 724 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (109.0.0.0) / Microsoft Windows
+23/01/30 15:26:22 728 [debug]: 클라이언트가 접속했습니다.
+23/01/30 15:26:22 729 [debug]: [GET] http://localhost:8001/img/btn-left-white.png
+23/01/30 15:26:22 729 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (109.0.0.0) / Microsoft Windows
+23/01/30 15:26:22 731 [debug]: 클라이언트가 접속했습니다.
+23/01/30 15:26:22 731 [debug]: [GET] http://localhost:8001/img/btn-right-white.png
+23/01/30 15:26:22 731 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (109.0.0.0) / Microsoft Windows
+23/01/30 15:26:22 738 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/01/30 15:26:22 742 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/01/30 15:26:22 748 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/01/30 15:26:22 752 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/01/30 15:26:22 755 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/01/30 15:26:22 763 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/01/30 15:26:22 767 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 51ms
+23/01/30 15:26:22 767 [debug]: --------------------------------------------------
+23/01/30 15:26:22 770 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 51ms
+23/01/30 15:26:22 771 [debug]: --------------------------------------------------
+23/01/30 15:26:22 772 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 51ms
+23/01/30 15:26:22 772 [debug]: --------------------------------------------------
+23/01/30 15:26:22 774 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 51ms
+23/01/30 15:26:22 774 [debug]: --------------------------------------------------
+23/01/30 15:26:22 778 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 49ms
+23/01/30 15:26:22 778 [debug]: --------------------------------------------------
+23/01/30 15:26:22 779 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 48ms
+23/01/30 15:26:22 780 [debug]: --------------------------------------------------
+23/01/30 15:26:50 955 [debug]: 클라이언트가 접속했습니다.
+23/01/30 15:26:50 956 [debug]: [POST] http://localhost:8001/userinfo
+23/01/30 15:26:50 956 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (109.0.0.0) / Microsoft Windows
+23/01/30 15:26:50 961 [debug]: id=glglgl123
+23/01/30 15:26:50 962 [debug]: pw=glglgl123!
+23/01/30 15:26:50 982 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 27ms
+23/01/30 15:26:50 982 [debug]: --------------------------------------------------
+23/01/30 15:27:15 095 [debug]: --------------------------------------------------
+23/01/30 15:27:15 097 [debug]: |              Start Express Server              |
+23/01/30 15:27:15 099 [debug]: --------------------------------------------------
+23/01/30 15:27:15 100 [debug]: server address => http://192.168.187.1:8001
+23/01/30 15:27:15 101 [debug]: server address => http://192.168.48.1:8001
+23/01/30 15:27:15 101 [debug]: server address => http://172.30.1.11:8001
+23/01/30 15:27:15 102 [debug]: --------------------------------------------------
+23/01/30 15:27:16 246 [debug]: --------------------------------------------------
+23/01/30 15:27:16 248 [debug]: |              Start Express Server              |
+23/01/30 15:27:16 249 [debug]: --------------------------------------------------
+23/01/30 15:27:16 250 [debug]: server address => http://192.168.187.1:8001
+23/01/30 15:27:16 251 [debug]: server address => http://192.168.48.1:8001
+23/01/30 15:27:16 252 [debug]: server address => http://172.30.1.11:8001
+23/01/30 15:27:16 252 [debug]: --------------------------------------------------
+23/01/30 15:28:47 085 [debug]: --------------------------------------------------
+23/01/30 15:28:47 087 [debug]: |              Start Express Server              |
+23/01/30 15:28:47 088 [debug]: --------------------------------------------------
+23/01/30 15:28:47 088 [debug]: server address => http://192.168.187.1:8001
+23/01/30 15:28:47 089 [debug]: server address => http://192.168.48.1:8001
+23/01/30 15:28:47 089 [debug]: server address => http://172.30.1.11:8001
+23/01/30 15:28:47 090 [debug]: --------------------------------------------------
