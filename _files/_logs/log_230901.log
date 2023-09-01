@@ -1,0 +1,874 @@
+23/09/01 10:07:39 269 [debug]: --------------------------------------------------
+23/09/01 10:07:39 273 [debug]: |              Start Express Server              |
+23/09/01 10:07:39 274 [debug]: --------------------------------------------------
+23/09/01 10:07:39 274 [debug]: server address => http://192.168.187.1:8001
+23/09/01 10:07:39 275 [debug]: server address => http://192.168.48.1:8001
+23/09/01 10:07:39 275 [debug]: server address => http://192.168.123.104:8001
+23/09/01 10:07:39 276 [debug]: --------------------------------------------------
+23/09/01 10:07:46 381 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:07:46 386 [debug]: [GET] http://192.168.187.1:8001/
+23/09/01 10:07:46 387 [debug]: [client] ::ffff:192.168.187.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:07:46 426 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 42ms
+23/09/01 10:07:46 428 [debug]: --------------------------------------------------
+23/09/01 10:07:46 626 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:08:57 931 [debug]: --------------------------------------------------
+23/09/01 10:08:57 934 [debug]: |              Start Express Server              |
+23/09/01 10:08:57 934 [debug]: --------------------------------------------------
+23/09/01 10:08:57 935 [debug]: server address => http://192.168.187.1:8001
+23/09/01 10:08:57 936 [debug]: server address => http://192.168.48.1:8001
+23/09/01 10:08:57 936 [debug]: server address => http://192.168.123.104:8001
+23/09/01 10:08:57 937 [debug]: --------------------------------------------------
+23/09/01 10:25:10 075 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:25:10 081 [debug]: [GET] http://localhost:8001/build/static/media/뉴스위크-World’s-Best-Hospital2022-선정-배너.ff307d00486ca06618d4.png
+23/09/01 10:25:10 084 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:25:10 097 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:25:10 098 [debug]: [GET] http://localhost:8001/build/static/media/세브란스병원_메인_온라인사본발급_210203.16dda58db7a2bd4e3768.png
+23/09/01 10:25:10 099 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:25:10 107 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 27ms
+23/09/01 10:25:10 110 [debug]: --------------------------------------------------
+23/09/01 10:25:10 115 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 16ms
+23/09/01 10:25:10 117 [debug]: --------------------------------------------------
+23/09/01 10:25:17 323 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:25:17 325 [debug]: [GET] http://localhost:8001/drug?query=&shape=&color=&trapezoid=&line=&page=1&rows=12
+23/09/01 10:25:17 326 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:25:17 335 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:25:17 344 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 20ms
+23/09/01 10:25:17 345 [debug]: --------------------------------------------------
+23/09/01 10:25:17 395 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:25:17 396 [debug]: [GET] http://localhost:8001/img/ico-drug-color6.png
+23/09/01 10:25:17 397 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:25:17 400 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:25:17 403 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 7ms
+23/09/01 10:25:17 404 [debug]: --------------------------------------------------
+23/09/01 10:25:17 410 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:25:17 411 [debug]: [GET] http://localhost:8001/img/ico-drug-shape4.png
+23/09/01 10:25:17 411 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:25:17 412 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:25:17 413 [debug]: [GET] http://localhost:8001/img/ico-drug-etc.png
+23/09/01 10:25:17 413 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:25:17 415 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:25:17 416 [debug]: [GET] http://localhost:8001/img/ico-drug-color7.png
+23/09/01 10:25:17 416 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:25:17 419 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:25:17 420 [debug]: [GET] http://localhost:8001/img/ico-drug-shape7.png
+23/09/01 10:25:17 421 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:25:17 423 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:25:17 427 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 16ms
+23/09/01 10:25:17 427 [debug]: --------------------------------------------------
+23/09/01 10:25:17 428 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:25:17 430 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 17ms
+23/09/01 10:25:17 431 [debug]: --------------------------------------------------
+23/09/01 10:25:17 432 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:25:17 434 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 18ms
+23/09/01 10:25:17 435 [debug]: --------------------------------------------------
+23/09/01 10:25:17 436 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:25:17 438 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 18ms
+23/09/01 10:25:17 439 [debug]: --------------------------------------------------
+23/09/01 10:25:17 656 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:25:17 657 [debug]: [GET] http://localhost:8001/img/ico-drug-shape9.png
+23/09/01 10:25:17 657 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:25:17 659 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:25:17 662 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+23/09/01 10:25:17 663 [debug]: --------------------------------------------------
+23/09/01 10:25:17 720 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:25:17 721 [debug]: [GET] http://localhost:8001/img/ico-drug-color12.png
+23/09/01 10:25:17 721 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:25:17 725 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:25:17 728 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 7ms
+23/09/01 10:25:17 729 [debug]: --------------------------------------------------
+23/09/01 10:25:17 732 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:25:17 733 [debug]: [GET] http://localhost:8001/img/ico-drug-color4.png
+23/09/01 10:25:17 733 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:25:17 736 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:25:17 739 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 6ms
+23/09/01 10:25:17 740 [debug]: --------------------------------------------------
+23/09/01 10:25:17 747 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:25:17 748 [debug]: [GET] http://localhost:8001/img/ico-drug-color11.png
+23/09/01 10:25:17 748 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:25:17 749 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:25:17 750 [debug]: [GET] http://localhost:8001/img/ico-drug-shape10.png
+23/09/01 10:25:17 750 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:25:17 753 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:25:17 754 [debug]: [GET] http://localhost:8001/img/ico-drug-color5.png
+23/09/01 10:25:17 754 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:25:17 756 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:25:17 759 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 12ms
+23/09/01 10:25:17 759 [debug]: --------------------------------------------------
+23/09/01 10:25:17 760 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:25:17 763 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 13ms
+23/09/01 10:25:17 763 [debug]: --------------------------------------------------
+23/09/01 10:25:17 764 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:25:17 767 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 13ms
+23/09/01 10:25:17 769 [debug]: --------------------------------------------------
+23/09/01 10:25:17 984 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:25:17 985 [debug]: [GET] http://localhost:8001/img/ico-drug-shape8.png
+23/09/01 10:25:17 986 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:25:17 991 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:25:17 997 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 12ms
+23/09/01 10:25:17 998 [debug]: --------------------------------------------------
+23/09/01 10:25:18 053 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:25:18 055 [debug]: [GET] http://localhost:8001/img/ico-drug-color10.png
+23/09/01 10:25:18 056 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:25:18 058 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:25:18 060 [debug]: [GET] http://localhost:8001/img/ico-drug-color3.png
+23/09/01 10:25:18 061 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:25:18 064 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:25:18 071 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 16ms
+23/09/01 10:25:18 072 [debug]: --------------------------------------------------
+23/09/01 10:25:18 075 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:25:18 078 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 19ms
+23/09/01 10:25:18 079 [debug]: --------------------------------------------------
+23/09/01 10:25:18 091 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:25:18 091 [debug]: [GET] http://localhost:8001/img/ico-drug-shape5.png
+23/09/01 10:25:18 092 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:25:18 094 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:25:18 096 [debug]: [GET] http://localhost:8001/img/ico-drug-color1.png
+23/09/01 10:25:18 097 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:25:18 099 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:25:18 100 [debug]: [GET] http://localhost:8001/img/ico-drug-shape6.png
+23/09/01 10:25:18 102 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:25:18 109 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:25:18 115 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 23ms
+23/09/01 10:25:18 116 [debug]: --------------------------------------------------
+23/09/01 10:25:18 118 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:25:18 124 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 29ms
+23/09/01 10:25:18 124 [debug]: --------------------------------------------------
+23/09/01 10:25:18 126 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:25:18 130 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 30ms
+23/09/01 10:25:18 131 [debug]: --------------------------------------------------
+23/09/01 10:25:18 313 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:25:18 314 [debug]: [GET] http://localhost:8001/img/ico-drug-color9.png
+23/09/01 10:25:18 315 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:25:18 319 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:25:18 325 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 11ms
+23/09/01 10:25:18 326 [debug]: --------------------------------------------------
+23/09/01 10:25:18 389 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:25:18 391 [debug]: [GET] http://localhost:8001/img/ico-drug-color13.png
+23/09/01 10:25:18 392 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:25:18 394 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:25:18 400 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 9ms
+23/09/01 10:25:18 401 [debug]: --------------------------------------------------
+23/09/01 10:25:18 409 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:25:18 411 [debug]: [GET] http://localhost:8001/img/ico-drug-color8.png
+23/09/01 10:25:18 411 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:25:18 415 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:25:18 422 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 12ms
+23/09/01 10:25:18 423 [debug]: --------------------------------------------------
+23/09/01 10:25:18 431 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:25:18 432 [debug]: [GET] http://localhost:8001/img/ico-drug-color2.png
+23/09/01 10:25:18 433 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:25:18 436 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:25:18 441 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 9ms
+23/09/01 10:25:18 442 [debug]: --------------------------------------------------
+23/09/01 10:25:18 445 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:25:18 446 [debug]: [GET] http://localhost:8001/img/ico-drug-all.png
+23/09/01 10:25:18 447 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:25:18 449 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:25:18 450 [debug]: [GET] http://localhost:8001/img/ico-drug-shape1.png
+23/09/01 10:25:18 451 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:25:18 454 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:25:18 459 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 14ms
+23/09/01 10:25:18 460 [debug]: --------------------------------------------------
+23/09/01 10:25:18 462 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:25:18 467 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 17ms
+23/09/01 10:25:18 470 [debug]: --------------------------------------------------
+23/09/01 10:25:18 634 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:25:18 635 [debug]: [GET] http://localhost:8001/img/ico-drug-shape2.png
+23/09/01 10:25:18 636 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:25:18 637 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:25:18 641 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 6ms
+23/09/01 10:25:18 642 [debug]: --------------------------------------------------
+23/09/01 10:25:18 714 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:25:18 715 [debug]: [GET] http://localhost:8001/img/ico-drug-shape3.png
+23/09/01 10:25:18 716 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:25:18 720 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:25:18 726 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 11ms
+23/09/01 10:25:18 727 [debug]: --------------------------------------------------
+23/09/01 10:25:18 736 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:25:18 737 [debug]: [GET] http://localhost:8001/img/ico-drug-color14.png
+23/09/01 10:25:18 738 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:25:18 741 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:25:18 748 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 10ms
+23/09/01 10:25:18 748 [debug]: --------------------------------------------------
+23/09/01 10:25:18 753 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:25:18 755 [debug]: [GET] http://localhost:8001/img/ico-drug-color15.png
+23/09/01 10:25:18 755 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:25:18 757 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:25:18 761 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 7ms
+23/09/01 10:25:18 762 [debug]: --------------------------------------------------
+23/09/01 10:25:18 769 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:25:18 770 [debug]: [GET] http://localhost:8001/img/ico-drug-color16.png
+23/09/01 10:25:18 771 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:25:18 772 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:25:18 776 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 6ms
+23/09/01 10:25:18 776 [debug]: --------------------------------------------------
+23/09/01 10:25:18 780 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:25:18 780 [debug]: [GET] http://localhost:8001/img/ico-drug-formula1.png
+23/09/01 10:25:18 781 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:25:18 782 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:25:18 786 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+23/09/01 10:25:18 786 [debug]: --------------------------------------------------
+23/09/01 10:25:18 961 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:25:18 962 [debug]: [GET] http://localhost:8001/img/ico-drug-formula2.png
+23/09/01 10:25:18 963 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:25:18 966 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:25:18 972 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 10ms
+23/09/01 10:25:18 973 [debug]: --------------------------------------------------
+23/09/01 10:25:19 041 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:25:19 042 [debug]: [GET] http://localhost:8001/img/ico-drug-formula3.png
+23/09/01 10:25:19 042 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:25:19 045 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:25:19 050 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 8ms
+23/09/01 10:25:19 052 [debug]: --------------------------------------------------
+23/09/01 10:25:19 070 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:25:19 071 [debug]: [GET] http://localhost:8001/img/ico-drug-division1.png
+23/09/01 10:25:19 071 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:25:19 073 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:25:19 078 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 7ms
+23/09/01 10:25:19 079 [debug]: --------------------------------------------------
+23/09/01 10:25:19 087 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:25:19 088 [debug]: [GET] http://localhost:8001/img/ico-drug-division2.png
+23/09/01 10:25:19 089 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:25:19 092 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:25:19 092 [debug]: [GET] http://localhost:8001/img/ico-drug-division3.png
+23/09/01 10:25:19 093 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:25:19 095 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:25:19 098 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 10ms
+23/09/01 10:25:19 098 [debug]: --------------------------------------------------
+23/09/01 10:25:19 100 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:25:19 104 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 12ms
+23/09/01 10:25:19 104 [debug]: --------------------------------------------------
+23/09/01 10:25:33 524 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:25:33 525 [debug]: [GET] http://localhost:8001/img/bg-sympathy-story.jpg
+23/09/01 10:25:33 525 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:25:33 527 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:25:33 531 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 6ms
+23/09/01 10:25:33 532 [debug]: --------------------------------------------------
+23/09/01 10:25:33 848 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:25:33 849 [debug]: [GET] http://localhost:8001/img/ico-chevron-right-sm-lightgray@2x.png
+23/09/01 10:25:33 849 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:25:33 850 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:25:33 852 [debug]: [GET] http://localhost:8001/img/bg-health-info.jpg
+23/09/01 10:25:33 854 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:25:33 858 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:25:33 858 [debug]: [GET] http://localhost:8001/img/ico-chevron-left-sm-lightgray@2x.png
+23/09/01 10:25:33 859 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:25:33 860 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:25:33 860 [debug]: [GET] http://localhost:8001/img/btn-left-white.png
+23/09/01 10:25:33 861 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:25:33 862 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:25:33 863 [debug]: [GET] http://localhost:8001/img/btn-right-white.png
+23/09/01 10:25:33 863 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:25:33 866 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:25:33 868 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 20ms
+23/09/01 10:25:33 870 [debug]: --------------------------------------------------
+23/09/01 10:25:33 871 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:25:33 875 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 15ms
+23/09/01 10:25:33 876 [debug]: --------------------------------------------------
+23/09/01 10:25:33 877 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:25:33 882 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 24ms
+23/09/01 10:25:33 883 [debug]: --------------------------------------------------
+23/09/01 10:25:33 884 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:25:33 887 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 36ms
+23/09/01 10:25:33 888 [debug]: --------------------------------------------------
+23/09/01 10:25:33 892 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:25:33 900 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 38ms
+23/09/01 10:25:33 901 [debug]: --------------------------------------------------
+23/09/01 10:25:33 902 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:25:33 903 [debug]: [GET] http://localhost:8001/build/static/media/뉴스위크-World’s-Best-Hospital2022-선정-배너.ff307d00486ca06618d4.png
+23/09/01 10:25:33 903 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:25:33 907 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+23/09/01 10:25:33 908 [debug]: --------------------------------------------------
+23/09/01 10:25:34 182 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:25:34 183 [debug]: [GET] http://localhost:8001/build/static/media/세브란스병원_메인_온라인사본발급_210203.16dda58db7a2bd4e3768.png
+23/09/01 10:25:34 184 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:25:34 187 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+23/09/01 10:25:34 188 [debug]: --------------------------------------------------
+23/09/01 10:26:33 091 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:26:33 092 [debug]: [POST] http://localhost:8001/userinfo
+23/09/01 10:26:33 093 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:26:33 346 [debug]: id=sdfddd
+23/09/01 10:26:33 347 [debug]: pw=clzkclzk22!
+23/09/01 10:26:33 642 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 550ms
+23/09/01 10:26:33 643 [debug]: --------------------------------------------------
+23/09/01 10:26:35 757 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:26:35 758 [debug]: [GET] http://localhost:8001/img/bg-sympathy-story.jpg
+23/09/01 10:26:35 758 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:26:35 778 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:26:35 788 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 30ms
+23/09/01 10:26:35 789 [debug]: --------------------------------------------------
+23/09/01 10:26:36 079 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:26:36 082 [debug]: [GET] http://localhost:8001/img/ico-chevron-left-sm-lightgray@2x.png
+23/09/01 10:26:36 083 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:26:36 090 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:26:36 097 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:26:36 098 [debug]: [GET] http://localhost:8001/img/ico-chevron-right-sm-lightgray@2x.png
+23/09/01 10:26:36 098 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:26:36 100 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:26:36 100 [debug]: [GET] http://localhost:8001/img/bg-health-info.jpg
+23/09/01 10:26:36 101 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:26:36 103 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:26:36 105 [debug]: [GET] http://localhost:8001/img/btn-left-white.png
+23/09/01 10:26:36 105 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:26:36 106 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:26:36 107 [debug]: [GET] http://localhost:8001/img/btn-right-white.png
+23/09/01 10:26:36 107 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:26:36 109 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 28ms
+23/09/01 10:26:36 110 [debug]: --------------------------------------------------
+23/09/01 10:26:36 115 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:26:36 119 [debug]: [GET] http://localhost:8001/build/static/media/뉴스위크-World’s-Best-Hospital2022-선정-배너.ff307d00486ca06618d4.png
+23/09/01 10:26:36 121 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:26:36 124 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 6ms
+23/09/01 10:26:36 125 [debug]: --------------------------------------------------
+23/09/01 10:26:36 128 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:26:36 133 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:26:36 139 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:26:36 143 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 10:26:36 147 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 49ms
+23/09/01 10:26:36 147 [debug]: --------------------------------------------------
+23/09/01 10:26:36 149 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 49ms
+23/09/01 10:26:36 150 [debug]: --------------------------------------------------
+23/09/01 10:26:36 152 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 48ms
+23/09/01 10:26:36 152 [debug]: --------------------------------------------------
+23/09/01 10:26:36 155 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 48ms
+23/09/01 10:26:36 156 [debug]: --------------------------------------------------
+23/09/01 10:26:36 419 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:26:36 420 [debug]: [GET] http://localhost:8001/build/static/media/세브란스병원_메인_온라인사본발급_210203.16dda58db7a2bd4e3768.png
+23/09/01 10:26:36 421 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:26:36 424 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+23/09/01 10:26:36 425 [debug]: --------------------------------------------------
+23/09/01 10:26:46 016 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:26:46 017 [debug]: [POST] http://localhost:8001/api/login
+23/09/01 10:26:46 018 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:26:46 026 [debug]: id=cdabomi
+23/09/01 10:26:46 027 [debug]: pw=cclzkclzk22!
+23/09/01 10:26:46 057 [error]: ForbiddenException: 아이디나 비밀번호를 확인하세요
+    at C:\Users\cdabo\mypage\server\controllers\LoginController.js:66:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+23/09/01 10:26:46 063 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 46ms
+23/09/01 10:26:46 064 [debug]: --------------------------------------------------
+23/09/01 10:26:48 140 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:26:48 141 [debug]: [GET] http://localhost:8001/build/static/media/뉴스위크-World’s-Best-Hospital2022-선정-배너.ff307d00486ca06618d4.png
+23/09/01 10:26:48 142 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:26:48 146 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+23/09/01 10:26:48 147 [debug]: --------------------------------------------------
+23/09/01 10:26:48 434 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:26:48 435 [debug]: [GET] http://localhost:8001/build/static/media/세브란스병원_메인_온라인사본발급_210203.16dda58db7a2bd4e3768.png
+23/09/01 10:26:48 435 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:26:48 437 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+23/09/01 10:26:48 437 [debug]: --------------------------------------------------
+23/09/01 10:27:31 450 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:27:31 452 [debug]: [POST] http://localhost:8001/userinfo
+23/09/01 10:27:31 452 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:27:31 458 [debug]: id=cdabomi
+23/09/01 10:27:31 459 [debug]: pw=clzkclzk22!
+23/09/01 10:27:31 479 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 28ms
+23/09/01 10:27:31 480 [debug]: --------------------------------------------------
+23/09/01 10:27:32 852 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:27:32 853 [debug]: [GET] http://localhost:8001/build/static/media/뉴스위크-World’s-Best-Hospital2022-선정-배너.ff307d00486ca06618d4.png
+23/09/01 10:27:32 854 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:27:32 856 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+23/09/01 10:27:32 856 [debug]: --------------------------------------------------
+23/09/01 10:27:33 149 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:27:33 150 [debug]: [GET] http://localhost:8001/build/static/media/세브란스병원_메인_온라인사본발급_210203.16dda58db7a2bd4e3768.png
+23/09/01 10:27:33 151 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:27:33 153 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2ms
+23/09/01 10:27:33 155 [debug]: --------------------------------------------------
+23/09/01 10:27:39 003 [debug]: 클라이언트가 접속했습니다.
+23/09/01 10:27:39 004 [debug]: [POST] http://localhost:8001/api/login
+23/09/01 10:27:39 004 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 10:27:39 008 [debug]: id=cdabomi
+23/09/01 10:27:39 008 [debug]: pw=clzkclzk22!
+23/09/01 10:27:39 021 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 17ms
+23/09/01 10:27:39 022 [debug]: --------------------------------------------------
+23/09/01 10:29:40 324 [debug]: --------------------------------------------------
+23/09/01 10:29:40 328 [debug]: |              Start Express Server              |
+23/09/01 10:29:40 328 [debug]: --------------------------------------------------
+23/09/01 10:29:40 329 [debug]: server address => http://192.168.187.1:8001
+23/09/01 10:29:40 330 [debug]: server address => http://192.168.48.1:8001
+23/09/01 10:29:40 330 [debug]: server address => http://192.168.123.104:8001
+23/09/01 10:29:40 331 [debug]: --------------------------------------------------
+23/09/01 10:43:12 442 [debug]: --------------------------------------------------
+23/09/01 10:43:12 445 [debug]: |              Start Express Server              |
+23/09/01 10:43:12 445 [debug]: --------------------------------------------------
+23/09/01 10:43:12 446 [debug]: server address => http://192.168.187.1:8001
+23/09/01 10:43:12 447 [debug]: server address => http://192.168.48.1:8001
+23/09/01 10:43:12 447 [debug]: server address => http://192.168.123.104:8001
+23/09/01 10:43:12 448 [debug]: --------------------------------------------------
+23/09/01 10:43:38 043 [debug]: --------------------------------------------------
+23/09/01 10:43:38 046 [debug]: |              Start Express Server              |
+23/09/01 10:43:38 047 [debug]: --------------------------------------------------
+23/09/01 10:43:38 048 [debug]: server address => http://192.168.187.1:8001
+23/09/01 10:43:38 049 [debug]: server address => http://192.168.48.1:8001
+23/09/01 10:43:38 050 [debug]: server address => http://192.168.123.104:8001
+23/09/01 10:43:38 051 [debug]: --------------------------------------------------
