@@ -1,6 +1,7 @@
 import breakpoints from 'styled-components-breakpoints';
 
 const sizes = {
+    xs: 350,
     sm: 600,
     md: 768,
     lg: 992,

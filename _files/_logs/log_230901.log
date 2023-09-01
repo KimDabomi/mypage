@@ -872,3 +872,627 @@
 23/09/01 10:43:38 049 [debug]: server address => http://192.168.48.1:8001
 23/09/01 10:43:38 050 [debug]: server address => http://192.168.123.104:8001
 23/09/01 10:43:38 051 [debug]: --------------------------------------------------
+23/09/01 10:51:43 119 [debug]: --------------------------------------------------
+23/09/01 10:51:43 123 [debug]: |              Start Express Server              |
+23/09/01 10:51:43 124 [debug]: --------------------------------------------------
+23/09/01 10:51:43 125 [debug]: server address => http://192.168.187.1:8001
+23/09/01 10:51:43 126 [debug]: server address => http://192.168.48.1:8001
+23/09/01 10:51:43 126 [debug]: server address => http://192.168.123.104:8001
+23/09/01 10:51:43 127 [debug]: --------------------------------------------------
+23/09/01 22:13:29 940 [debug]: --------------------------------------------------
+23/09/01 22:13:29 943 [debug]: |              Start Express Server              |
+23/09/01 22:13:29 944 [debug]: --------------------------------------------------
+23/09/01 22:13:29 944 [debug]: server address => http://192.168.187.1:8001
+23/09/01 22:13:29 945 [debug]: server address => http://192.168.48.1:8001
+23/09/01 22:13:29 945 [debug]: server address => http://192.168.123.101:8001
+23/09/01 22:13:29 946 [debug]: --------------------------------------------------
+23/09/01 22:20:13 416 [debug]: --------------------------------------------------
+23/09/01 22:20:13 419 [debug]: |              Start Express Server              |
+23/09/01 22:20:13 420 [debug]: --------------------------------------------------
+23/09/01 22:20:13 420 [debug]: server address => http://192.168.187.1:8001
+23/09/01 22:20:13 420 [debug]: server address => http://192.168.48.1:8001
+23/09/01 22:20:13 421 [debug]: server address => http://192.168.123.101:8001
+23/09/01 22:20:13 421 [debug]: --------------------------------------------------
+23/09/01 22:20:50 475 [debug]: 백엔드가 종료되었습니다.
+23/09/01 22:20:56 601 [debug]: --------------------------------------------------
+23/09/01 22:20:56 604 [debug]: |              Start Express Server              |
+23/09/01 22:20:56 605 [debug]: --------------------------------------------------
+23/09/01 22:20:56 605 [debug]: server address => http://192.168.187.1:8001
+23/09/01 22:20:56 606 [debug]: server address => http://192.168.48.1:8001
+23/09/01 22:20:56 606 [debug]: server address => http://192.168.123.101:8001
+23/09/01 22:20:56 607 [debug]: --------------------------------------------------
+23/09/01 22:24:15 444 [debug]: --------------------------------------------------
+23/09/01 22:24:15 447 [debug]: |              Start Express Server              |
+23/09/01 22:24:15 447 [debug]: --------------------------------------------------
+23/09/01 22:24:15 448 [debug]: server address => http://192.168.187.1:8001
+23/09/01 22:24:15 448 [debug]: server address => http://192.168.48.1:8001
+23/09/01 22:24:15 448 [debug]: server address => http://192.168.123.101:8001
+23/09/01 22:24:15 449 [debug]: --------------------------------------------------
+23/09/01 22:24:18 997 [debug]: --------------------------------------------------
+23/09/01 22:24:19 000 [debug]: |              Start Express Server              |
+23/09/01 22:24:19 000 [debug]: --------------------------------------------------
+23/09/01 22:24:19 001 [debug]: server address => http://192.168.187.1:8001
+23/09/01 22:24:19 001 [debug]: server address => http://192.168.48.1:8001
+23/09/01 22:24:19 002 [debug]: server address => http://192.168.123.101:8001
+23/09/01 22:24:19 002 [debug]: --------------------------------------------------
+23/09/01 22:31:38 361 [debug]: --------------------------------------------------
+23/09/01 22:31:38 364 [debug]: |              Start Express Server              |
+23/09/01 22:31:38 365 [debug]: --------------------------------------------------
+23/09/01 22:31:38 365 [debug]: server address => http://192.168.187.1:8001
+23/09/01 22:31:38 366 [debug]: server address => http://192.168.48.1:8001
+23/09/01 22:31:38 366 [debug]: server address => http://192.168.123.101:8001
+23/09/01 22:31:38 367 [debug]: --------------------------------------------------
+23/09/01 22:36:47 582 [debug]: --------------------------------------------------
+23/09/01 22:36:47 585 [debug]: |              Start Express Server              |
+23/09/01 22:36:47 586 [debug]: --------------------------------------------------
+23/09/01 22:36:47 586 [debug]: server address => http://192.168.187.1:8001
+23/09/01 22:36:47 587 [debug]: server address => http://192.168.48.1:8001
+23/09/01 22:36:47 587 [debug]: server address => http://192.168.123.101:8001
+23/09/01 22:36:47 588 [debug]: --------------------------------------------------
+23/09/01 22:37:16 416 [debug]: --------------------------------------------------
+23/09/01 22:37:16 419 [debug]: |              Start Express Server              |
+23/09/01 22:37:16 419 [debug]: --------------------------------------------------
+23/09/01 22:37:16 420 [debug]: server address => http://192.168.187.1:8001
+23/09/01 22:37:16 420 [debug]: server address => http://192.168.48.1:8001
+23/09/01 22:37:16 421 [debug]: server address => http://192.168.123.101:8001
+23/09/01 22:37:16 421 [debug]: --------------------------------------------------
+23/09/01 22:44:47 292 [debug]: --------------------------------------------------
+23/09/01 22:44:47 295 [debug]: |              Start Express Server              |
+23/09/01 22:44:47 296 [debug]: --------------------------------------------------
+23/09/01 22:44:47 296 [debug]: server address => http://192.168.187.1:8001
+23/09/01 22:44:47 297 [debug]: server address => http://192.168.48.1:8001
+23/09/01 22:44:47 297 [debug]: server address => http://192.168.123.101:8001
+23/09/01 22:44:47 298 [debug]: --------------------------------------------------
+23/09/01 22:45:12 676 [debug]: --------------------------------------------------
+23/09/01 22:45:12 679 [debug]: |              Start Express Server              |
+23/09/01 22:45:12 680 [debug]: --------------------------------------------------
+23/09/01 22:45:12 681 [debug]: server address => http://192.168.187.1:8001
+23/09/01 22:45:12 681 [debug]: server address => http://192.168.48.1:8001
+23/09/01 22:45:12 681 [debug]: server address => http://192.168.123.101:8001
+23/09/01 22:45:12 682 [debug]: --------------------------------------------------
+23/09/01 22:48:11 892 [debug]: --------------------------------------------------
+23/09/01 22:48:11 897 [debug]: |              Start Express Server              |
+23/09/01 22:48:11 898 [debug]: --------------------------------------------------
+23/09/01 22:48:11 900 [debug]: server address => http://192.168.187.1:8001
+23/09/01 22:48:11 901 [debug]: server address => http://192.168.48.1:8001
+23/09/01 22:48:11 902 [debug]: server address => http://192.168.123.101:8001
+23/09/01 22:48:11 904 [debug]: --------------------------------------------------
+23/09/01 22:49:12 625 [debug]: 클라이언트가 접속했습니다.
+23/09/01 22:49:12 628 [debug]: [GET] http://localhost:8001/main.99b4dca40cf0ae6634c6.hot-update.json
+23/09/01 22:49:12 629 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 22:49:12 634 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 22:49:12 639 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 11ms
+23/09/01 22:49:12 641 [debug]: --------------------------------------------------
+23/09/01 22:49:27 907 [debug]: --------------------------------------------------
+23/09/01 22:49:27 910 [debug]: |              Start Express Server              |
+23/09/01 22:49:27 912 [debug]: --------------------------------------------------
+23/09/01 22:49:27 912 [debug]: server address => http://192.168.187.1:8001
+23/09/01 22:49:27 913 [debug]: server address => http://192.168.48.1:8001
+23/09/01 22:49:27 913 [debug]: server address => http://192.168.123.101:8001
+23/09/01 22:49:27 914 [debug]: --------------------------------------------------
+23/09/01 22:49:43 184 [debug]: --------------------------------------------------
+23/09/01 22:49:43 188 [debug]: |              Start Express Server              |
+23/09/01 22:49:43 189 [debug]: --------------------------------------------------
+23/09/01 22:49:43 189 [debug]: server address => http://192.168.187.1:8001
+23/09/01 22:49:43 190 [debug]: server address => http://192.168.48.1:8001
+23/09/01 22:49:43 190 [debug]: server address => http://192.168.123.101:8001
+23/09/01 22:49:43 190 [debug]: --------------------------------------------------
+23/09/01 22:49:59 410 [debug]: --------------------------------------------------
+23/09/01 22:49:59 413 [debug]: |              Start Express Server              |
+23/09/01 22:49:59 414 [debug]: --------------------------------------------------
+23/09/01 22:49:59 414 [debug]: server address => http://192.168.187.1:8001
+23/09/01 22:49:59 415 [debug]: server address => http://192.168.48.1:8001
+23/09/01 22:49:59 415 [debug]: server address => http://192.168.123.101:8001
+23/09/01 22:49:59 416 [debug]: --------------------------------------------------
+23/09/01 22:52:10 291 [debug]: --------------------------------------------------
+23/09/01 22:52:10 294 [debug]: |              Start Express Server              |
+23/09/01 22:52:10 294 [debug]: --------------------------------------------------
+23/09/01 22:52:10 295 [debug]: server address => http://192.168.187.1:8001
+23/09/01 22:52:10 295 [debug]: server address => http://192.168.48.1:8001
+23/09/01 22:52:10 295 [debug]: server address => http://192.168.123.101:8001
+23/09/01 22:52:10 296 [debug]: --------------------------------------------------
+23/09/01 22:52:55 942 [debug]: --------------------------------------------------
+23/09/01 22:52:55 946 [debug]: |              Start Express Server              |
+23/09/01 22:52:55 947 [debug]: --------------------------------------------------
+23/09/01 22:52:55 947 [debug]: server address => http://192.168.187.1:8001
+23/09/01 22:52:55 948 [debug]: server address => http://192.168.48.1:8001
+23/09/01 22:52:55 948 [debug]: server address => http://192.168.123.101:8001
+23/09/01 22:52:55 949 [debug]: --------------------------------------------------
+23/09/01 22:53:21 126 [debug]: --------------------------------------------------
+23/09/01 22:53:21 129 [debug]: |              Start Express Server              |
+23/09/01 22:53:21 130 [debug]: --------------------------------------------------
+23/09/01 22:53:21 130 [debug]: server address => http://192.168.187.1:8001
+23/09/01 22:53:21 131 [debug]: server address => http://192.168.48.1:8001
+23/09/01 22:53:21 132 [debug]: server address => http://192.168.123.101:8001
+23/09/01 22:53:21 132 [debug]: --------------------------------------------------
+23/09/01 22:53:38 631 [debug]: --------------------------------------------------
+23/09/01 22:53:38 635 [debug]: |              Start Express Server              |
+23/09/01 22:53:38 636 [debug]: --------------------------------------------------
+23/09/01 22:53:38 636 [debug]: server address => http://192.168.187.1:8001
+23/09/01 22:53:38 637 [debug]: server address => http://192.168.48.1:8001
+23/09/01 22:53:38 638 [debug]: server address => http://192.168.123.101:8001
+23/09/01 22:53:38 638 [debug]: --------------------------------------------------
+23/09/01 22:53:42 862 [debug]: --------------------------------------------------
+23/09/01 22:53:42 866 [debug]: |              Start Express Server              |
+23/09/01 22:53:42 866 [debug]: --------------------------------------------------
+23/09/01 22:53:42 867 [debug]: server address => http://192.168.187.1:8001
+23/09/01 22:53:42 868 [debug]: server address => http://192.168.48.1:8001
+23/09/01 22:53:42 868 [debug]: server address => http://192.168.123.101:8001
+23/09/01 22:53:42 869 [debug]: --------------------------------------------------
+23/09/01 22:54:12 432 [debug]: --------------------------------------------------
+23/09/01 22:54:12 435 [debug]: |              Start Express Server              |
+23/09/01 22:54:12 436 [debug]: --------------------------------------------------
+23/09/01 22:54:12 437 [debug]: server address => http://192.168.187.1:8001
+23/09/01 22:54:12 437 [debug]: server address => http://192.168.48.1:8001
+23/09/01 22:54:12 438 [debug]: server address => http://192.168.123.101:8001
+23/09/01 22:54:12 438 [debug]: --------------------------------------------------
+23/09/01 22:54:16 527 [debug]: 클라이언트가 접속했습니다.
+23/09/01 22:54:16 529 [debug]: [GET] http://localhost:8001/main.46f13eb550c844779277.hot-update.json
+23/09/01 22:54:16 529 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 22:54:16 535 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 22:54:16 543 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 15ms
+23/09/01 22:54:16 544 [debug]: --------------------------------------------------
+23/09/01 22:54:58 854 [debug]: --------------------------------------------------
+23/09/01 22:54:58 857 [debug]: |              Start Express Server              |
+23/09/01 22:54:58 858 [debug]: --------------------------------------------------
+23/09/01 22:54:58 858 [debug]: server address => http://192.168.187.1:8001
+23/09/01 22:54:58 859 [debug]: server address => http://192.168.48.1:8001
+23/09/01 22:54:58 859 [debug]: server address => http://192.168.123.101:8001
+23/09/01 22:54:58 860 [debug]: --------------------------------------------------
+23/09/01 22:56:14 998 [debug]: --------------------------------------------------
+23/09/01 22:56:15 001 [debug]: |              Start Express Server              |
+23/09/01 22:56:15 001 [debug]: --------------------------------------------------
+23/09/01 22:56:15 002 [debug]: server address => http://192.168.187.1:8001
+23/09/01 22:56:15 003 [debug]: server address => http://192.168.48.1:8001
+23/09/01 22:56:15 003 [debug]: server address => http://192.168.123.101:8001
+23/09/01 22:56:15 004 [debug]: --------------------------------------------------
+23/09/01 22:57:37 430 [debug]: --------------------------------------------------
+23/09/01 22:57:37 432 [debug]: |              Start Express Server              |
+23/09/01 22:57:37 433 [debug]: --------------------------------------------------
+23/09/01 22:57:37 433 [debug]: server address => http://192.168.187.1:8001
+23/09/01 22:57:37 434 [debug]: server address => http://192.168.48.1:8001
+23/09/01 22:57:37 434 [debug]: server address => http://192.168.123.101:8001
+23/09/01 22:57:37 434 [debug]: --------------------------------------------------
+23/09/01 22:58:00 571 [debug]: --------------------------------------------------
+23/09/01 22:58:00 574 [debug]: |              Start Express Server              |
+23/09/01 22:58:00 574 [debug]: --------------------------------------------------
+23/09/01 22:58:00 575 [debug]: server address => http://192.168.187.1:8001
+23/09/01 22:58:00 576 [debug]: server address => http://192.168.48.1:8001
+23/09/01 22:58:00 576 [debug]: server address => http://192.168.123.101:8001
+23/09/01 22:58:00 577 [debug]: --------------------------------------------------
+23/09/01 22:58:44 603 [debug]: --------------------------------------------------
+23/09/01 22:58:44 606 [debug]: |              Start Express Server              |
+23/09/01 22:58:44 606 [debug]: --------------------------------------------------
+23/09/01 22:58:44 607 [debug]: server address => http://192.168.187.1:8001
+23/09/01 22:58:44 607 [debug]: server address => http://192.168.48.1:8001
+23/09/01 22:58:44 608 [debug]: server address => http://192.168.123.101:8001
+23/09/01 22:58:44 608 [debug]: --------------------------------------------------
+23/09/01 23:44:12 632 [debug]: --------------------------------------------------
+23/09/01 23:44:12 635 [debug]: |              Start Express Server              |
+23/09/01 23:44:12 635 [debug]: --------------------------------------------------
+23/09/01 23:44:12 636 [debug]: server address => http://192.168.187.1:8001
+23/09/01 23:44:12 636 [debug]: server address => http://192.168.48.1:8001
+23/09/01 23:44:12 637 [debug]: server address => http://192.168.123.101:8001
+23/09/01 23:44:12 637 [debug]: --------------------------------------------------
+23/09/01 23:47:54 218 [debug]: --------------------------------------------------
+23/09/01 23:47:54 221 [debug]: |              Start Express Server              |
+23/09/01 23:47:54 222 [debug]: --------------------------------------------------
+23/09/01 23:47:54 222 [debug]: server address => http://192.168.187.1:8001
+23/09/01 23:47:54 223 [debug]: server address => http://192.168.48.1:8001
+23/09/01 23:47:54 223 [debug]: server address => http://192.168.123.101:8001
+23/09/01 23:47:54 224 [debug]: --------------------------------------------------
+23/09/01 23:47:58 998 [debug]: 클라이언트가 접속했습니다.
+23/09/01 23:47:59 000 [debug]: [GET] http://localhost:8001/main.4c6985cc74fce94b7574.hot-update.json
+23/09/01 23:47:59 001 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 23:47:59 005 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 23:47:59 011 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 11ms
+23/09/01 23:47:59 011 [debug]: --------------------------------------------------
+23/09/01 23:48:43 806 [debug]: --------------------------------------------------
+23/09/01 23:48:43 809 [debug]: |              Start Express Server              |
+23/09/01 23:48:43 810 [debug]: --------------------------------------------------
+23/09/01 23:48:43 810 [debug]: server address => http://192.168.187.1:8001
+23/09/01 23:48:43 811 [debug]: server address => http://192.168.48.1:8001
+23/09/01 23:48:43 811 [debug]: server address => http://192.168.123.101:8001
+23/09/01 23:48:43 812 [debug]: --------------------------------------------------
+23/09/01 23:48:47 505 [debug]: 클라이언트가 접속했습니다.
+23/09/01 23:48:47 506 [debug]: [GET] http://localhost:8001/main.a2053c09d793dddd5d36.hot-update.json
+23/09/01 23:48:47 507 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 23:48:47 512 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 23:48:47 517 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 11ms
+23/09/01 23:48:47 517 [debug]: --------------------------------------------------
+23/09/01 23:48:47 718 [debug]: 클라이언트가 접속했습니다.
+23/09/01 23:48:47 720 [debug]: [GET] http://localhost:8001/main.a2053c09d793dddd5d36.hot-update.json
+23/09/01 23:48:47 721 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 23:48:47 724 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 23:48:47 730 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 10ms
+23/09/01 23:48:47 731 [debug]: --------------------------------------------------
+23/09/01 23:49:24 612 [debug]: --------------------------------------------------
+23/09/01 23:49:24 615 [debug]: |              Start Express Server              |
+23/09/01 23:49:24 615 [debug]: --------------------------------------------------
+23/09/01 23:49:24 616 [debug]: server address => http://192.168.187.1:8001
+23/09/01 23:49:24 616 [debug]: server address => http://192.168.48.1:8001
+23/09/01 23:49:24 617 [debug]: server address => http://192.168.123.101:8001
+23/09/01 23:49:24 617 [debug]: --------------------------------------------------
+23/09/01 23:49:28 540 [debug]: 클라이언트가 접속했습니다.
+23/09/01 23:49:28 541 [debug]: [GET] http://localhost:8001/main.f086f369c6f663b16836.hot-update.json
+23/09/01 23:49:28 542 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 23:49:28 546 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 23:49:28 551 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 10ms
+23/09/01 23:49:28 551 [debug]: --------------------------------------------------
+23/09/01 23:49:28 883 [debug]: 클라이언트가 접속했습니다.
+23/09/01 23:49:28 885 [debug]: [GET] http://localhost:8001/main.f086f369c6f663b16836.hot-update.json
+23/09/01 23:49:28 885 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 23:49:28 888 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 23:49:28 893 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 9ms
+23/09/01 23:49:28 893 [debug]: --------------------------------------------------
+23/09/01 23:51:07 913 [debug]: --------------------------------------------------
+23/09/01 23:51:07 916 [debug]: |              Start Express Server              |
+23/09/01 23:51:07 917 [debug]: --------------------------------------------------
+23/09/01 23:51:07 917 [debug]: server address => http://192.168.187.1:8001
+23/09/01 23:51:07 918 [debug]: server address => http://192.168.48.1:8001
+23/09/01 23:51:07 918 [debug]: server address => http://192.168.123.101:8001
+23/09/01 23:51:07 919 [debug]: --------------------------------------------------
+23/09/01 23:51:58 690 [debug]: --------------------------------------------------
+23/09/01 23:51:58 692 [debug]: |              Start Express Server              |
+23/09/01 23:51:58 693 [debug]: --------------------------------------------------
+23/09/01 23:51:58 693 [debug]: server address => http://192.168.187.1:8001
+23/09/01 23:51:58 694 [debug]: server address => http://192.168.48.1:8001
+23/09/01 23:51:58 694 [debug]: server address => http://192.168.123.101:8001
+23/09/01 23:51:58 695 [debug]: --------------------------------------------------
+23/09/01 23:53:07 691 [debug]: --------------------------------------------------
+23/09/01 23:53:07 693 [debug]: |              Start Express Server              |
+23/09/01 23:53:07 694 [debug]: --------------------------------------------------
+23/09/01 23:53:07 695 [debug]: server address => http://192.168.187.1:8001
+23/09/01 23:53:07 695 [debug]: server address => http://192.168.48.1:8001
+23/09/01 23:53:07 696 [debug]: server address => http://192.168.123.101:8001
+23/09/01 23:53:07 697 [debug]: --------------------------------------------------
+23/09/01 23:53:31 276 [debug]: --------------------------------------------------
+23/09/01 23:53:31 279 [debug]: |              Start Express Server              |
+23/09/01 23:53:31 279 [debug]: --------------------------------------------------
+23/09/01 23:53:31 280 [debug]: server address => http://192.168.187.1:8001
+23/09/01 23:53:31 280 [debug]: server address => http://192.168.48.1:8001
+23/09/01 23:53:31 281 [debug]: server address => http://192.168.123.101:8001
+23/09/01 23:53:31 281 [debug]: --------------------------------------------------
+23/09/01 23:53:35 146 [debug]: 클라이언트가 접속했습니다.
+23/09/01 23:53:35 147 [debug]: [GET] http://localhost:8001/main.4e91ef8bc189308e676b.hot-update.json
+23/09/01 23:53:35 148 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 23:53:35 152 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 23:53:35 159 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 12ms
+23/09/01 23:53:35 160 [debug]: --------------------------------------------------
+23/09/01 23:54:52 658 [debug]: --------------------------------------------------
+23/09/01 23:54:52 661 [debug]: |              Start Express Server              |
+23/09/01 23:54:52 662 [debug]: --------------------------------------------------
+23/09/01 23:54:52 662 [debug]: server address => http://192.168.187.1:8001
+23/09/01 23:54:52 663 [debug]: server address => http://192.168.48.1:8001
+23/09/01 23:54:52 663 [debug]: server address => http://192.168.123.101:8001
+23/09/01 23:54:52 664 [debug]: --------------------------------------------------
+23/09/01 23:54:56 741 [debug]: 클라이언트가 접속했습니다.
+23/09/01 23:54:56 742 [debug]: [GET] http://localhost:8001/main.9c23fd278498feaacf94.hot-update.json
+23/09/01 23:54:56 743 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 23:54:56 747 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 23:54:56 753 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 11ms
+23/09/01 23:54:56 754 [debug]: --------------------------------------------------
+23/09/01 23:54:56 967 [debug]: 클라이언트가 접속했습니다.
+23/09/01 23:54:56 970 [debug]: [GET] http://localhost:8001/main.9c23fd278498feaacf94.hot-update.json
+23/09/01 23:54:56 971 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 23:54:56 976 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 23:54:56 982 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 13ms
+23/09/01 23:54:56 983 [debug]: --------------------------------------------------
+23/09/01 23:56:25 706 [debug]: --------------------------------------------------
+23/09/01 23:56:25 709 [debug]: |              Start Express Server              |
+23/09/01 23:56:25 710 [debug]: --------------------------------------------------
+23/09/01 23:56:25 710 [debug]: server address => http://192.168.187.1:8001
+23/09/01 23:56:25 711 [debug]: server address => http://192.168.48.1:8001
+23/09/01 23:56:25 711 [debug]: server address => http://192.168.123.101:8001
+23/09/01 23:56:25 712 [debug]: --------------------------------------------------
+23/09/01 23:56:29 455 [debug]: 클라이언트가 접속했습니다.
+23/09/01 23:56:29 457 [debug]: [GET] http://localhost:8001/main.caf84c0f4ed230c354ff.hot-update.json
+23/09/01 23:56:29 458 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 23:56:29 463 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 23:56:29 468 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 12ms
+23/09/01 23:56:29 468 [debug]: --------------------------------------------------
+23/09/01 23:56:29 691 [debug]: 클라이언트가 접속했습니다.
+23/09/01 23:56:29 694 [debug]: [GET] http://localhost:8001/main.caf84c0f4ed230c354ff.hot-update.json
+23/09/01 23:56:29 695 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 23:56:29 700 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 23:56:29 705 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 11ms
+23/09/01 23:56:29 705 [debug]: --------------------------------------------------
+23/09/01 23:56:29 788 [debug]: 클라이언트가 접속했습니다.
+23/09/01 23:56:29 789 [debug]: [GET] http://localhost:8001/main.caf84c0f4ed230c354ff.hot-update.json
+23/09/01 23:56:29 790 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 23:56:29 791 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 23:56:29 794 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+23/09/01 23:56:29 794 [debug]: --------------------------------------------------
+23/09/01 23:57:05 854 [debug]: --------------------------------------------------
+23/09/01 23:57:05 857 [debug]: |              Start Express Server              |
+23/09/01 23:57:05 858 [debug]: --------------------------------------------------
+23/09/01 23:57:05 859 [debug]: server address => http://192.168.187.1:8001
+23/09/01 23:57:05 859 [debug]: server address => http://192.168.48.1:8001
+23/09/01 23:57:05 860 [debug]: server address => http://192.168.123.101:8001
+23/09/01 23:57:05 860 [debug]: --------------------------------------------------
+23/09/01 23:57:09 603 [debug]: 클라이언트가 접속했습니다.
+23/09/01 23:57:09 605 [debug]: [GET] http://localhost:8001/main.6f35e03b316e24b5159d.hot-update.json
+23/09/01 23:57:09 605 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 23:57:09 610 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 23:57:09 615 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 11ms
+23/09/01 23:57:09 616 [debug]: --------------------------------------------------
+23/09/01 23:57:09 847 [debug]: 클라이언트가 접속했습니다.
+23/09/01 23:57:09 848 [debug]: [GET] http://localhost:8001/main.6f35e03b316e24b5159d.hot-update.json
+23/09/01 23:57:09 849 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 23:57:09 851 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 23:57:09 854 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 6ms
+23/09/01 23:57:09 854 [debug]: --------------------------------------------------
+23/09/01 23:57:42 544 [debug]: --------------------------------------------------
+23/09/01 23:57:42 546 [debug]: |              Start Express Server              |
+23/09/01 23:57:42 547 [debug]: --------------------------------------------------
+23/09/01 23:57:42 547 [debug]: server address => http://192.168.187.1:8001
+23/09/01 23:57:42 548 [debug]: server address => http://192.168.48.1:8001
+23/09/01 23:57:42 548 [debug]: server address => http://192.168.123.101:8001
+23/09/01 23:57:42 549 [debug]: --------------------------------------------------
+23/09/01 23:57:58 344 [debug]: --------------------------------------------------
+23/09/01 23:57:58 347 [debug]: |              Start Express Server              |
+23/09/01 23:57:58 348 [debug]: --------------------------------------------------
+23/09/01 23:57:58 349 [debug]: server address => http://192.168.187.1:8001
+23/09/01 23:57:58 349 [debug]: server address => http://192.168.48.1:8001
+23/09/01 23:57:58 350 [debug]: server address => http://192.168.123.101:8001
+23/09/01 23:57:58 351 [debug]: --------------------------------------------------
+23/09/01 23:58:02 064 [debug]: 클라이언트가 접속했습니다.
+23/09/01 23:58:02 067 [debug]: [GET] http://localhost:8001/main.1eb78a4972994d5320c4.hot-update.json
+23/09/01 23:58:02 068 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 23:58:02 073 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 23:58:02 078 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 12ms
+23/09/01 23:58:02 079 [debug]: --------------------------------------------------
+23/09/01 23:58:53 421 [debug]: --------------------------------------------------
+23/09/01 23:58:53 424 [debug]: |              Start Express Server              |
+23/09/01 23:58:53 424 [debug]: --------------------------------------------------
+23/09/01 23:58:53 425 [debug]: server address => http://192.168.187.1:8001
+23/09/01 23:58:53 425 [debug]: server address => http://192.168.48.1:8001
+23/09/01 23:58:53 426 [debug]: server address => http://192.168.123.101:8001
+23/09/01 23:58:53 426 [debug]: --------------------------------------------------
+23/09/01 23:58:57 191 [debug]: 클라이언트가 접속했습니다.
+23/09/01 23:58:57 193 [debug]: [GET] http://localhost:8001/main.87e646fa161b3b40a894.hot-update.json
+23/09/01 23:58:57 194 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 23:58:57 198 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 23:58:57 203 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 11ms
+23/09/01 23:58:57 204 [debug]: --------------------------------------------------
+23/09/01 23:58:57 394 [debug]: 클라이언트가 접속했습니다.
+23/09/01 23:58:57 395 [debug]: [GET] http://localhost:8001/main.87e646fa161b3b40a894.hot-update.json
+23/09/01 23:58:57 397 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 23:58:57 399 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 23:58:57 403 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 8ms
+23/09/01 23:58:57 403 [debug]: --------------------------------------------------
+23/09/01 23:59:28 136 [debug]: --------------------------------------------------
+23/09/01 23:59:28 139 [debug]: |              Start Express Server              |
+23/09/01 23:59:28 139 [debug]: --------------------------------------------------
+23/09/01 23:59:28 140 [debug]: server address => http://192.168.187.1:8001
+23/09/01 23:59:28 141 [debug]: server address => http://192.168.48.1:8001
+23/09/01 23:59:28 141 [debug]: server address => http://192.168.123.101:8001
+23/09/01 23:59:28 142 [debug]: --------------------------------------------------
+23/09/01 23:59:31 857 [debug]: 클라이언트가 접속했습니다.
+23/09/01 23:59:31 859 [debug]: [GET] http://localhost:8001/main.2edc5ddb073d0c80912b.hot-update.json
+23/09/01 23:59:31 859 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 23:59:31 864 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 23:59:31 869 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 11ms
+23/09/01 23:59:31 870 [debug]: --------------------------------------------------
+23/09/01 23:59:32 194 [debug]: 클라이언트가 접속했습니다.
+23/09/01 23:59:32 195 [debug]: [GET] http://localhost:8001/main.2edc5ddb073d0c80912b.hot-update.json
+23/09/01 23:59:32 196 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 23:59:32 199 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 23:59:32 201 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 6ms
+23/09/01 23:59:32 202 [debug]: --------------------------------------------------
+23/09/01 23:59:32 532 [debug]: 클라이언트가 접속했습니다.
+23/09/01 23:59:32 533 [debug]: [GET] http://localhost:8001/main.2edc5ddb073d0c80912b.hot-update.json
+23/09/01 23:59:32 534 [debug]: [client] 127.0.0.1 / Windows 10.0 / Chrome (116.0.0.0) / Microsoft Windows
+23/09/01 23:59:32 536 [error]: PageNotFoundException: 페이지를 찾을 수 없습니다.
+    at C:\Users\cdabo\mypage\server\app.js:166:48
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\cdabo\mypage\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\cdabo\mypage\node_modules\express\lib\router\index.js:328:13)
+23/09/01 23:59:32 538 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+23/09/01 23:59:32 539 [debug]: --------------------------------------------------

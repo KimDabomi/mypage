@@ -14,16 +14,15 @@ import express from '../assets/img/espress.png';
 import figma from '../assets/img/figma.png';
 import git from '../assets/img/git.png';
 import miro from '../assets/img/miro.png';
-import mybatis from '../assets/img/mybatis.png';
 import mysql from '../assets/img/mysql.png';
 import workbench from '../assets/img/MySQLWorkbench.png';
 import react from '../assets/img/react.png';
 import redux from '../assets/img/redux.png';
 import sass from '../assets/img/sass.png';
-import ubuntu from '../assets/img/ubuntu-logo.png';
-import vmware from '../assets/img/vmware.png';
+import mongodb from '../assets/img/MongoDB_Logo.png';
 import vscode from '../assets/img/vscode.png';
 import node from '../assets/img/노드.png';
+import wordpress from '../assets/img/wp-logo.png';
 
 const AboutContainer = styled.div`
     background-color: rgba(0,0,0,.6);
@@ -110,16 +109,15 @@ const About = memo(() => {
                 <img src={node} alt='node' />
                 <img src={express} alt='express' />
                 <img src={mysql} alt='mysql' />
-                <img src={mybatis} alt='mybatis' />
-                <img src={ubuntu} alt='ubuntu' />
+                <img src={mongodb} alt='mongodb' />
             </div>
             <div className='tools'>
                 <img src={vscode} alt='vscode' />
                 <img src={miro} alt='miro' />
                 <img src={figma} alt='figma' />
                 <img src={git} alt='git' />
-                <img src={vmware} alt='vmware' />
                 <img src={workbench} alt='workbench' />
+                <img src={wordpress} alt='wordpress' />
             </div>
         </AboutContainer>
     );

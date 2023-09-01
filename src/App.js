@@ -1,6 +1,6 @@
-import React, { memo } from "react";
+import React, { memo, useState } from "react";
 import { Link } from "react-scroll";
-import { NavLink} from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import TopButton from "./components/TopButton";
 
@@ -12,18 +12,19 @@ import me from "./assets/img/me.jpg";
 import emo from "./assets/img/emo.png";
 import htmlcss from "./assets/img/htmlcss.png";
 import js from "./assets/img/js.png";
-import express from "./assets/img/espress.png";
+import express from "./assets/img/express-logo.png";
 import figma from "./assets/img/figma.png";
 import git from "./assets/img/git.png";
-import velog from "./assets/img/velog.jpg";
 import miro from "./assets/img/miro.png";
-import mybatis from "./assets/img/mybatis.png";
+import notion from "./assets/img/Notion-logo.png";
+import mongodb from "./assets/img/MongoDB_Logo.png";
 import mysql from "./assets/img/mysql.png";
 import workbench from "./assets/img/MySQLWorkbench.png";
+import wordpress from "./assets/img/wp-logo.png";
+import gnuboard from "./assets/img/gnuboard-logo.png";
 import react from "./assets/img/react.png";
 import redux from "./assets/img/redux.png";
 import sass from "./assets/img/sass.png";
-import vmware from "./assets/img/vmware.png";
 import vscode from "./assets/img/vscode.png";
 import node from "./assets/img/노드.png";
 import sev from "./assets/img/sev.gif";
@@ -33,15 +34,23 @@ import clone02 from "./assets/img/clone02.jpg";
 import clone03 from "./assets/img/clone03.jpg";
 import clone04 from "./assets/img/clone04.jpg";
 import clone05 from "./assets/img/clone05.jpg";
+import mealfarm from "./assets/img/mealfarm-logo.png";
+import hotpay from "./assets/img/hotpay-logo.png";
+import robotxt from "./assets/img/robotxt-logo.png";
+import tyb from "./assets/img/tyb-logo.png";
+import lolpang from "./assets/img/lolpang-logo.png";
+import lol from "./assets/img/lol.png";
+import shop from "./assets/img/shop.png";
+import makesite from "./assets/img/makesite.png";
+import makesiteRending from "./assets/img/makesite-rending.png";
+import googleads from "./assets/img/googleads.png";
 
-const MiddleDiv = styled.div`
-  height: 504px;
-`;
+const MiddleDiv = styled.div``;
 const HeaderContainer = styled.div`
   position: fixed;
   top: 0;
   margin: 0;
-  padding-top: 20px;
+  padding: 20px 0;
   position: fixed;
   top: 0;
   z-index: 9999;
@@ -54,25 +63,14 @@ const HeaderContainer = styled.div`
       left: 2%;
       top: 30%;
     }
-    .blanks {
-      position: absolute;
-      right: 2%;
-      top: 20%;
-    }
   }
 
   .about,
-  .project {
+  .project,
+  .git,
+  .velog {
     color: white;
     margin-right: 30px;
-  }
-  img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-  }
-  .git {
-    margin-right: 10px;
   }
 `;
 const MainContainer = styled.div`
@@ -105,12 +103,18 @@ const MainContainer = styled.div`
   }
   ${mq.maxWidth("md")`
     width: 100%;
-    height: 450px;
+    height: 550px;
     img {
       display: none;
     }
     .mainwrap {
       width: 68%;
+    }
+  `}
+  ${mq.maxWidth("xs")`
+    width: 100%;
+    .mainwrap {
+      width: 90%;
     }
   `}
 `;
@@ -162,14 +166,22 @@ const AboutContainer = styled.div`
         background-color: #fff4;
         width: 100%;
         height: 120px;
-        padding: 10px 0 0 20px;
+        padding-left: 20px;
         box-sizing: border-box;
         img {
-          height: 80px;
-          margin: 5px;
-          &:nth-child(2),
-          &:nth-child(3) {
+          margin-right: 10px;
+          &:first-child {
+            height: 80px;
+            margin-bottom: 20px;
+          }
+          &:nth-child(2) {
+            height: 100px;
+            margin-top: 10px;
+          }
+          &:nth-child(3),
+          &:nth-child(4) {
             height: 50px;
+            margin-bottom: 35px;
           }
         }
       }
@@ -205,6 +217,9 @@ const AboutContainer = styled.div`
     }
   `}
   ${mq.maxWidth("lg")`
+    .intro {
+      width: 100%;
+    }
     .skills {
       .left {
         .front,.back {
@@ -214,14 +229,19 @@ const AboutContainer = styled.div`
       .right {
         .tools {
           height: 440px;
+          img {
+            width: 35%;
+          }
         }
       }
     }
   `}
   ${mq.maxWidth("md")`
-    width: 100%;
+    .intro {
+      width: 100%;
+    }
     margin: 0;
-    height: 900px;
+    height: 1000px;
     .skills {
       .left {
         width: 100%;
@@ -235,17 +255,71 @@ const AboutContainer = styled.div`
         margin-top: 20px;
         .tools {
           height: 240px;
+          img {
+            width: 20%;
+          }
         }
       }
     }
   `}
+  ${mq.maxWidth("sm")`
+    margin: 0;
+    height: 1260px;
+    .skills {
+      .left {
+        width: 100%;
+        margin: 0;
+        .front,.back {
+          height: 290px;
+        }
+      }
+      .right {
+        width: 100%;
+        margin-top: 20px;
+        .tools {
+          height: 395px;
+        }
+      }
+    }
+    .intro {
+      width: 100%;
+      img {
+        margin: 40px 20px 40px 0;
+      }
+    }
+  `}
+  ${mq.maxWidth("xs")`
+    margin: 0;
+    height: 1350px;
+    .skills {
+      .left {
+        width: 100%;
+        margin: 0;
+        .front,.back {
+          height: 310px;
+        }
+      }
+      .right {
+        width: 100%;
+        margin-top: 20px;
+        .tools {
+          height: 410px;
+        }
+      }
+    }
+    .intro {
+      width: 100%;
+      img {
+        margin: 40px 20px 40px 0;
+      }
+    }
+    
+  `}
 `;
-
 const ProjectContainer = styled.div`
   background-color: rgba(0, 0, 0, 0.6);
   width: 100%;
-  height: 510px;
-  padding-top: 20px;
+  padding: 20px 0;
   .warning {
     display: none;
   }
@@ -257,11 +331,13 @@ const ProjectContainer = styled.div`
     width: 90%;
     margin: auto;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     .sev,
     .weather,
-    .clone {
-      width: 32%;
+    .clone,
+    .wordpress,
+    .publishing {
+      width: 31.5%;
       height: 400px;
       background-color: #fff4;
       margin-right: 2%;
@@ -272,7 +348,8 @@ const ProjectContainer = styled.div`
         margin: 20px auto;
         box-shadow: 5px 5px 5px #0007;
       }
-      a {
+      a,
+      p {
         color: white;
         font-weight: bold;
         display: block;
@@ -287,7 +364,8 @@ const ProjectContainer = styled.div`
         }
       }
     }
-    .clone {
+    .clone,
+    .publishing {
       margin: 0;
       padding-left: 0;
       padding-right: 36px;
@@ -307,7 +385,7 @@ const ProjectContainer = styled.div`
         outline: none;
         font-size: 15px;
       }
-      .active,
+      .collapsible-title.active,
       .collapsible-title:hover {
         background-color: #0009;
         color: white;
@@ -326,8 +404,36 @@ const ProjectContainer = styled.div`
         img {
           float: left;
           width: 50%;
-          margin: 0;
+          margin: 0 0 10px 0;
           padding: 0;
+        }
+        a {
+          margin-bottom: 5px;
+        }
+      }
+    }
+    .wordpress,
+    .publishing {
+      margin-top: 20px;
+      .wp-icons {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        a {
+          width: 36%;
+          margin-right: 10px;
+          &:nth-child(2) {
+            margin-top: 20px;
+            margin-right: 20px;
+          }
+          &:nth-child(3) {
+            width: 18%;
+          }
+          img {
+            width: 100%;
+            margin: 20px auto;
+            box-shadow: none;
+          }
         }
       }
     }
@@ -343,6 +449,15 @@ const ProjectContainer = styled.div`
     .content {
       img {
         display: none;
+      }
+    }
+    .projectwrap {
+      .wordpress {
+        .wp-icons {
+          a {
+            width: 30%;
+          }
+        }
       }
     }
   `}
@@ -372,28 +487,34 @@ const FooterContainer = styled.div`
   }
 `;
 
-
 const App = memo(() => {
   const cloneClick = (e) => {
     const current = e.currentTarget;
 
-    // 스스로에게 active클래스에 대한 적용여부 변경
     current.classList.toggle("active");
 
     const parent = current.closest(".collapse");
-
     const content = parent.querySelector(".content");
 
-    // content에 maxHeight 속성이 있다면 (혹은 0이 아니라면)
     if (content.style.maxHeight) {
       content.style.maxHeight = null;
     } else {
       content.style.maxHeight = content.scrollHeight + "px";
     }
   };
+
+  const [scrollHeight, setScrollHeight] = useState(0);
+
+  const handleScroll = (e) => {
+    const { scrollTop, scrollHeight, clientHeight } = e.target;
+    const newHeight =
+      scrollTop + clientHeight >= scrollHeight ? scrollHeight : clientHeight;
+    setScrollHeight(newHeight);
+  };
+
   return (
-    <div>
-      <MiddleDiv>
+    <div onScroll={handleScroll}>
+      <MiddleDiv style={{ height: `${scrollHeight}px` }}>
         <HeaderContainer>
           <div className="wrap">
             <div className="links">
@@ -403,23 +524,22 @@ const App = memo(() => {
               <Link to="project" className="project" spy={true} smooth={true}>
                 Project
               </Link>
-            </div>
-            <div className="blanks">
               <NavLink
                 to="//github.com/KimDabomi"
                 target="_blank"
                 className="git"
               >
-                <img src={git} alt="git" />
+                Github
               </NavLink>
               <NavLink
                 to="//velog.io/@cdabomi60"
                 target="_blank"
                 className="velog"
               >
-                <img src={velog} alt="velog" />
+                Velog
               </NavLink>
             </div>
+            <div className="blanks"></div>
           </div>
         </HeaderContainer>
         <MainContainer>
@@ -447,15 +567,9 @@ const App = memo(() => {
           <div className="intro">
             <img src={emo} alt="emo" />
             <p>
-              사용자의 편의와 서비스의 편리성을 모두 고려할 수 있는
+              사용자의 편의와 서비스의 편리성을 모두 고려할 수 있는 프론트엔드 개발자가 되고 싶습니다.
               <br />
-              프론트엔드 개발자가 되고 싶습니다.
-              <br />
-              유행에 민감한 프론트엔드 개발 영역에서,
-              <br />
-              서비스의 품질을 향상시키기 위해
-              <br />
-              항상 새로움을 받아들일 준비가 되어있습니다.
+              유행에 민감한 프론트엔드 개발 영역에서, 서비스의 품질을 향상시키기 위해 항상 새로움을 받아들일 준비가 되어있습니다.
             </p>
           </div>
           <div className="skills">
@@ -471,7 +585,7 @@ const App = memo(() => {
                 <img src={node} alt="node" />
                 <img src={express} alt="express" />
                 <img src={mysql} alt="mysql" />
-                <img src={mybatis} alt="mybatis" />
+                <img src={mongodb} alt="mongodb" />
               </div>
             </div>
             <div className="right">
@@ -480,8 +594,10 @@ const App = memo(() => {
                 <img src={miro} alt="miro" />
                 <img src={figma} alt="figma" />
                 <img src={git} alt="git" />
-                <img src={vmware} alt="vmware" />
                 <img src={workbench} alt="workbench" />
+                <img src={wordpress} alt="wordpress" />
+                <img src={notion} alt="notion" />
+                <img src={gnuboard} alt="gnuboard" />
               </div>
             </div>
           </div>
@@ -496,7 +612,9 @@ const App = memo(() => {
           <div className="projectwrap">
             <div className="sev">
               <img src={sev} alt="sev" />
-              <NavLink to="/build" target='_blank'>Going to Project</NavLink>
+              <NavLink to="/build" target="_blank">
+                Going to Project
+              </NavLink>
               <ul>
                 <li>react-hook-form 유효성검사</li>
                 <li>전체동의, 필수 항목 미체크 시 팝업표시</li>
@@ -507,7 +625,9 @@ const App = memo(() => {
             </div>
             <div className="weather">
               <img src={weather} alt="weather" />
-              <NavLink to="/weather/index.html" target='_blank'>Going to Project</NavLink>
+              <NavLink to="/weather/index.html" target="_blank">
+                Going to Project
+              </NavLink>
               <ul>
                 <li>공공데이터포털 기상청 오픈API</li>
                 <li>Open Weather 오픈API</li>
@@ -521,7 +641,9 @@ const App = memo(() => {
                   W3CSS Clone Coding 01
                 </h1>
                 <div className="content">
-                  <NavLink to="/clone/01/clone01.html" target='_blank'>Going to Project</NavLink>
+                  <NavLink to="/clone/01/clone01.html" target="_blank">
+                    Going to Project
+                  </NavLink>
                   <ul>
                     <li>html5/css3</li>
                     <li>반응형 구현</li>
@@ -536,7 +658,9 @@ const App = memo(() => {
                   W3CSS Clone Coding 02
                 </h1>
                 <div className="content">
-                  <NavLink to="/clone/02/clone2.html" target='_blank'>Going to Project</NavLink>
+                  <NavLink to="/clone/02/clone2.html" target="_blank">
+                    Going to Project
+                  </NavLink>
                   <ul>
                     <li>html5/css3</li>
                     <li>반응형 구현</li>
@@ -550,7 +674,9 @@ const App = memo(() => {
                   W3CSS Clone Coding 03
                 </h1>
                 <div className="content">
-                  <NavLink to="/clone/03/clone03.html" target='_blank'>Going to Project</NavLink>
+                  <NavLink to="/clone/03/clone03.html" target="_blank">
+                    Going to Project
+                  </NavLink>
                   <ul>
                     <li>html5/css3</li>
                     <li>반응형 구현</li>
@@ -565,7 +691,9 @@ const App = memo(() => {
                   W3CSS Clone Coding 04
                 </h1>
                 <div className="content">
-                  <NavLink to="/clone/04/clone04.html" target='_blank'>Going to Project</NavLink>
+                  <NavLink to="/clone/04/clone04.html" target="_blank">
+                    Going to Project
+                  </NavLink>
                   <ul>
                     <li>html5/css3</li>
                     <li>반응형 구현</li>
@@ -579,13 +707,110 @@ const App = memo(() => {
                   W3CSS Clone Coding 05
                 </h1>
                 <div className="content">
-                  <NavLink to="/clone/05/clone05.html" target='_blank'>Going to Project</NavLink>
+                  <NavLink to="/clone/05/clone05.html" target="_blank">
+                    Going to Project
+                  </NavLink>
                   <ul>
                     <li>html5/css3</li>
                     <li>반응형 구현</li>
                     <li>Sass</li>
                   </ul>
                   <img src={clone05} alt="clone05" />
+                </div>
+              </div>
+            </div>
+            <div className="wordpress">
+              <p>Wordpress Pages - Click Icon !</p>
+              <div className="wp-icons">
+                <NavLink to="//robotxt.io" target="_blank">
+                  <img src={robotxt} alt="robotxt" />
+                </NavLink>
+                <NavLink to="//hotpays.co.kr" target="_blank">
+                  <img src={hotpay} alt="hotpay" />
+                </NavLink>
+                <NavLink to="//xn--bp2b020c.com" target="_blank">
+                  <img src={lolpang} alt="lolpang" />
+                </NavLink>
+                <NavLink to="//blog.mealfarm.co.kr" target="_blank">
+                  <img src={mealfarm} alt="mealfarm" />
+                </NavLink>
+                <NavLink to="//blog.touchyourbody.com" target="_blank">
+                  <img src={tyb} alt="tyb" />
+                </NavLink>
+              </div>
+              <ul>
+                <li>Generatepress</li>
+                <li>Woocermerce</li>
+                <li>Rank Math</li>
+                <li>Html / Css</li>
+              </ul>
+            </div>
+            <div className="publishing">
+              <div className="collapse">
+                <h1 className="collapsible-title" onClick={cloneClick}>
+                  Publishing Page 01
+                </h1>
+                <div className="content">
+                  <NavLink
+                    to="//calllink.io/bbs/write.php?bo_table=consult"
+                    target="_blank"
+                  >
+                    콜링크 사이트제작문의 &#60;&#60; Click
+                  </NavLink>
+                  <img src={makesite} alt="makesite" />
+                </div>
+              </div>
+              <div className="collapse">
+                <h1 className="collapsible-title" onClick={cloneClick}>
+                  Publishing Page 02
+                </h1>
+                <div className="content">
+                  <NavLink
+                    to="//calllink.io/shop/item.php?it_id=1687918990"
+                    target="_blank"
+                  >
+                    콜링크 사이트제작문의 상세 &#60;&#60; Click
+                  </NavLink>
+                  <img src={makesiteRending} alt="makesiteRending" />
+                </div>
+              </div>
+              <div className="collapse">
+                <h1 className="collapsible-title" onClick={cloneClick}>
+                  Publishing Page 03
+                </h1>
+                <div className="content">
+                  <NavLink to="//calllink.io/product.php" target="_blank">
+                    콜링크 백링크SHOP &#60;&#60; Click
+                  </NavLink>
+                  <img src={shop} alt="shop" />
+                </div>
+              </div>
+              <div className="collapse">
+                <h1 className="collapsible-title" onClick={cloneClick}>
+                  Publishing Page 04
+                </h1>
+                <div className="content">
+                  <NavLink
+                    to="//calllink.io/shop/item.php?it_id=1681091479"
+                    target="_blank"
+                  >
+                    콜링크 구글애즈 상세 &#60;&#60; Click
+                  </NavLink>
+                  <img src={googleads} alt="googleads" />
+                </div>
+              </div>
+              <div className="collapse">
+                <h1 className="collapsible-title" onClick={cloneClick}>
+                  Publishing Page 05
+                </h1>
+                <div className="content">
+                  <NavLink
+                    to="//xn--bp2b020c.com"
+                    target="_blank"
+                  >
+                    롤팡 전체 &#60;&#60; Click
+                  </NavLink>
+                  <img src={lol} alt="lol" />
                 </div>
               </div>
             </div>
