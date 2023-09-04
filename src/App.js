@@ -315,7 +315,7 @@ const AboutContainer = styled.div`
         .front,.back {
           height: 240px;
           img {
-            width: 30%;
+            width: 27%;
           }
         }
       }
