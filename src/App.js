@@ -86,7 +86,7 @@ const MainContainer = styled.div`
     flex-wrap: wrap;
     h1 {
       color: #ddd;
-      margin: 40px 40px 40px 0;
+      margin: 60px 40px 40px 0;
       span {
         font-weight: 900;
         color: #fff;
@@ -94,7 +94,7 @@ const MainContainer = styled.div`
     }
     img {
       width: 300px;
-      height: 350px;
+      height: 400px;
       box-shadow: 5px 5px 5px #0007;
     }
     p {
