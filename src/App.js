@@ -197,6 +197,11 @@ const AboutContainer = styled.div`
         img {
           height: 70px;
           margin: 10px;
+          &:last-child {
+            width: 35%;
+            height: 45px;
+            margin-bottom: 20px;
+          }
         }
       }
     }
@@ -256,7 +261,10 @@ const AboutContainer = styled.div`
         .tools {
           height: 240px;
           img {
-            width: 20%;
+            width: 25%;
+            %:last-child {
+              width: 40%;
+            }
           }
         }
       }
@@ -270,14 +278,23 @@ const AboutContainer = styled.div`
         width: 100%;
         margin: 0;
         .front,.back {
-          height: 290px;
+          height: 240px;
+          img {
+            width: 30%;
+          }
         }
       }
       .right {
         width: 100%;
         margin-top: 20px;
         .tools {
-          height: 395px;
+          height: 365px;
+          img {
+            width: 25%;
+            %:last-child {
+              width: 40%;
+            }
+          }
         }
       }
     }
@@ -296,14 +313,23 @@ const AboutContainer = styled.div`
         width: 100%;
         margin: 0;
         .front,.back {
-          height: 310px;
+          height: 240px;
+          img {
+            width: 30%;
+          }
         }
       }
       .right {
         width: 100%;
         margin-top: 20px;
         .tools {
-          height: 410px;
+          height: 390px;
+          img {
+            width: 25%;
+            %:last-child {
+              width: 40%;
+            }
+          }
         }
       }
     }
