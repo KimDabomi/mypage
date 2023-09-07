@@ -754,9 +754,6 @@ const App = memo(() => {
                 <NavLink to="//hotpays.co.kr" target="_blank">
                   <img src={hotpay} alt="hotpay" />
                 </NavLink>
-                <NavLink to="//xn--bp2b020c.com" target="_blank">
-                  <img src={lolpang} alt="lolpang" />
-                </NavLink>
                 <NavLink to="//blog.mealfarm.co.kr" target="_blank">
                   <img src={mealfarm} alt="mealfarm" />
                 </NavLink>
@@ -766,7 +763,7 @@ const App = memo(() => {
               </div>
               <ul>
                 <li>Generatepress</li>
-                <li>Woocermerce</li>
+                <li>Woocormerce</li>
                 <li>Rank Math</li>
                 <li>Html / Css</li>
               </ul>
