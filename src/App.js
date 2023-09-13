@@ -21,11 +21,8 @@ import mongodb from "./assets/img/MongoDB_Logo.png";
 import mysql from "./assets/img/mysql.png";
 import workbench from "./assets/img/MySQLWorkbench.png";
 import wordpress from "./assets/img/wp-logo.png";
-import gnuboard from "./assets/img/gnuboard-logo.png";
 import react from "./assets/img/react.png";
-import redux from "./assets/img/redux.png";
 import sass from "./assets/img/sass.png";
-import vscode from "./assets/img/vscode.png";
 import node from "./assets/img/노드.png";
 import sev from "./assets/img/sev.gif";
 import weather from "./assets/img/weather.gif";
@@ -38,8 +35,6 @@ import mealfarm from "./assets/img/mealfarm-logo.png";
 import hotpay from "./assets/img/hotpay-logo.png";
 import robotxt from "./assets/img/robotxt-logo.png";
 import tyb from "./assets/img/tyb-logo.png";
-import lolpang from "./assets/img/lolpang-logo.png";
-import lol from "./assets/img/lol.png";
 import shop from "./assets/img/shop.png";
 import makesite from "./assets/img/makesite.png";
 import makesiteRending from "./assets/img/makesite-rending.png";
@@ -197,11 +192,6 @@ const AboutContainer = styled.div`
         img {
           height: 70px;
           margin: 10px;
-          &:last-child {
-            width: 35%;
-            height: 45px;
-            margin-bottom: 20px;
-          }
         }
       }
     }
@@ -262,9 +252,6 @@ const AboutContainer = styled.div`
           height: 240px;
           img {
             width: 25%;
-            %:last-child {
-              width: 40%;
-            }
           }
         }
       }
@@ -291,9 +278,6 @@ const AboutContainer = styled.div`
           height: 365px;
           img {
             width: 25%;
-            %:last-child {
-              width: 40%;
-            }
           }
         }
       }
@@ -326,9 +310,6 @@ const AboutContainer = styled.div`
           height: 390px;
           img {
             width: 25%;
-            %:last-child {
-              width: 40%;
-            }
           }
         }
       }
@@ -363,7 +344,7 @@ const ProjectContainer = styled.div`
     .clone,
     .wordpress,
     .publishing {
-      width: 31.5%;
+      width: 31%;
       height: 400px;
       background-color: #fff4;
       margin-right: 2%;
@@ -391,79 +372,38 @@ const ProjectContainer = styled.div`
       }
     }
     .clone,
+    .wordpress,
     .publishing {
-      margin: 0;
-      padding-left: 0;
-      padding-right: 36px;
-      .collapse {
+      .wp-icons, .clone-imgs, .publishing-imgs {
         width: 100%;
-      }
-      .collapsible-title {
-        background-color: #0007;
-        color: white;
-        cursor: pointer;
-        padding: 18px;
-        width: 100%;
-        border: none;
-        font-weight: normal;
-        margin: 0;
-        text-align: left;
-        outline: none;
-        font-size: 15px;
-      }
-      .collapsible-title.active,
-      .collapsible-title:hover {
-        background-color: #0009;
-        color: white;
-      }
-      .content {
-        width: 100%;
-        padding: 0 18px;
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.2s ease-out;
-        background-color: #f1f1f109;
-        ul {
-          float: left;
-          margin-right: 15px;
-        }
-        img {
-          float: left;
-          width: 50%;
-          margin: 0 0 10px 0;
-          padding: 0;
-        }
+        display: flex;
+        flex-wrap: wrap;
         a {
-          margin-bottom: 5px;
+          width: 45%;
+          margin-right: 15px;
+          img {
+            width: 100%;
+            margin: auto;
+            box-shadow: 5px 5px 5px #0007;
+          }
+        }
+      }
+    }
+    .wordpress {
+      .wp-icons {
+        a {
+          img {
+            box-shadow: none;
+          }
         }
       }
     }
     .wordpress,
     .publishing {
       margin-top: 20px;
-      .wp-icons {
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        a {
-          width: 36%;
-          margin-right: 10px;
-          &:nth-child(2) {
-            margin-top: 20px;
-            margin-right: 20px;
-          }
-          &:nth-child(3) {
-            width: 18%;
-          }
-          img {
-            width: 100%;
-            margin: 20px auto;
-            box-shadow: none;
-          }
-        }
-      }
     }
   }
+  
   ${mq.maxWidth("xl")`
     .content {
       img {
@@ -604,7 +544,6 @@ const App = memo(() => {
                 <img src={htmlcss} alt="htmlcss" />
                 <img src={js} alt="js" />
                 <img src={react} alt="react" />
-                <img src={redux} alt="redux" />
                 <img src={sass} alt="sass" />
               </div>
               <div className="back">
@@ -616,14 +555,12 @@ const App = memo(() => {
             </div>
             <div className="right">
               <div className="tools">
-                <img src={vscode} alt="vscode" />
                 <img src={miro} alt="miro" />
                 <img src={figma} alt="figma" />
                 <img src={git} alt="git" />
                 <img src={workbench} alt="workbench" />
                 <img src={wordpress} alt="wordpress" />
                 <img src={notion} alt="notion" />
-                <img src={gnuboard} alt="gnuboard" />
               </div>
             </div>
           </div>
@@ -662,87 +599,23 @@ const App = memo(() => {
               </ul>
             </div>
             <div className="clone">
-              <div className="collapse">
-                <h1 className="collapsible-title" onClick={cloneClick}>
-                  W3CSS Clone Coding 01
-                </h1>
-                <div className="content">
-                  <NavLink to="/clone/01/clone01.html" target="_blank">
-                    Going to Project
-                  </NavLink>
-                  <ul>
-                    <li>html5/css3</li>
-                    <li>반응형 구현</li>
-                    <li>Sass</li>
-                    <li>React로 재구현</li>
-                  </ul>
+              <p>Clone Coding Pages - Click Image !</p>
+              <div className="clone-imgs">
+                <NavLink to="/clone/01/clone01.html" target="_blank">
                   <img src={clone01} alt="clone01" />
-                </div>
-              </div>
-              <div className="collapse">
-                <h1 className="collapsible-title" onClick={cloneClick}>
-                  W3CSS Clone Coding 02
-                </h1>
-                <div className="content">
-                  <NavLink to="/clone/02/clone2.html" target="_blank">
-                    Going to Project
-                  </NavLink>
-                  <ul>
-                    <li>html5/css3</li>
-                    <li>반응형 구현</li>
-                    <li>React로 재구현</li>
-                  </ul>
+                </NavLink>
+                <NavLink to="/clone/02/clone02.html" target="_blank">
                   <img src={clone02} alt="clone02" />
-                </div>
-              </div>
-              <div className="collapse">
-                <h1 className="collapsible-title" onClick={cloneClick}>
-                  W3CSS Clone Coding 03
-                </h1>
-                <div className="content">
-                  <NavLink to="/clone/03/clone03.html" target="_blank">
-                    Going to Project
-                  </NavLink>
-                  <ul>
-                    <li>html5/css3</li>
-                    <li>반응형 구현</li>
-                    <li>Sass</li>
-                    <li>React로 재구현</li>
-                  </ul>
+                </NavLink>
+                <NavLink to="/clone/03/clone03.html" target="_blank">
                   <img src={clone03} alt="clone03" />
-                </div>
-              </div>
-              <div className="collapse">
-                <h1 className="collapsible-title" onClick={cloneClick}>
-                  W3CSS Clone Coding 04
-                </h1>
-                <div className="content">
-                  <NavLink to="/clone/04/clone04.html" target="_blank">
-                    Going to Project
-                  </NavLink>
-                  <ul>
-                    <li>html5/css3</li>
-                    <li>반응형 구현</li>
-                    <li>Sass</li>
-                  </ul>
+                </NavLink>
+                <NavLink to="/clone/04/clone04.html" target="_blank">
                   <img src={clone04} alt="clone04" />
-                </div>
-              </div>
-              <div className="collapse">
-                <h1 className="collapsible-title" onClick={cloneClick}>
-                  W3CSS Clone Coding 05
-                </h1>
-                <div className="content">
-                  <NavLink to="/clone/05/clone05.html" target="_blank">
-                    Going to Project
-                  </NavLink>
-                  <ul>
-                    <li>html5/css3</li>
-                    <li>반응형 구현</li>
-                    <li>Sass</li>
-                  </ul>
+                </NavLink>
+                <NavLink to="/clone/05/clone05.html" target="_blank">
                   <img src={clone05} alt="clone05" />
-                </div>
+                </NavLink>
               </div>
             </div>
             <div className="wordpress">
@@ -753,9 +626,6 @@ const App = memo(() => {
                 </NavLink>
                 <NavLink to="//hotpays.co.kr" target="_blank">
                   <img src={hotpay} alt="hotpay" />
-                </NavLink>
-                <NavLink to="//xn--bp2b020c.com" target="_blank">
-                  <img src={lolpang} alt="lolpang" />
                 </NavLink>
                 <NavLink to="//blog.mealfarm.co.kr" target="_blank">
                   <img src={mealfarm} alt="mealfarm" />
@@ -772,72 +642,20 @@ const App = memo(() => {
               </ul>
             </div>
             <div className="publishing">
-              <div className="collapse">
-                <h1 className="collapsible-title" onClick={cloneClick}>
-                  Publishing Page 01
-                </h1>
-                <div className="content">
-                  <NavLink
-                    to="//calllink.io/bbs/write.php?bo_table=consult"
-                    target="_blank"
-                  >
-                    콜링크 사이트제작문의 &#60;&#60; Click
-                  </NavLink>
+              <p>Publishing Pages - Click Image !</p>
+              <div className="publishing-imgs">
+                <NavLink to="//calllink.io/bbs/write.php?bo_table=consult" target="_blank">
                   <img src={makesite} alt="makesite" />
-                </div>
-              </div>
-              <div className="collapse">
-                <h1 className="collapsible-title" onClick={cloneClick}>
-                  Publishing Page 02
-                </h1>
-                <div className="content">
-                  <NavLink
-                    to="//calllink.io/shop/item.php?it_id=1687918990"
-                    target="_blank"
-                  >
-                    콜링크 사이트제작문의 상세 &#60;&#60; Click
-                  </NavLink>
+                </NavLink>
+                <NavLink to="//calllink.io/shop/item.php?it_id=1687918990" target="_blank">
                   <img src={makesiteRending} alt="makesiteRending" />
-                </div>
-              </div>
-              <div className="collapse">
-                <h1 className="collapsible-title" onClick={cloneClick}>
-                  Publishing Page 03
-                </h1>
-                <div className="content">
-                  <NavLink to="//calllink.io/product.php" target="_blank">
-                    콜링크 백링크SHOP &#60;&#60; Click
-                  </NavLink>
+                </NavLink>
+                <NavLink to="//calllink.io/product.php" target="_blank">
                   <img src={shop} alt="shop" />
-                </div>
-              </div>
-              <div className="collapse">
-                <h1 className="collapsible-title" onClick={cloneClick}>
-                  Publishing Page 04
-                </h1>
-                <div className="content">
-                  <NavLink
-                    to="//calllink.io/shop/item.php?it_id=1681091479"
-                    target="_blank"
-                  >
-                    콜링크 구글애즈 상세 &#60;&#60; Click
-                  </NavLink>
+                </NavLink>
+                <NavLink to="//calllink.io/shop/item.php?it_id=1681091479" target="_blank">
                   <img src={googleads} alt="googleads" />
-                </div>
-              </div>
-              <div className="collapse">
-                <h1 className="collapsible-title" onClick={cloneClick}>
-                  Publishing Page 05
-                </h1>
-                <div className="content">
-                  <NavLink
-                    to="//xn--bp2b020c.com"
-                    target="_blank"
-                  >
-                    롤팡 전체 &#60;&#60; Click
-                  </NavLink>
-                  <img src={lol} alt="lol" />
-                </div>
+                </NavLink>
               </div>
             </div>
           </div>
