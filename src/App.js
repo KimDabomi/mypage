@@ -127,11 +127,12 @@ const AboutContainer = styled.div`
       float: left;
       width: 150px;
       height: 180px;
-      margin: 0 20px 40px 0;
+      margin: 0 20px 40px 20px;
     }
     p {
-      padding: 25px 0 0 20px;
+      padding: 25px 20px 0 20px;
       color: #ddd;
+      text-align: justify;
     }
   }
   .skills {
@@ -198,6 +199,11 @@ const AboutContainer = styled.div`
   }
   ${mq.maxWidth("xl")`
     height: 700px;
+    .intro {
+      p {
+        font-size: 15px;
+      }
+    }
     .skills {
       .left {
         .front,.back {
@@ -214,6 +220,9 @@ const AboutContainer = styled.div`
   ${mq.maxWidth("lg")`
     .intro {
       width: 100%;
+      p {
+        font-size: 15px;
+      }
     }
     .skills {
       .left {
@@ -234,6 +243,9 @@ const AboutContainer = styled.div`
   ${mq.maxWidth("md")`
     .intro {
       width: 100%;
+      p {
+        font-size: 15px;
+      }
     }
     margin: 0;
     height: 1000px;
@@ -258,6 +270,12 @@ const AboutContainer = styled.div`
     }
   `}
   ${mq.maxWidth("sm")`
+    .intro {
+      width: 100%;
+      p {
+        font-size: 15px;
+      }
+    }
     margin: 0;
     height: 1260px;
     .skills {
@@ -418,6 +436,23 @@ const ProjectContainer = styled.div`
       }
     }
     .projectwrap {
+      .clone,
+      .publishing {
+        .clone-imgs, .publishing-imgs {
+          a {
+            width: 52%;
+          }
+        }
+      }
+      .wordpress {
+        .wp-icons {
+          a {
+            width: 42%;
+            img {
+              box-shadow: none;
+            }
+          }
+        }
       .wordpress {
         .wp-icons {
           a {
